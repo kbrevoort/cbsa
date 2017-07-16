@@ -1,11 +1,14 @@
 #' Assign CBSA
 #'
+#' This function assigns the CBSA for a supplied county or Census tract. The
+#' assignment will be based on the CBSA definitions that are in place on January
+#' 1st of each date by default (assuming only the year is supplied).
 #' @param tract Census tract
 #' @param county 5-digit county FIPS code
 #' @param date Date of OMB defintition to use (default equals current definition)
 #' @param only_metro Match only Metropolitan Statistical Areas (default = FALSE)
 #' @export
-assign_cbsa <- function(tract, county, date = format(Sys.Date(), '%Y%m')) {
+assign_cbsa <- function(tract, county, date = format(Sys.Date(), '%Y%m'), use_md = TRUE) {
   if (missing(tract) & missing(county))
     stop('Must supply either a tract or county to assign_cbsa')
 
@@ -14,12 +17,14 @@ assign_cbsa <- function(tract, county, date = format(Sys.Date(), '%Y%m')) {
     county <- floor(tract / 1e6)
 
   my_data <- load_cbsa(date) %>%
-    select(fips, cbsa, is_metro) %>%
+    select(fips, cbsa, md, is_metro) %>%
     left_join(data.frame(fips = county), ., by = 'fips')
 
   if (only_metro)
     my_data <- filter(is_metro)
-  my_data <- select(my_data, fips, cbsa)
+
+  if (use_md)
+    mutate(my_data, cbsa = ifelse(is.na(md), cbsa, md))
 
   my_data[['cbsa']]
 }
