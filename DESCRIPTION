@@ -1,0 +1,23 @@
+Package: cbsa
+Type: Package
+Title: Assigning Counties and Census Tracts to Metropolitan or Micropolitan Statistical Areas.
+Version: 0.9.0
+Authors@R: person('Kenneth', 'Brevoort', email='ken@brevoort.com', role = c('aut', 'cre'))
+Description: This package helps users assign either counties or Census tracts to their 
+    Core Based Statistical Areas, including Metropolitan Statistical Areas (MSAs), Micropolitan
+    Statistical Areas, and New England County and Town Areas (NECTAs). These assignments are
+    made according to the definitions of these areas published by the U.S. Office of 
+    Management and Budget (OMB).
+Suggests:
+    data.table,
+    rmarkdown,
+    knitr,
+    readxl
+Imports:
+    magrittr,
+    dplyr
+License: CC0
+VignetteBuilder: knitr
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1

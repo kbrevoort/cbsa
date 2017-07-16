@@ -1,0 +1,41 @@
+---
+title: "CBSA File Formats"
+author: "Ken Brevoort"
+date: "July 14, 2017"
+output: html_vignette
+vignette: >
+  %\VignetteIndexEntry{CBSA File Formats}
+  %\VignetteEngine{knitr::rmarkdown}
+  \usepackage[utf8]{inputenc}
+---
+
+# Core-based Statistical Areas
+
+Variable       |  Format   | Description
+---------------|-----------|-----------------------------------------------------
+cbsa           | numeric   | Core Base Statistical Area (CBSA) code
+md             | numeric   | Metropolitan Division (MD) code
+csa            | numeric   | Combined Statistical Area (CSA) code
+cbsa_name      | character | CBSA Name
+md_name        | character | MD name
+csa_name       | character | CSA
+is_metro       | logical   | Is this CBSA a Metropolitan Statistical Area?
+fips           | numeric   | 5-digit Federal Information Processing (FIPs) Code
+component_name | character | Name corresponding to 5-digit or MCD FIPS (i.e., county, city, township)
+is_central     | logical   | Is the county central (TRUE) or outlying (FALSE)
+
+# Core-based Statistical Areas
+
+Variable       |  Format   | Description
+---------------|-----------|-----------------------------------------------------
+necta          | numeric   | Core Base Statistical Area (CBSA) code
+nectad         | numeric   | NECTA Division (ND) code
+cnecta         | numeric   | Combined NECTA code
+necta_name     | character | CBSA Name
+nectad_name    | character | MD name
+cnecta_name    | character | CSA
+is_metro       | logical   | Is this CBSA a Metropolitan Statistical Area?
+fips_mcd       | numeric   | 10-digit FIPS (concatenates state, county, and minor civil division)
+component_name | character | Name corresponding to 5-digit or MCD FIPS (i.e., county, city, township)
+
+
