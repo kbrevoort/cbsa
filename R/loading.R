@@ -29,6 +29,22 @@ assign_cbsa <- function(tract, county, date = format(Sys.Date(), '%Y%m'), use_md
   my_data[['cbsa']]
 }
 
+#' Load Median Family Income File
+#'
+#' Load the Median Family Income file for a given year.
+#' @param year 4-digit year
+#' @export
+load_mfi <- function(year) {
+  file_name <- sprintf('%s/data/mfi_definitions_%d.rds',
+                       path.package('cbsa'),
+                       year)
+  if (!file.exists(file_name))
+    stop(paste0('Median family income file not found for year ', year))
+
+  readRDS(file_name)
+}
+
+
 #' Load CBSA Data.frame
 #'
 #' This function will load the appropriate CBSA data.frame for a given date.
