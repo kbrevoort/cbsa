@@ -183,34 +183,52 @@ process_cbsa_post2009 <- function(in_file) {
 #'
 #' Returns the state names.  Supplements the default variable state.name to include
 #' the District of Columbia and the U.S. territories.
-state_names <- function() {
-  c(state.name,
-    c('District of Columbia',
-      'American Samoa',
-      'Federated States of Micronesia',
-      'Guam',
-      'Marshall Islands',
-      'Commonwealth of the Northern Mariana Islands',
-      'Palau',
-      'Puerto Rico',
-      'U.S. Minor Outlying Islands',
-      'U.S. Virgin Islands'))
+state_names <- function(use_territories = TRUE) {
+  ret_val <- c(state.name, 'District of Columbia')
+
+  if (use_territories)
+    ret_val <- c(ret_val,
+                 'American Samoa',
+                 'Federated States of Micronesia',
+                 'Guam',
+                 'Marshall Islands',
+                 'Commonwealth of the Northern Mariana Islands',
+                 'Palau',
+                 'Puerto Rico',
+                 'U.S. Minor Outlying Islands',
+                 'U.S. Virgin Islands')
+
+  ret_val
+
+  if (!use_territories)
+    ret_val <- ret_val[c(1:50)]
+
+  ret_val
 }
 
 #' List of State Abbreviations
 #'
 #' Supplements the options in state.abb to include DC and the U.S. Territories.
-state_abbs <- function() {
-  c(state.abb, c('DC', 'AS', 'FM', 'GU', 'MH', 'MP', 'PW', 'PR', 'UM', 'VI'))
+state_abbs <- function(use_territories = TRUE) {
+  ret_val <- c(state.abb, 'DC')
+
+  if (use_territories)
+    ret_val <- c(ret_val, c('AS', 'FM', 'GU', 'MH', 'MP', 'PW', 'PR', 'UM', 'VI'))
+
+  ret_val
 }
 
 #' List of State FIPs Codes
 #'
 #' This function returns a list of available state FIPs codes in the same order
 #' as the state abbreviations and names.
-state_fips <- function() {
-  c(setdiff(c(1:56), c(11, 3, 7, 14, 43, 52)),
-    c(11, 60, 64, 66, 68, 69, 70, 72, 74, 78))
+state_fips <- function(use_territories = TRUE) {
+  ret_val <- c(setdiff(c(1:56), c(11, 3, 7, 14, 43, 52)), 11)
+
+  if (use_territories)
+    ret_val <- c(ret_val, c(60, 64, 66, 68, 69, 70, 72, 74, 78))
+
+  ret_val
 }
 
 #' Convert State to State FIPS
