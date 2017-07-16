@@ -4,7 +4,7 @@
 \alias{state_names}
 \title{List of State Names}
 \usage{
-state_names()
+state_names(use_territories = TRUE)
 }
 \description{
 Returns the state names.  Supplements the default variable state.name to include

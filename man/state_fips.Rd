@@ -4,7 +4,7 @@
 \alias{state_fips}
 \title{List of State FIPs Codes}
 \usage{
-state_fips()
+state_fips(use_territories = TRUE)
 }
 \description{
 This function returns a list of available state FIPs codes in the same order

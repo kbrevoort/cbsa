@@ -4,7 +4,7 @@
 \alias{state_abbs}
 \title{List of State Abbreviations}
 \usage{
-state_abbs()
+state_abbs(use_territories = TRUE)
 }
 \description{
 Supplements the options in state.abb to include DC and the U.S. Territories.
