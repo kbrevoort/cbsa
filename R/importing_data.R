@@ -1,3 +1,35 @@
+#' Import FFIEC Median Family Incomes
+#'
+#' This function loans the median family incomes for MSAs and for the nonmetropolitan
+#' state areas necessary to determine the relative income level of a Census tract.
+#' @param year 4-digit year of file to be read in
+import_mfi <- function(year) {
+  if (is.character(year))
+    year <- as.numeric(year)
+
+  file_name <- sprintf('%s/data/original_data/msa%02dinc.xls',
+                       path.package('cbsa'),
+                       year %% 100)
+  out_file <- sprintf('%s/data/mfi_definitions_%04d.rds',
+                      path.package('cbsa'),
+                      as.integer(year))
+
+  if (!file.exists(file_name))
+    stop(paste0('Could not find FFIEC file for year ', year))
+
+  readxl::read_xls(file_name,
+                   skip = 2L,
+                   col_names = c('cbsa', 'cbsa_name', 'mfi', 'mfi_hud'),
+                   col_types = 'text',
+                   na = 'NULL') %>%
+    mutate(mfi = as.numeric(gsub(',', '', mfi))) %>%
+    mutate(mfi_hud = as.numeric(gsub(',', '', mfi_hud))) %>%
+    mutate(cbsa = as.numeric(cbsa)) %>%
+    saveRDS(out_file)
+
+  invisible(TRUE)
+}
+
 #' Import OMB CBSA Definitions
 #'
 #' This function will import MSA definitons as published by OMB.
