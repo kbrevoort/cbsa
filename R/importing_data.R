@@ -2,8 +2,10 @@
 #'
 #' This function loans the median family incomes for MSAs and for the nonmetropolitan
 #' state areas necessary to determine the relative income level of a Census tract.
+#' These figures are published each year by the Federal Financial Institutions
+#' Examination Council (FFIEC).
 #' @param year 4-digit year of file to be read in
-import_mfi <- function(year) {
+import_ffiec <- function(year) {
   if (is.character(year))
     year <- as.numeric(year)
 
@@ -22,9 +24,9 @@ import_mfi <- function(year) {
                    col_names = c('cbsa', 'cbsa_name', 'mfi', 'mfi_hud'),
                    col_types = 'text',
                    na = 'NULL') %>%
-    mutate(mfi = as.numeric(gsub(',', '', mfi))) %>%
-    mutate(mfi_hud = as.numeric(gsub(',', '', mfi_hud))) %>%
-    mutate(cbsa = as.numeric(cbsa)) %>%
+    mutate(mfi = as.numeric(gsub(',', '', mfi)),
+           mfi_hud = as.numeric(gsub(',', '', mfi_hud)),
+           cbsa = as.numeric(cbsa)) %>%
     saveRDS(out_file)
 
   invisible(TRUE)
@@ -39,7 +41,7 @@ import_mfi <- function(year) {
 #' @import data.table
 #' @importFrom magrittr "%>%"
 #' @export
-import_definition_file <- function(in_file) {
+import_omb <- function(in_file) {
   # Verify that the data imported is correct
   if (missing(in_file))
     stop('File must be supplied to import_cbsa_definition')
@@ -49,140 +51,129 @@ import_definition_file <- function(in_file) {
   # Determine the file type
   file_type <- strsplit(basename(in_file), '_')[[1]][1]
   if (!(file_type %in% c('necta', 'cbsa')))
-    stop('Unable to determine file type in import_cbsa_definition')
+    stop('Unable to determine if input file is for NECTA or CBSA in import_cbsa_definition')
+
   use_necta <- (file_type == 'necta')
-
-  file_date <- extract_yyyymm(in_file)
-  year <- as.integer(substr(file_date, 1, 4))
-
   if (use_necta) {
-    if (as.integer(year) >= 2010) {
-      my_data <- process_necta_post2009(in_file)
-    } else {
-      my_data <- process_necta_pre2010(in_file)
-    }
+    out_data <- process_necta(in_file)
   } else {
-    if (year >= 2010) {
-      my_data <- process_cbsa_post2009(in_file)
-    } else if (year < 2007) {
-      my_data <- process_cbsa_pre2007(in_file)
-    } else {
-      my_data <- process_cbsa_pre2010(in_file)
-    }
+    out_data <- process_cbsa(in_file)
   }
+  comment(out_data) <- extract_yyyymm(in_file)
 
-  setattr(my_data, 'comment', file_date)
+  file.path(path.package('cbsa'),
+            sprintf('data/%s_definition_%s.rds',
+                    file_type,
+                    comment(out_data))) %>%
+    saveRDS(out_data)
 
-  sprintf('data/%s_definition_%s.rds',
-          file_type,
-          substr(file_date, 1, 6)) %>%
-    saveRDS(my_data, .)
   invisible(TRUE)
 }
 
-process_necta_pre2010 <- function(in_file) {
-  my_date <- extract_yyyymm(in_file)
-  if (my_date %in% c('200306', '200312')) {
-    skip_rows <- 3L
-  } else if (my_date %in% c('200411')) {
-    skip_rows <- 8L
+get_necta_specs <- function(date_stamp) {
+  in_year <- as.integer(substr(date_stamp, 1, 4))
+  if (in_year < 2010) {
+    if (in_year < 2004) {
+      skip_rows <- 3L
+    } else if (in_year < 2005) {
+      skip_rows <- 8L
+    } else {
+      skip_rows <- 4L
+    }
+    col_names <- c('necta', 'nectad', 'cnecta', 'necta_name',
+                   'necta_type', 'status', 'nectad_name', 'cnecta_name',
+                   'state_fips', 'county_fips', 'mcd', 'component_name')
   } else {
-    skip_rows <- 4L
+    skip_rows <- 3L
+    col_names <- c('necta', 'nectad', 'cnecta', 'necta_name',
+                   'necta_type', 'nectad_name', 'cnecta_name', 'component_name',
+                   'state_fips', 'county_fips', 'mcd')
   }
 
-  my_data <- in_file %>%
-    readxl::read_xls(skip = skip_rows,
-                     col_names = c('necta', 'nectad', 'cnecta', 'necta_name',
-                                   'necta_type', 'status', 'nectad_name', 'cnecta_name',
-                                   'state_fips', 'county_fips', 'mcd', 'component_name'),
+  list(skip_rows, col_names)
+}
+
+process_necta <- function(in_file) {
+  my_date <- extract_yyyymm(in_file)
+
+  specs <- get_necta_specs(my_date)
+  my_data <- in_file(skip = specs$skip_rows,
+                     col_names = specs$col_names,
                      col_types = 'text') %>%
     filter(!is.na(necta_name)) %>%
     convert2numeric() %>%
-    mutate(is_metro = (necta_type == 'Metropolitan NECTA')) %>%
-    mutate(fips_mcd = as.numeric(paste0(state_fips, county_fips, mcd))) %>%
+    mutate(is_metro = (necta_type == 'Metropolitan NECTA'),
+           fips_mcd = as.numeric(paste0(state_fips, county_fips, mcd))) %>%
     select(necta, nectad, cnecta, necta_name, nectad_name, cnecta_name,
            is_metro, fips_mcd, component_name)
 }
 
-process_necta_post2009 <- function(in_file) {
-  my_data <- in_file %>%
-    readxl::read_xls(skip = 3L,
-                     col_names = c('necta', 'nectad', 'cnecta', 'necta_name',
-                                   'necta_type', 'nectad_name', 'cnecta_name', 'component_name',
-                                   'state_fips', 'county_fips', 'mcd'),
-                     col_types = 'text') %>%
-    filter(!is.na(necta_name)) %>%
-    convert2numeric() %>%
-    mutate(is_metro = (necta_type == 'Metropolitan NECTA')) %>%
-    mutate(fips_mcd = as.numeric(paste0(state_fips, county_fips, mcd))) %>%
-    select(necta, nectad, cnecta, necta_name, nectad_name, cnecta_name,
-           is_metro, fips_mcd, component_name)
+get_cbsa_specs <- function(date_stamp) {
+  in_year <- as.integer(substr(date_stamp, 1, 4))
+  if (in_year < 2007L) {
+    if (date_stamp == c('200411')) {
+      skip_rows <- 8L
+    } else if (date_stamp %in% c('200512', '200612')) {
+      skip_rows <- 4L
+    } else {
+      skip_rows <- 3L
+    }
+    col_names <- c('cbsa', 'md', 'csa', 'cbsa_name',
+                   'cbsa_type', 'status', 'md_name', 'csa_name',
+                   'component_name', 'state', 'fips')
+  } else if (in_year < 2010) {
+    skip_rows <- 4L
+    col_names <- c('cbsa', 'md', 'csa', 'cbsa_name',
+                   'cbsa_type', 'status', 'md_name', 'csa_name',
+                   'component_name', 'state', 'fips', 'central_fl')
+  } else {
+    skip_rows <- 4L
+    col_names <- c('cbsa', 'md', 'csa', 'cbsa_name',
+                   'cbsa_type', 'md_name', 'csa_name', 'component_name',
+                   'state', 'state_fips', 'county_fips', 'central_fl')
+  }
+  list(skip_rows, col_names)
 }
 
-process_cbsa_pre2007 <- function(in_file) {
+process_cbsa <- function(in_file) {
   my_date <- extract_yyyymm(in_file)
-  if (my_date %in% c('200411')) {
-    skip_rows <- 8L
-  } else if (my_date %in% c('200512', '200612')) {
-    skip_rows <- 4L
+  specs <- get_cbsa_specs(my_date)
+
+  my_data <- in_file %>%
+    readxl::read_xls(skip = specs$skip_rows,
+                     col_names = specs$col_names,
+                     col_types = 'text') %>%
+    filter(!is.na(cbsa_name)) %>%
+    convert2numeric() %>%
+    mutate(is_metro = (cbsa_type == 'Metropolitan Statistical Area'))
+
+  # The central_fl variable is only available in later years
+  if ('central_fl' %in% names(my_data)) {
+    my_data$is_central = (central_fl == 'Central')
   } else {
-    skip_rows <- 3L
+    my_data$is_central = as.logical(NA)
   }
 
-  my_data <- in_file %>%
-    readxl::read_xls(skip = skip_rows,
-                     col_names = c('cbsa', 'md', 'csa', 'cbsa_name',
-                                   'cbsa_type', 'status', 'md_name', 'csa_name',
-                                   'component_name', 'state', 'fips'),
-                     col_types = 'text') %>%
-    filter(!is.na(cbsa_name)) %>%
-    convert2numeric() %>%
-    mutate(is_central = NA) %>%
-    mutate(is_metro = (cbsa_type == 'Metropolitan Statistical Area')) %>%
-    select(cbsa, md, csa, cbsa_name, md_name, csa_name, is_metro, fips,
-           component_name, is_central)
+  # In later years, the 5-digit fips has been replaced by separate
+  # state and county fips variables.
+  if (!('fips' %in% names(my_data)))
+    if (all(c('state_fips', 'county_fips') %in% names(my_data))) {
+      my_data$fips <- as.numeric(paste0(state_fips, county_fips))
+    } else {
+      my_data$fips <- as.numeric(NA)
+    }
+
+  select(my_data,
+         cbsa, md, csa, cbsa_name, md_name, csa_name, is_metro, fips,
+         component_name, is_central)
 }
 
-#' Process CBSA File
-#'
-#' This is meant to be an internal function called by import_cbsa_definition only.
-process_cbsa_pre2010 <- function(in_file) {
-  # The existence of in_file has already been tested
-  my_data <- in_file %>%
-    readxl::read_xls(skip = 4L,
-                     col_names = c('cbsa', 'md', 'csa', 'cbsa_name',
-                                   'cbsa_type', 'status', 'md_name', 'csa_name',
-                                   'component_name', 'state', 'fips', 'central_fl'),
-                     col_types = 'text') %>%
-    filter(!is.na(cbsa_name)) %>%
-    convert2numeric() %>%
-    mutate(is_metro = (cbsa_type == 'Metropolitan Statistical Area')) %>%
-    mutate(is_central = (central_fl == 'Central')) %>%
-    select(cbsa, md, csa, cbsa_name, md_name, csa_name, is_metro, fips,
-           component_name, is_central)
-}
-
-process_cbsa_post2009 <- function(in_file) {
-  # The existence of in_file has already been tested
-  my_data <- in_file %>%
-    readxl::read_xls(skip = 4L,
-                     col_names = c('cbsa', 'md', 'csa', 'cbsa_name',
-                                   'cbsa_type', 'md_name', 'csa_name', 'component_name',
-                                   'state', 'state_fips', 'county_fips', 'central_fl'),
-                     col_types = 'text') %>%
-    filter(!is.na(cbsa_name)) %>%
-    convert2numeric() %>%
-    mutate(is_metro = (cbsa_type == 'Metropolitan Statistical Area')) %>%
-    mutate(is_central = (central_fl == 'Central')) %>%
-    mutate(fips = as.numeric(paste0(state_fips, county_fips))) %>%
-    select(cbsa, md, csa, cbsa_name, md_name, csa_name, is_metro, fips,
-           component_name, is_central)
-}
 
 #' List of State Names
 #'
 #' Returns the state names.  Supplements the default variable state.name to include
 #' the District of Columbia and the U.S. territories.
+#' @export
 state_names <- function(use_territories = TRUE) {
   ret_val <- c(state.name, 'District of Columbia')
 
@@ -209,6 +200,7 @@ state_names <- function(use_territories = TRUE) {
 #' List of State Abbreviations
 #'
 #' Supplements the options in state.abb to include DC and the U.S. Territories.
+#' @export
 state_abbs <- function(use_territories = TRUE) {
   ret_val <- c(state.abb, 'DC')
 
@@ -222,6 +214,7 @@ state_abbs <- function(use_territories = TRUE) {
 #'
 #' This function returns a list of available state FIPs codes in the same order
 #' as the state abbreviations and names.
+#' @export
 state_fips <- function(use_territories = TRUE) {
   ret_val <- c(setdiff(c(1:56), c(11, 3, 7, 14, 43, 52)), 11)
 
