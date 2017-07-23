@@ -32,13 +32,13 @@ import_ffiec <- function(year) {
   invisible(TRUE)
 }
 
-#' Import OMB CBSA Definitions
+#' Import OMB Definitions
 #'
-#' This function will import MSA definitons as published by OMB.
+#' This function will import CBSA and NECTA definitons as published by OMB.
 #' @param in_file Location of file to import. The file name must start with
 #' 'cbsa' or 'necta', be an Excel file (xls), and have a date string embedded
 #' into the title as YYYYMM.
-#' @import data.table
+#' @import dplyr
 #' @importFrom magrittr "%>%"
 #' @export
 import_omb <- function(in_file) {
@@ -70,6 +70,9 @@ import_omb <- function(in_file) {
   invisible(TRUE)
 }
 
+#' Returns the specifications of the NECTA definition file
+#'
+#' This is an internal function used by import_omb.
 get_necta_specs <- function(date_stamp) {
   in_year <- as.integer(substr(date_stamp, 1, 4))
   if (in_year < 2010) {
@@ -93,6 +96,13 @@ get_necta_specs <- function(date_stamp) {
   list(skip_rows, col_names)
 }
 
+#' Process NECTA file
+#'
+#' This internal function reads in the NECTA definition file from OMB.
+#' @import dplyr
+#' @param in_file Location of file to import. The file name must start with
+#' 'cbsa' or 'necta', be an Excel file (xls), and have a date string embedded
+#' into the title as YYYYMM.
 process_necta <- function(in_file) {
   my_date <- extract_yyyymm(in_file)
 
@@ -135,6 +145,11 @@ get_cbsa_specs <- function(date_stamp) {
   list(skip_rows, col_names)
 }
 
+#' Process CBSA file
+#'
+#' This internal function reads in the CBSA definition file from OMB.
+#' @import dplyr
+#' @importFrom magrittr "%>%"
 process_cbsa <- function(in_file) {
   my_date <- extract_yyyymm(in_file)
   specs <- get_cbsa_specs(my_date)
@@ -169,81 +184,6 @@ process_cbsa <- function(in_file) {
 }
 
 
-#' List of State Names
-#'
-#' Returns the state names.  Supplements the default variable state.name to include
-#' the District of Columbia and the U.S. territories.
-#' @export
-state_names <- function(use_territories = TRUE) {
-  ret_val <- c(state.name, 'District of Columbia')
-
-  if (use_territories)
-    ret_val <- c(ret_val,
-                 'American Samoa',
-                 'Federated States of Micronesia',
-                 'Guam',
-                 'Marshall Islands',
-                 'Commonwealth of the Northern Mariana Islands',
-                 'Palau',
-                 'Puerto Rico',
-                 'U.S. Minor Outlying Islands',
-                 'U.S. Virgin Islands')
-
-  ret_val
-
-  if (!use_territories)
-    ret_val <- ret_val[c(1:50)]
-
-  ret_val
-}
-
-#' List of State Abbreviations
-#'
-#' Supplements the options in state.abb to include DC and the U.S. Territories.
-#' @export
-state_abbs <- function(use_territories = TRUE) {
-  ret_val <- c(state.abb, 'DC')
-
-  if (use_territories)
-    ret_val <- c(ret_val, c('AS', 'FM', 'GU', 'MH', 'MP', 'PW', 'PR', 'UM', 'VI'))
-
-  ret_val
-}
-
-#' List of State FIPs Codes
-#'
-#' This function returns a list of available state FIPs codes in the same order
-#' as the state abbreviations and names.
-#' @export
-state_fips <- function(use_territories = TRUE) {
-  ret_val <- c(setdiff(c(1:56), c(11, 3, 7, 14, 43, 52)), 11)
-
-  if (use_territories)
-    ret_val <- c(ret_val, c(60, 64, 66, 68, 69, 70, 72, 74, 78))
-
-  ret_val
-}
-
-#' Convert State to State FIPS
-#'
-#' This function takes a state (either the name of the state or the two-character
-#' abbreviation) and returns the numeric state FIPS.
-#' @param s State as a character vector. Can be state name or abbreviation
-#' @param use_name Input variable is the name of the staes (default = FALSE)
-#' @export
-state2fips <- function(s, use_name = FALSE) {
-  abb_list <- state_abbs()
-  name_list <- state_names()
-  fips_list <- state_fips()
-
-  if (use_name) {
-    ret_val <- fips_list[match(s, name_list)]
-  } else {
-    ret_val <- fips_list[match(s, abb_list)]
-  }
-  ret_val
-}
-
 #' Extract the Date String from the File Name
 #'
 #' This function extracts the 6 digit date (YYYYMM) from the name of the original
@@ -268,3 +208,42 @@ convert2numeric <- function(df) {
 
   df
 }
+
+#' Import Census Data
+#'
+#' This function uses the tidycensus package to import data on median family incomes
+#' at the Census tract level from either the 2000 Decennial Census or the appropriate
+#' 5-year American Community Survey.
+#' @import tidycensus
+import_census <- function() {
+  acs_data <- lapply(c(2010L, 2015L), download_acs) %>%
+    bind_rows()
+
+  dec_data <- lapply(state_fips(use_territories = FALSE),
+                     get_decennial,
+                     geography = 'tract',
+                     year = 2000,
+                     sumfile = 'sf3',
+                     variables = 'P077001') %>%
+    bind_rows() %>%
+    select(GEOID, value) %>%
+    rename(tract = GEOID, tract_mfi = value) %>%
+    mutate(file = 'dec_2000')
+
+  list(acs_data, dec_data) %>%
+    bind_rows() %>%
+    saveRDS(file.path(path.package('cbsa'),
+                      'data/tract_mfi_levels.rds'))
+
+  invisible(TRUE)
+}
+
+download_acs <- function(endyear) {
+  lapply(state_fips(use_territories = FALSE),
+         function(x) get_acs('tract', 'B19113_001E', endyear = endyear, state = x)) %>%
+    bind_rows() %>%
+    select(GEOID, estimate) %>%
+    rename(tract = GEOID, tract_mfi = estimate) %>%
+    mutate(file = sprintf('acs_%d', endyear))
+}
+
