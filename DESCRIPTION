@@ -9,7 +9,7 @@ Description: This package helps users assign either counties or Census tracts to
     made according to the definitions of these areas published by the U.S. Office of 
     Management and Budget (OMB).
 Suggests:
-    data.table,
+    tidycensus,
     rmarkdown,
     knitr,
     readxl
