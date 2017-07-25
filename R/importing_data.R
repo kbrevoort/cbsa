@@ -221,13 +221,15 @@ convert2numeric <- function(df) {
 #' This function uses the tidycensus package to import data on median family incomes
 #' at the Census tract level from either the 2000 Decennial Census or the appropriate
 #' 5-year American Community Survey.
-#' #@import tidycensus
 import_census <- function() {
-  acs_data <- lapply(c(2010L, 2015L), download_acs) %>%
+  if (!('tidycensus' %in% installed.packages()))
+    stop('import_census function only works when tidycensus is installed.')
+
+  tidycensus::acs_data <- lapply(c(2010L, 2015L), download_acs) %>%
     bind_rows()
 
   dec_data <- lapply(state_fips(use_territories = FALSE),
-                     get_decennial,
+                     tidycensus::get_decennial,
                      geography = 'tract',
                      year = 2000,
                      sumfile = 'sf3',
