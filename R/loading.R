@@ -8,23 +8,28 @@
 #' @param date Date of OMB defintition to use (default equals current definition)
 #' @param only_metro Match only Metropolitan Statistical Areas (default = FALSE)
 #' @export
-assign_cbsa <- function(tract, county, date = format(Sys.Date(), '%Y%m'), use_md = TRUE) {
-  if (missing(tract) & missing(county))
+assign_cbsa <- function(tract, county_fips, date = format(Sys.Date(), '%Y%m'),
+                        use_md = TRUE, only_metro = TRUE, assign_nonmetro = FALSE) {
+  if (missing(tract) & missing(county_fips))
     stop('Must supply either a tract or county to assign_cbsa')
 
   # Convert the tract to the 5-digit FIPs
   if (!missing(tract))
-    county <- floor(tract / 1e6)
+    county_fips <- floor(tract / 1e6)
 
-  my_data <- load_cbsa(date) %>%
-    select(fips, cbsa, md, is_metro) %>%
-    left_join(data.frame(fips = county), ., by = 'fips')
+  my_data <- load_cbsa(date)
 
   if (only_metro)
-    my_data <- filter(is_metro)
+    my_data <- filter(my_data, is_metro)
+
+  my_data <- select(my_data, fips, cbsa, md, is_metro) %>%
+    left_join(data.frame(fips = county_fips), ., by = 'fips')
 
   if (use_md)
-    mutate(my_data, cbsa = ifelse(is.na(md), cbsa, md))
+    my_data <- mutate(my_data, cbsa = ifelse(is.na(md), cbsa, md))
+
+  if (assign_nonmetro)
+    my_data <- mutate(my_data, cbsa = ifelse(is.na(cbsa), floor(fips / 1000) + 99900, cbsa))
 
   my_data[['cbsa']]
 }
@@ -67,7 +72,11 @@ load_necta <- function(date) {
     readRDS()
 }
 
-
+#' Determine File Date
+#'
+#' This function determines the CBSA definitions that were in effect during the
+#' date specified. This is an internal function.
+#' @param date A numeric date of the format YYYYMM
 determine_file_date <- function(date) {
   if (is.character(date))
     date <- as.numeric(date)
@@ -93,4 +102,68 @@ determine_file_date <- function(date) {
   }
 
   ret_val
+}
+
+#' Assign Income Level
+#'
+#' This function takes a vector of Census tracts and a year and returns either
+#' the relative income of the tract or the income level categorization (i.e., low,
+#' moderate, middle, or upper).
+#' @param tract Numeric vector of Census tract codes (11 digits)
+#' @param year A numeric year (YYYY)
+#' @param return_label A logical indicating if the income level categorization is
+#' to be returned or the relative income (default = TRUE)
+#' @return Either the relative income (if return_label == FALSE) or the income level
+#' @export
+assign_lmi <- function(tract, year, return_label = TRUE) {
+  if (missing(tract))
+    stop('Must supply tract to assign_lmi')
+  if (missing(year))
+    year <- latest_year()
+
+  if (!is.numeric(tract) | !is.numeric(year))
+    stop('Invalid type (non-numeric) supplied for tract or year in assign_lmi')
+
+  # Get the Cenus tract mfi data
+  if (year < 2004 | year > latest_year()) {
+    stop('LMI areas cannot be assigned for years before 2004.')
+  } else if (year < 2012) {
+    use_file <- 'dec_2000'
+  } else if (year < 2017) {
+    use_file <- 'acs_2010'
+  } else {
+    use_file <- 'acs_2015'
+  }
+
+  mfi_data <- file.path(path.package('cbsa'),
+                        'data/tract_mfi_levels.rds') %>%
+    readRDS() %>%
+    filter(file == use_file) %>%
+    mutate(cbsa = assign_cbsa(tract = tract,
+                              date = (year * 100) + 1,
+                              only_metro = TRUE,
+                              assign_nonmetro = TRUE)) %>%
+    mutate(cbsa = ifelse(is.na(cbsa), 99900 + floor(tract / 1e9), cbsa))
+
+  ffiec_data <- load_mfi(year) %>%
+    select(cbsa, mfi) %>%
+    left_join(mfi_data, ., by = 'cbsa') %>%
+    mutate(relative_income = tract_mfi / mfi) %>%
+    mutate(income_level = cut(relative_income,
+                              breaks = c(0, 0.5, 0.8, 1.2, Inf),
+                              labels = c('Low', 'Moderate', 'Middle', 'Upper'),
+                              right = FALSE))
+
+  if (return_label)
+    return(ffiec_data$income_level)
+
+  ffiec_data$relative_income
+}
+
+latest_year <- function() {
+  list.files(path = file.path(path.package('cbsa'),
+                              'data'),
+             pattern = 'mfi_definitions') %>%
+    gsub('.*_([0-9]{4}).*', '\\1', .) %>%
+    max(na.rm = TRUE)
 }

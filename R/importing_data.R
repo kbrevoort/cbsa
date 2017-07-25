@@ -19,14 +19,21 @@ import_ffiec <- function(year) {
   if (!file.exists(file_name))
     stop(paste0('Could not find FFIEC file for year ', year))
 
-  readxl::read_xls(file_name,
+  all_out <- readxl::read_xls(file_name,
                    skip = 2L,
                    col_names = c('cbsa', 'cbsa_name', 'mfi', 'mfi_hud'),
                    col_types = 'text',
                    na = 'NULL') %>%
     mutate(mfi = as.numeric(gsub(',', '', mfi)),
            mfi_hud = as.numeric(gsub(',', '', mfi_hud)),
-           cbsa = as.numeric(cbsa)) %>%
+           cbsa = as.numeric(cbsa))
+
+  non_metro <- filter(all_out, cbsa == 99999) %>%
+    mutate(cbsa = state2fips(gsub('nonmetro portion of (.*)', '\\1', cbsa_name),
+                                   use_name = TRUE) + 99900)
+
+  list(filter(all_out, cbsa < 99999), non_metro) %>%
+    bind_rows() %>%
     saveRDS(out_file)
 
   invisible(TRUE)
@@ -232,6 +239,7 @@ import_census <- function() {
 
   list(acs_data, dec_data) %>%
     bind_rows() %>%
+    mutate(tract = as.numeric(tract)) %>%
     saveRDS(file.path(path.package('cbsa'),
                       'data/tract_mfi_levels.rds'))
 

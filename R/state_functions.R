@@ -13,11 +13,11 @@ state_names <- function(use_territories = TRUE) {
                  'Federated States of Micronesia',
                  'Guam',
                  'Marshall Islands',
-                 'Commonwealth of the Northern Mariana Islands',
+                 'Northern Mariana Islands',
                  'Palau',
                  'Puerto Rico',
                  'U.S. Minor Outlying Islands',
-                 'U.S. Virgin Islands')
+                 'Virgin Islands')
 
   ret_val
 
@@ -67,9 +67,9 @@ state2fips <- function(s, use_name = FALSE) {
   fips_list <- state_fips()
 
   if (use_name) {
-    ret_val <- fips_list[match(s, name_list)]
+    ret_val <- fips_list[match(toupper(s), toupper(name_list))]
   } else {
-    ret_val <- fips_list[match(s, abb_list)]
+    ret_val <- fips_list[match(toupper(s), toupper(abb_list))]
   }
   ret_val
 }
