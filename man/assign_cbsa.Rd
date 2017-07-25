@@ -4,17 +4,17 @@
 \alias{assign_cbsa}
 \title{Assign CBSA}
 \usage{
-assign_cbsa(tract, county, date = format(Sys.Date(), "\%Y\%m"),
-  use_md = TRUE)
+assign_cbsa(tract, county_fips, date = format(Sys.Date(), "\%Y\%m"),
+  use_md = TRUE, only_metro = TRUE, assign_nonmetro = FALSE)
 }
 \arguments{
 \item{tract}{Census tract}
 
-\item{county}{5-digit county FIPS code}
-
 \item{date}{Date of OMB defintition to use (default equals current definition)}
 
 \item{only_metro}{Match only Metropolitan Statistical Areas (default = FALSE)}
+
+\item{county}{5-digit county FIPS code}
 }
 \description{
 This function assigns the CBSA for a supplied county or Census tract. The
