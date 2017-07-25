@@ -57,7 +57,7 @@ load_mfi <- function(year) {
 #' @export
 load_cbsa <- function(date) {
   determine_file_date(date) %>%
-    sprintf('data/cbsa_definition_%d.rds', .) %>%
+    sprintf('%s/data/cbsa_definition_%d.rds', path.package('cbsa'), .) %>%
     readRDS()
 }
 
@@ -68,7 +68,7 @@ load_cbsa <- function(date) {
 #' @export
 load_necta <- function(date) {
   determine_file_date(date) %>%
-    sprintf('data/necta_definition_%d.rds', .) %>%
+    sprintf('%s/data/necta_definition_%d.rds', path.package('cbsa'), .) %>%
     readRDS()
 }
 
