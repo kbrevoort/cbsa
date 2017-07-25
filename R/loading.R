@@ -109,20 +109,20 @@ determine_file_date <- function(date) {
 #' This function takes a vector of Census tracts and a year and returns either
 #' the relative income of the tract or the income level categorization (i.e., low,
 #' moderate, middle, or upper).
-#' @param tract Numeric vector of Census tract codes (11 digits)
+#' @param search_tract Numeric vector of Census tract codes (11 digits)
 #' @param year A numeric year (YYYY)
 #' @param return_label A logical indicating if the income level categorization is
 #' to be returned or the relative income (default = TRUE)
 #' @return Either the relative income (if return_label == FALSE) or the income level
 #' @export
-assign_lmi <- function(tract, year, return_label = TRUE) {
-  if (missing(tract))
+assign_lmi <- function(search_tract, year, return_label = TRUE) {
+  if (missing(search_tract))
     stop('Must supply tract to assign_lmi')
   if (missing(year))
     year <- latest_year()
 
-  if (!is.numeric(tract) | !is.numeric(year))
-    stop('Invalid type (non-numeric) supplied for tract or year in assign_lmi')
+  if (!is.numeric(search_tract) | !is.numeric(year))
+    stop('Invalid type (non-numeric) supplied for search_tract or year in assign_lmi')
 
   # Get the Cenus tract mfi data
   if (year < 2004 | year > latest_year()) {
@@ -154,10 +154,12 @@ assign_lmi <- function(tract, year, return_label = TRUE) {
                               labels = c('Low', 'Moderate', 'Middle', 'Upper'),
                               right = FALSE))
 
+  final_data = left_join(data.frame(tract = search_tract), ffiec_data, by="tract")
+  
   if (return_label)
-    return(ffiec_data$income_level)
+    return(final_data$income_level)
 
-  ffiec_data$relative_income
+  final_data$relative_income
 }
 
 latest_year <- function() {
