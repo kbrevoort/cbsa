@@ -225,11 +225,11 @@ import_census <- function() {
   if (!('tidycensus' %in% installed.packages()))
     stop('import_census function only works when tidycensus is installed.')
 
-  acs_data <- lapply(c(2010L, 2015L), download_acs) %>%
+  tidycensus::acs_data <- lapply(c(2010L, 2015L), download_acs) %>%
     bind_rows()
 
   dec_data <- lapply(state_fips(use_territories = FALSE),
-                     get_decennial,
+                     tidycensus::get_decennial,
                      geography = 'tract',
                      year = 2000,
                      sumfile = 'sf3',
