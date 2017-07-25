@@ -10,4 +10,5 @@ import_census()
 This function uses the tidycensus package to import data on median family incomes
 at the Census tract level from either the 2000 Decennial Census or the appropriate
 5-year American Community Survey.
+#@import tidycensus
 }
