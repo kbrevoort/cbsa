@@ -1,0 +1,1861 @@
+"cbsa"	"md"	"csa"	"cbsa_name"	"md_name"	"csa_name"	"is_metro"	"fips"	"component_name"	"is_central"
+"1"	10020	NA	318	"Abbeville, LA"	NA	"Lafayette-Acadiana, LA"	FALSE	22113	"Vermilion Parish"	TRUE
+"2"	10100	NA	NA	"Aberdeen, SD"	NA	NA	FALSE	46013	"Brown County"	TRUE
+"3"	10100	NA	NA	"Aberdeen, SD"	NA	NA	FALSE	46045	"Edmunds County"	FALSE
+"4"	10140	NA	NA	"Aberdeen, WA"	NA	NA	FALSE	53027	"Grays Harbor County"	TRUE
+"5"	10180	NA	NA	"Abilene, TX"	NA	NA	TRUE	48059	"Callahan County"	FALSE
+"6"	10180	NA	NA	"Abilene, TX"	NA	NA	TRUE	48253	"Jones County"	FALSE
+"7"	10180	NA	NA	"Abilene, TX"	NA	NA	TRUE	48441	"Taylor County"	TRUE
+"8"	10220	NA	NA	"Ada, OK"	NA	NA	FALSE	40123	"Pontotoc County"	TRUE
+"9"	10260	NA	NA	"Adjuntas, PR"	NA	NA	FALSE	72001	"Adjuntas Municipio"	TRUE
+"10"	10300	NA	NA	"Adrian, MI"	NA	NA	FALSE	26091	"Lenawee County"	TRUE
+"11"	10380	NA	NA	"Aguadilla-Isabela-San Sebastián, PR"	NA	NA	TRUE	72003	"Aguada Municipio"	TRUE
+"12"	10380	NA	NA	"Aguadilla-Isabela-San Sebastián, PR"	NA	NA	TRUE	72005	"Aguadilla Municipio"	TRUE
+"13"	10380	NA	NA	"Aguadilla-Isabela-San Sebastián, PR"	NA	NA	TRUE	72011	"Añasco Municipio"	TRUE
+"14"	10380	NA	NA	"Aguadilla-Isabela-San Sebastián, PR"	NA	NA	TRUE	72071	"Isabela Municipio"	TRUE
+"15"	10380	NA	NA	"Aguadilla-Isabela-San Sebastián, PR"	NA	NA	TRUE	72081	"Lares Municipio"	TRUE
+"16"	10380	NA	NA	"Aguadilla-Isabela-San Sebastián, PR"	NA	NA	TRUE	72099	"Moca Municipio"	TRUE
+"17"	10380	NA	NA	"Aguadilla-Isabela-San Sebastián, PR"	NA	NA	TRUE	72117	"Rincón Municipio"	TRUE
+"18"	10380	NA	NA	"Aguadilla-Isabela-San Sebastián, PR"	NA	NA	TRUE	72131	"San Sebastián Municipio"	TRUE
+"19"	10420	NA	184	"Akron, OH"	NA	"Cleveland-Akron-Elyria, OH"	TRUE	39133	"Portage County"	TRUE
+"20"	10420	NA	184	"Akron, OH"	NA	"Cleveland-Akron-Elyria, OH"	TRUE	39153	"Summit County"	TRUE
+"21"	10460	NA	NA	"Alamogordo, NM"	NA	NA	FALSE	35035	"Otero County"	TRUE
+"22"	10500	NA	NA	"Albany, GA"	NA	NA	TRUE	13007	"Baker County"	FALSE
+"23"	10500	NA	NA	"Albany, GA"	NA	NA	TRUE	13095	"Dougherty County"	TRUE
+"24"	10500	NA	NA	"Albany, GA"	NA	NA	TRUE	13177	"Lee County"	TRUE
+"25"	10500	NA	NA	"Albany, GA"	NA	NA	TRUE	13273	"Terrell County"	FALSE
+"26"	10500	NA	NA	"Albany, GA"	NA	NA	TRUE	13321	"Worth County"	FALSE
+"27"	10540	NA	102	"Albany-Lebanon, OR"	NA	"Albany-Corvallis-Lebanon, OR"	FALSE	41043	"Linn County"	TRUE
+"28"	10580	NA	104	"Albany-Schenectady-Troy, NY"	NA	"Albany-Schenectady-Amsterdam, NY"	TRUE	36001	"Albany County"	TRUE
+"29"	10580	NA	104	"Albany-Schenectady-Troy, NY"	NA	"Albany-Schenectady-Amsterdam, NY"	TRUE	36083	"Rensselaer County"	TRUE
+"30"	10580	NA	104	"Albany-Schenectady-Troy, NY"	NA	"Albany-Schenectady-Amsterdam, NY"	TRUE	36091	"Saratoga County"	TRUE
+"31"	10580	NA	104	"Albany-Schenectady-Troy, NY"	NA	"Albany-Schenectady-Amsterdam, NY"	TRUE	36093	"Schenectady County"	TRUE
+"32"	10580	NA	104	"Albany-Schenectady-Troy, NY"	NA	"Albany-Schenectady-Amsterdam, NY"	TRUE	36095	"Schoharie County"	FALSE
+"33"	10620	NA	172	"Albemarle, NC"	NA	"Charlotte-Gastonia-Salisbury, NC-SC"	FALSE	37167	"Stanly County"	TRUE
+"34"	10660	NA	NA	"Albert Lea, MN"	NA	NA	FALSE	27047	"Freeborn County"	TRUE
+"35"	10700	NA	NA	"Albertville, AL"	NA	NA	FALSE	1095	"Marshall County"	TRUE
+"36"	10740	NA	NA	"Albuquerque, NM"	NA	NA	TRUE	35001	"Bernalillo County"	TRUE
+"37"	10740	NA	NA	"Albuquerque, NM"	NA	NA	TRUE	35043	"Sandoval County"	TRUE
+"38"	10740	NA	NA	"Albuquerque, NM"	NA	NA	TRUE	35057	"Torrance County"	FALSE
+"39"	10740	NA	NA	"Albuquerque, NM"	NA	NA	TRUE	35061	"Valencia County"	FALSE
+"40"	10760	NA	388	"Alexander City, AL"	NA	"Montgomery-Alexander City, AL"	FALSE	1037	"Coosa County"	FALSE
+"41"	10760	NA	388	"Alexander City, AL"	NA	"Montgomery-Alexander City, AL"	FALSE	1123	"Tallapoosa County"	TRUE
+"42"	10780	NA	NA	"Alexandria, LA"	NA	NA	TRUE	22043	"Grant Parish"	FALSE
+"43"	10780	NA	NA	"Alexandria, LA"	NA	NA	TRUE	22079	"Rapides Parish"	TRUE
+"44"	10820	NA	NA	"Alexandria, MN"	NA	NA	FALSE	27041	"Douglas County"	TRUE
+"45"	10860	NA	NA	"Alice, TX"	NA	NA	FALSE	48249	"Jim Wells County"	TRUE
+"46"	10880	NA	266	"Allegan, MI"	NA	"Grand Rapids-Muskegon-Holland, MI"	FALSE	26005	"Allegan County"	TRUE
+"47"	10900	NA	NA	"Allentown-Bethlehem-Easton, PA-NJ"	NA	NA	TRUE	34041	"Warren County"	TRUE
+"48"	10900	NA	NA	"Allentown-Bethlehem-Easton, PA-NJ"	NA	NA	TRUE	42025	"Carbon County"	TRUE
+"49"	10900	NA	NA	"Allentown-Bethlehem-Easton, PA-NJ"	NA	NA	TRUE	42077	"Lehigh County"	TRUE
+"50"	10900	NA	NA	"Allentown-Bethlehem-Easton, PA-NJ"	NA	NA	TRUE	42095	"Northampton County"	TRUE
+"51"	10940	NA	NA	"Alma, MI"	NA	NA	FALSE	26057	"Gratiot County"	TRUE
+"52"	10980	NA	NA	"Alpena, MI"	NA	NA	FALSE	26007	"Alpena County"	TRUE
+"53"	11020	NA	NA	"Altoona, PA"	NA	NA	TRUE	42013	"Blair County"	TRUE
+"54"	11060	NA	NA	"Altus, OK"	NA	NA	FALSE	40065	"Jackson County"	TRUE
+"55"	11100	NA	NA	"Amarillo, TX"	NA	NA	TRUE	48011	"Armstrong County"	FALSE
+"56"	11100	NA	NA	"Amarillo, TX"	NA	NA	TRUE	48065	"Carson County"	FALSE
+"57"	11100	NA	NA	"Amarillo, TX"	NA	NA	TRUE	48375	"Potter County"	TRUE
+"58"	11100	NA	NA	"Amarillo, TX"	NA	NA	TRUE	48381	"Randall County"	TRUE
+"59"	11140	NA	NA	"Americus, GA"	NA	NA	FALSE	13249	"Schley County"	FALSE
+"60"	11140	NA	NA	"Americus, GA"	NA	NA	FALSE	13261	"Sumter County"	TRUE
+"61"	11180	NA	112	"Ames, IA"	NA	"Ames-Boone, IA"	TRUE	19169	"Story County"	TRUE
+"62"	11220	NA	104	"Amsterdam, NY"	NA	"Albany-Schenectady-Amsterdam, NY"	FALSE	36057	"Montgomery County"	TRUE
+"63"	11260	NA	NA	"Anchorage, AK"	NA	NA	TRUE	2020	"Anchorage Municipality"	TRUE
+"64"	11260	NA	NA	"Anchorage, AK"	NA	NA	TRUE	2170	"Matanuska-Susitna Borough"	FALSE
+"65"	11300	NA	294	"Anderson, IN"	NA	"Indianapolis-Anderson-Columbus, IN"	TRUE	18095	"Madison County"	TRUE
+"66"	11340	NA	273	"Anderson, SC"	NA	"Greenville-Spartanburg-Anderson, SC"	TRUE	45007	"Anderson County"	TRUE
+"67"	11380	NA	NA	"Andrews, TX"	NA	NA	FALSE	48003	"Andrews County"	TRUE
+"68"	11420	NA	258	"Angola, IN"	NA	"Fort Wayne-Huntington-Auburn, IN"	FALSE	18151	"Steuben County"	TRUE
+"69"	11460	NA	220	"Ann Arbor, MI"	NA	"Detroit-Warren-Flint, MI"	TRUE	26161	"Washtenaw County"	TRUE
+"70"	11500	NA	NA	"Anniston-Oxford, AL"	NA	NA	TRUE	1015	"Calhoun County"	TRUE
+"71"	11540	NA	118	"Appleton, WI"	NA	"Appleton-Oshkosh-Neenah, WI"	TRUE	55015	"Calumet County"	TRUE
+"72"	11540	NA	118	"Appleton, WI"	NA	"Appleton-Oshkosh-Neenah, WI"	TRUE	55087	"Outagamie County"	TRUE
+"73"	11580	NA	NA	"Arcadia, FL"	NA	NA	FALSE	12027	"DeSoto County"	TRUE
+"74"	11620	NA	NA	"Ardmore, OK"	NA	NA	FALSE	40019	"Carter County"	TRUE
+"75"	11620	NA	NA	"Ardmore, OK"	NA	NA	FALSE	40085	"Love County"	FALSE
+"76"	11660	NA	NA	"Arkadelphia, AR"	NA	NA	FALSE	5019	"Clark County"	TRUE
+"77"	11700	NA	120	"Asheville, NC"	NA	"Asheville-Brevard, NC"	TRUE	37021	"Buncombe County"	TRUE
+"78"	11700	NA	120	"Asheville, NC"	NA	"Asheville-Brevard, NC"	TRUE	37087	"Haywood County"	TRUE
+"79"	11700	NA	120	"Asheville, NC"	NA	"Asheville-Brevard, NC"	TRUE	37089	"Henderson County"	TRUE
+"80"	11700	NA	120	"Asheville, NC"	NA	"Asheville-Brevard, NC"	TRUE	37115	"Madison County"	FALSE
+"81"	11740	NA	NA	"Ashland, OH"	NA	NA	FALSE	39005	"Ashland County"	TRUE
+"82"	11780	NA	184	"Ashtabula, OH"	NA	"Cleveland-Akron-Elyria, OH"	FALSE	39007	"Ashtabula County"	TRUE
+"83"	11820	NA	NA	"Astoria, OR"	NA	NA	FALSE	41007	"Clatsop County"	TRUE
+"84"	11860	NA	312	"Atchison, KS"	NA	"Kansas City-Overland Park-Kansas City, MO-KS"	FALSE	20005	"Atchison County"	TRUE
+"85"	11900	NA	NA	"Athens, OH"	NA	NA	FALSE	39009	"Athens County"	TRUE
+"86"	11940	NA	174	"Athens, TN"	NA	"Chattanooga-Cleveland-Athens, TN-GA"	FALSE	47107	"McMinn County"	TRUE
+"87"	11980	NA	206	"Athens, TX"	NA	"Dallas-Fort Worth, TX"	FALSE	48213	"Henderson County"	TRUE
+"88"	12020	NA	NA	"Athens-Clarke County, GA"	NA	NA	TRUE	13059	"Clarke County"	TRUE
+"89"	12020	NA	NA	"Athens-Clarke County, GA"	NA	NA	TRUE	13195	"Madison County"	FALSE
+"90"	12020	NA	NA	"Athens-Clarke County, GA"	NA	NA	TRUE	13219	"Oconee County"	TRUE
+"91"	12020	NA	NA	"Athens-Clarke County, GA"	NA	NA	TRUE	13221	"Oglethorpe County"	FALSE
+"92"	12060	NA	122	"Atlanta-Sandy Springs-Marietta, GA"	NA	"Atlanta-Sandy Springs-Gainesville, GA-AL"	TRUE	13013	"Barrow County"	FALSE
+"93"	12060	NA	122	"Atlanta-Sandy Springs-Marietta, GA"	NA	"Atlanta-Sandy Springs-Gainesville, GA-AL"	TRUE	13015	"Bartow County"	FALSE
+"94"	12060	NA	122	"Atlanta-Sandy Springs-Marietta, GA"	NA	"Atlanta-Sandy Springs-Gainesville, GA-AL"	TRUE	13035	"Butts County"	FALSE
+"95"	12060	NA	122	"Atlanta-Sandy Springs-Marietta, GA"	NA	"Atlanta-Sandy Springs-Gainesville, GA-AL"	TRUE	13045	"Carroll County"	FALSE
+"96"	12060	NA	122	"Atlanta-Sandy Springs-Marietta, GA"	NA	"Atlanta-Sandy Springs-Gainesville, GA-AL"	TRUE	13057	"Cherokee County"	TRUE
+"97"	12060	NA	122	"Atlanta-Sandy Springs-Marietta, GA"	NA	"Atlanta-Sandy Springs-Gainesville, GA-AL"	TRUE	13063	"Clayton County"	TRUE
+"98"	12060	NA	122	"Atlanta-Sandy Springs-Marietta, GA"	NA	"Atlanta-Sandy Springs-Gainesville, GA-AL"	TRUE	13067	"Cobb County"	TRUE
+"99"	12060	NA	122	"Atlanta-Sandy Springs-Marietta, GA"	NA	"Atlanta-Sandy Springs-Gainesville, GA-AL"	TRUE	13077	"Coweta County"	TRUE
+"100"	12060	NA	122	"Atlanta-Sandy Springs-Marietta, GA"	NA	"Atlanta-Sandy Springs-Gainesville, GA-AL"	TRUE	13085	"Dawson County"	FALSE
+"101"	12060	NA	122	"Atlanta-Sandy Springs-Marietta, GA"	NA	"Atlanta-Sandy Springs-Gainesville, GA-AL"	TRUE	13089	"DeKalb County"	TRUE
+"102"	12060	NA	122	"Atlanta-Sandy Springs-Marietta, GA"	NA	"Atlanta-Sandy Springs-Gainesville, GA-AL"	TRUE	13097	"Douglas County"	TRUE
+"103"	12060	NA	122	"Atlanta-Sandy Springs-Marietta, GA"	NA	"Atlanta-Sandy Springs-Gainesville, GA-AL"	TRUE	13113	"Fayette County"	TRUE
+"104"	12060	NA	122	"Atlanta-Sandy Springs-Marietta, GA"	NA	"Atlanta-Sandy Springs-Gainesville, GA-AL"	TRUE	13117	"Forsyth County"	TRUE
+"105"	12060	NA	122	"Atlanta-Sandy Springs-Marietta, GA"	NA	"Atlanta-Sandy Springs-Gainesville, GA-AL"	TRUE	13121	"Fulton County"	TRUE
+"106"	12060	NA	122	"Atlanta-Sandy Springs-Marietta, GA"	NA	"Atlanta-Sandy Springs-Gainesville, GA-AL"	TRUE	13135	"Gwinnett County"	TRUE
+"107"	12060	NA	122	"Atlanta-Sandy Springs-Marietta, GA"	NA	"Atlanta-Sandy Springs-Gainesville, GA-AL"	TRUE	13143	"Haralson County"	FALSE
+"108"	12060	NA	122	"Atlanta-Sandy Springs-Marietta, GA"	NA	"Atlanta-Sandy Springs-Gainesville, GA-AL"	TRUE	13149	"Heard County"	FALSE
+"109"	12060	NA	122	"Atlanta-Sandy Springs-Marietta, GA"	NA	"Atlanta-Sandy Springs-Gainesville, GA-AL"	TRUE	13151	"Henry County"	TRUE
+"110"	12060	NA	122	"Atlanta-Sandy Springs-Marietta, GA"	NA	"Atlanta-Sandy Springs-Gainesville, GA-AL"	TRUE	13159	"Jasper County"	FALSE
+"111"	12060	NA	122	"Atlanta-Sandy Springs-Marietta, GA"	NA	"Atlanta-Sandy Springs-Gainesville, GA-AL"	TRUE	13171	"Lamar County"	FALSE
+"112"	12060	NA	122	"Atlanta-Sandy Springs-Marietta, GA"	NA	"Atlanta-Sandy Springs-Gainesville, GA-AL"	TRUE	13199	"Meriwether County"	FALSE
+"113"	12060	NA	122	"Atlanta-Sandy Springs-Marietta, GA"	NA	"Atlanta-Sandy Springs-Gainesville, GA-AL"	TRUE	13217	"Newton County"	TRUE
+"114"	12060	NA	122	"Atlanta-Sandy Springs-Marietta, GA"	NA	"Atlanta-Sandy Springs-Gainesville, GA-AL"	TRUE	13223	"Paulding County"	TRUE
+"115"	12060	NA	122	"Atlanta-Sandy Springs-Marietta, GA"	NA	"Atlanta-Sandy Springs-Gainesville, GA-AL"	TRUE	13227	"Pickens County"	FALSE
+"116"	12060	NA	122	"Atlanta-Sandy Springs-Marietta, GA"	NA	"Atlanta-Sandy Springs-Gainesville, GA-AL"	TRUE	13231	"Pike County"	FALSE
+"117"	12060	NA	122	"Atlanta-Sandy Springs-Marietta, GA"	NA	"Atlanta-Sandy Springs-Gainesville, GA-AL"	TRUE	13247	"Rockdale County"	TRUE
+"118"	12060	NA	122	"Atlanta-Sandy Springs-Marietta, GA"	NA	"Atlanta-Sandy Springs-Gainesville, GA-AL"	TRUE	13255	"Spalding County"	TRUE
+"119"	12060	NA	122	"Atlanta-Sandy Springs-Marietta, GA"	NA	"Atlanta-Sandy Springs-Gainesville, GA-AL"	TRUE	13297	"Walton County"	FALSE
+"120"	12100	NA	NA	"Atlantic City-Hammonton, NJ"	NA	NA	TRUE	34001	"Atlantic County"	TRUE
+"121"	12140	NA	258	"Auburn, IN"	NA	"Fort Wayne-Huntington-Auburn, IN"	FALSE	18033	"DeKalb County"	TRUE
+"122"	12180	NA	532	"Auburn, NY"	NA	"Syracuse-Auburn, NY"	FALSE	36011	"Cayuga County"	TRUE
+"123"	12220	NA	194	"Auburn-Opelika, AL"	NA	"Columbus-Auburn-Opelika, GA-AL"	TRUE	1081	"Lee County"	TRUE
+"124"	12260	NA	NA	"Augusta-Richmond County, GA-SC"	NA	NA	TRUE	13033	"Burke County"	FALSE
+"125"	12260	NA	NA	"Augusta-Richmond County, GA-SC"	NA	NA	TRUE	13073	"Columbia County"	TRUE
+"126"	12260	NA	NA	"Augusta-Richmond County, GA-SC"	NA	NA	TRUE	13189	"McDuffie County"	FALSE
+"127"	12260	NA	NA	"Augusta-Richmond County, GA-SC"	NA	NA	TRUE	13245	"Richmond County"	TRUE
+"128"	12260	NA	NA	"Augusta-Richmond County, GA-SC"	NA	NA	TRUE	45003	"Aiken County"	TRUE
+"129"	12260	NA	NA	"Augusta-Richmond County, GA-SC"	NA	NA	TRUE	45037	"Edgefield County"	FALSE
+"130"	12300	NA	NA	"Augusta-Waterville, ME"	NA	NA	FALSE	23011	"Kennebec County"	TRUE
+"131"	12380	NA	NA	"Austin, MN"	NA	NA	FALSE	27099	"Mower County"	TRUE
+"132"	12420	NA	NA	"Austin-Round Rock, TX"	NA	NA	TRUE	48021	"Bastrop County"	FALSE
+"133"	12420	NA	NA	"Austin-Round Rock, TX"	NA	NA	TRUE	48055	"Caldwell County"	FALSE
+"134"	12420	NA	NA	"Austin-Round Rock, TX"	NA	NA	TRUE	48209	"Hays County"	FALSE
+"135"	12420	NA	NA	"Austin-Round Rock, TX"	NA	NA	TRUE	48453	"Travis County"	TRUE
+"136"	12420	NA	NA	"Austin-Round Rock, TX"	NA	NA	TRUE	48491	"Williamson County"	TRUE
+"137"	12460	NA	NA	"Bainbridge, GA"	NA	NA	FALSE	13087	"Decatur County"	TRUE
+"138"	12540	NA	NA	"Bakersfield, CA"	NA	NA	TRUE	6029	"Kern County"	TRUE
+"139"	12580	NA	548	"Baltimore-Towson, MD"	NA	"Washington-Baltimore-Northern Virginia, DC-MD-VA-WV"	TRUE	24003	"Anne Arundel County"	TRUE
+"140"	12580	NA	548	"Baltimore-Towson, MD"	NA	"Washington-Baltimore-Northern Virginia, DC-MD-VA-WV"	TRUE	24005	"Baltimore County"	TRUE
+"141"	12580	NA	548	"Baltimore-Towson, MD"	NA	"Washington-Baltimore-Northern Virginia, DC-MD-VA-WV"	TRUE	24013	"Carroll County"	FALSE
+"142"	12580	NA	548	"Baltimore-Towson, MD"	NA	"Washington-Baltimore-Northern Virginia, DC-MD-VA-WV"	TRUE	24025	"Harford County"	FALSE
+"143"	12580	NA	548	"Baltimore-Towson, MD"	NA	"Washington-Baltimore-Northern Virginia, DC-MD-VA-WV"	TRUE	24027	"Howard County"	TRUE
+"144"	12580	NA	548	"Baltimore-Towson, MD"	NA	"Washington-Baltimore-Northern Virginia, DC-MD-VA-WV"	TRUE	24035	"Queen Anne's County"	FALSE
+"145"	12580	NA	548	"Baltimore-Towson, MD"	NA	"Washington-Baltimore-Northern Virginia, DC-MD-VA-WV"	TRUE	24510	"Baltimore city"	TRUE
+"146"	12620	NA	NA	"Bangor, ME"	NA	NA	TRUE	23019	"Penobscot County"	TRUE
+"147"	12660	NA	358	"Baraboo, WI"	NA	"Madison-Baraboo, WI"	FALSE	55111	"Sauk County"	TRUE
+"148"	12700	NA	NA	"Barnstable Town, MA"	NA	NA	TRUE	25001	"Barnstable County"	TRUE
+"149"	12740	NA	NA	"Barre, VT"	NA	NA	FALSE	50023	"Washington County"	TRUE
+"150"	12780	NA	538	"Bartlesville, OK"	NA	"Tulsa-Bartlesville, OK"	FALSE	40147	"Washington County"	TRUE
+"151"	12820	NA	384	"Bastrop, LA"	NA	"Monroe-Bastrop, LA"	FALSE	22067	"Morehouse Parish"	TRUE
+"152"	12860	NA	464	"Batavia, NY"	NA	"Rochester-Batavia-Seneca Falls, NY"	FALSE	36037	"Genesee County"	TRUE
+"153"	12900	NA	NA	"Batesville, AR"	NA	NA	FALSE	5063	"Independence County"	TRUE
+"154"	12940	NA	132	"Baton Rouge, LA"	NA	"Baton Rouge-Pierre Part, LA"	TRUE	22005	"Ascension Parish"	TRUE
+"155"	12940	NA	132	"Baton Rouge, LA"	NA	"Baton Rouge-Pierre Part, LA"	TRUE	22033	"East Baton Rouge Parish"	TRUE
+"156"	12940	NA	132	"Baton Rouge, LA"	NA	"Baton Rouge-Pierre Part, LA"	TRUE	22037	"East Feliciana Parish"	FALSE
+"157"	12940	NA	132	"Baton Rouge, LA"	NA	"Baton Rouge-Pierre Part, LA"	TRUE	22047	"Iberville Parish"	FALSE
+"158"	12940	NA	132	"Baton Rouge, LA"	NA	"Baton Rouge-Pierre Part, LA"	TRUE	22063	"Livingston Parish"	TRUE
+"159"	12940	NA	132	"Baton Rouge, LA"	NA	"Baton Rouge-Pierre Part, LA"	TRUE	22077	"Pointe Coupee Parish"	FALSE
+"160"	12940	NA	132	"Baton Rouge, LA"	NA	"Baton Rouge-Pierre Part, LA"	TRUE	22091	"St. Helena Parish"	FALSE
+"161"	12940	NA	132	"Baton Rouge, LA"	NA	"Baton Rouge-Pierre Part, LA"	TRUE	22121	"West Baton Rouge Parish"	TRUE
+"162"	12940	NA	132	"Baton Rouge, LA"	NA	"Baton Rouge-Pierre Part, LA"	TRUE	22125	"West Feliciana Parish"	FALSE
+"163"	12980	NA	NA	"Battle Creek, MI"	NA	NA	TRUE	26025	"Calhoun County"	TRUE
+"164"	13020	NA	474	"Bay City, MI"	NA	"Saginaw-Bay City-Saginaw Township North, MI"	TRUE	26017	"Bay County"	TRUE
+"165"	13060	NA	288	"Bay City, TX"	NA	"Houston-Baytown-Huntsville, TX"	FALSE	48321	"Matagorda County"	TRUE
+"166"	13100	NA	NA	"Beatrice, NE"	NA	NA	FALSE	31067	"Gage County"	TRUE
+"167"	13140	NA	NA	"Beaumont-Port Arthur, TX"	NA	NA	TRUE	48199	"Hardin County"	FALSE
+"168"	13140	NA	NA	"Beaumont-Port Arthur, TX"	NA	NA	TRUE	48245	"Jefferson County"	TRUE
+"169"	13140	NA	NA	"Beaumont-Port Arthur, TX"	NA	NA	TRUE	48361	"Orange County"	FALSE
+"170"	13180	NA	252	"Beaver Dam, WI"	NA	"Fond du Lac-Beaver Dam, WI"	FALSE	55027	"Dodge County"	TRUE
+"171"	13220	NA	138	"Beckley, WV"	NA	"Beckley-Oak Hill, WV"	FALSE	54081	"Raleigh County"	TRUE
+"172"	13260	NA	NA	"Bedford, IN"	NA	NA	FALSE	18093	"Lawrence County"	TRUE
+"173"	13300	NA	NA	"Beeville, TX"	NA	NA	FALSE	48025	"Bee County"	TRUE
+"174"	13340	NA	NA	"Bellefontaine, OH"	NA	NA	FALSE	39091	"Logan County"	TRUE
+"175"	13380	NA	NA	"Bellingham, WA"	NA	NA	TRUE	53073	"Whatcom County"	TRUE
+"176"	13420	NA	NA	"Bemidji, MN"	NA	NA	FALSE	27007	"Beltrami County"	TRUE
+"177"	13460	NA	140	"Bend, OR"	NA	"Bend-Prineville, OR"	TRUE	41017	"Deschutes County"	TRUE
+"178"	13500	NA	NA	"Bennettsville, SC"	NA	NA	FALSE	45069	"Marlboro County"	TRUE
+"179"	13540	NA	NA	"Bennington, VT"	NA	NA	FALSE	50003	"Bennington County"	TRUE
+"180"	13620	NA	NA	"Berlin, NH-VT"	NA	NA	FALSE	33007	"Coos County"	TRUE
+"181"	13620	NA	NA	"Berlin, NH-VT"	NA	NA	FALSE	50009	"Essex County"	FALSE
+"182"	13660	NA	NA	"Big Rapids, MI"	NA	NA	FALSE	26107	"Mecosta County"	TRUE
+"183"	13700	NA	NA	"Big Spring, TX"	NA	NA	FALSE	48227	"Howard County"	TRUE
+"184"	13740	NA	NA	"Billings, MT"	NA	NA	TRUE	30009	"Carbon County"	FALSE
+"185"	13740	NA	NA	"Billings, MT"	NA	NA	TRUE	30111	"Yellowstone County"	TRUE
+"186"	13780	NA	NA	"Binghamton, NY"	NA	NA	TRUE	36007	"Broome County"	TRUE
+"187"	13780	NA	NA	"Binghamton, NY"	NA	NA	TRUE	36107	"Tioga County"	TRUE
+"188"	13820	NA	142	"Birmingham-Hoover, AL"	NA	"Birmingham-Hoover-Cullman, AL"	TRUE	1007	"Bibb County"	FALSE
+"189"	13820	NA	142	"Birmingham-Hoover, AL"	NA	"Birmingham-Hoover-Cullman, AL"	TRUE	1009	"Blount County"	FALSE
+"190"	13820	NA	142	"Birmingham-Hoover, AL"	NA	"Birmingham-Hoover-Cullman, AL"	TRUE	1021	"Chilton County"	FALSE
+"191"	13820	NA	142	"Birmingham-Hoover, AL"	NA	"Birmingham-Hoover-Cullman, AL"	TRUE	1073	"Jefferson County"	TRUE
+"192"	13820	NA	142	"Birmingham-Hoover, AL"	NA	"Birmingham-Hoover-Cullman, AL"	TRUE	1115	"St. Clair County"	FALSE
+"193"	13820	NA	142	"Birmingham-Hoover, AL"	NA	"Birmingham-Hoover-Cullman, AL"	TRUE	1117	"Shelby County"	TRUE
+"194"	13820	NA	142	"Birmingham-Hoover, AL"	NA	"Birmingham-Hoover-Cullman, AL"	TRUE	1127	"Walker County"	FALSE
+"195"	13860	NA	NA	"Bishop, CA"	NA	NA	FALSE	6027	"Inyo County"	TRUE
+"196"	13900	NA	NA	"Bismarck, ND"	NA	NA	TRUE	38015	"Burleigh County"	TRUE
+"197"	13900	NA	NA	"Bismarck, ND"	NA	NA	TRUE	38059	"Morton County"	TRUE
+"198"	13940	NA	292	"Blackfoot, ID"	NA	"Idaho Falls-Blackfoot, ID"	FALSE	16011	"Bingham County"	TRUE
+"199"	13980	NA	NA	"Blacksburg-Christiansburg-Radford, VA"	NA	NA	TRUE	51071	"Giles County"	FALSE
+"200"	13980	NA	NA	"Blacksburg-Christiansburg-Radford, VA"	NA	NA	TRUE	51121	"Montgomery County"	TRUE
+"201"	13980	NA	NA	"Blacksburg-Christiansburg-Radford, VA"	NA	NA	TRUE	51155	"Pulaski County"	FALSE
+"202"	13980	NA	NA	"Blacksburg-Christiansburg-Radford, VA"	NA	NA	TRUE	51750	"Radford city"	TRUE
+"203"	14020	NA	NA	"Bloomington, IN"	NA	NA	TRUE	18055	"Greene County"	FALSE
+"204"	14020	NA	NA	"Bloomington, IN"	NA	NA	TRUE	18105	"Monroe County"	TRUE
+"205"	14020	NA	NA	"Bloomington, IN"	NA	NA	TRUE	18119	"Owen County"	FALSE
+"206"	14060	NA	NA	"Bloomington-Normal, IL"	NA	NA	TRUE	17113	"McLean County"	TRUE
+"207"	14100	NA	NA	"Bloomsburg-Berwick, PA"	NA	NA	FALSE	42037	"Columbia County"	TRUE
+"208"	14100	NA	NA	"Bloomsburg-Berwick, PA"	NA	NA	FALSE	42093	"Montour County"	TRUE
+"209"	14140	NA	NA	"Bluefield, WV-VA"	NA	NA	FALSE	51185	"Tazewell County"	TRUE
+"210"	14140	NA	NA	"Bluefield, WV-VA"	NA	NA	FALSE	54055	"Mercer County"	TRUE
+"211"	14180	NA	NA	"Blytheville, AR"	NA	NA	FALSE	5093	"Mississippi County"	TRUE
+"212"	14220	NA	406	"Bogalusa, LA"	NA	"New Orleans-Metairie-Bogalusa, LA"	FALSE	22117	"Washington Parish"	TRUE
+"213"	14260	NA	NA	"Boise City-Nampa, ID"	NA	NA	TRUE	16001	"Ada County"	TRUE
+"214"	14260	NA	NA	"Boise City-Nampa, ID"	NA	NA	TRUE	16015	"Boise County"	FALSE
+"215"	14260	NA	NA	"Boise City-Nampa, ID"	NA	NA	TRUE	16027	"Canyon County"	FALSE
+"216"	14260	NA	NA	"Boise City-Nampa, ID"	NA	NA	TRUE	16045	"Gem County"	FALSE
+"217"	14260	NA	NA	"Boise City-Nampa, ID"	NA	NA	TRUE	16073	"Owyhee County"	FALSE
+"218"	14300	NA	206	"Bonham, TX"	NA	"Dallas-Fort Worth, TX"	FALSE	48147	"Fannin County"	TRUE
+"219"	14340	NA	112	"Boone, IA"	NA	"Ames-Boone, IA"	FALSE	19015	"Boone County"	TRUE
+"220"	14380	NA	NA	"Boone, NC"	NA	NA	FALSE	37189	"Watauga County"	TRUE
+"221"	14420	NA	NA	"Borger, TX"	NA	NA	FALSE	48233	"Hutchinson County"	TRUE
+"222"	14460	37764	148	"Boston-Cambridge-Quincy, MA-NH"	"Peabody, MA"	"Boston-Worcester-Manchester, MA-RI-NH"	TRUE	25009	"Essex County"	TRUE
+"223"	14460	15764	148	"Boston-Cambridge-Quincy, MA-NH"	"Cambridge-Newton-Framingham, MA"	"Boston-Worcester-Manchester, MA-RI-NH"	TRUE	25017	"Middlesex County"	TRUE
+"224"	14460	14484	148	"Boston-Cambridge-Quincy, MA-NH"	"Boston-Quincy, MA"	"Boston-Worcester-Manchester, MA-RI-NH"	TRUE	25021	"Norfolk County"	TRUE
+"225"	14460	14484	148	"Boston-Cambridge-Quincy, MA-NH"	"Boston-Quincy, MA"	"Boston-Worcester-Manchester, MA-RI-NH"	TRUE	25023	"Plymouth County"	TRUE
+"226"	14460	14484	148	"Boston-Cambridge-Quincy, MA-NH"	"Boston-Quincy, MA"	"Boston-Worcester-Manchester, MA-RI-NH"	TRUE	25025	"Suffolk County"	TRUE
+"227"	14460	40484	148	"Boston-Cambridge-Quincy, MA-NH"	"Rockingham County-Strafford County, NH"	"Boston-Worcester-Manchester, MA-RI-NH"	TRUE	33015	"Rockingham County"	TRUE
+"228"	14460	40484	148	"Boston-Cambridge-Quincy, MA-NH"	"Rockingham County-Strafford County, NH"	"Boston-Worcester-Manchester, MA-RI-NH"	TRUE	33017	"Strafford County"	FALSE
+"229"	14500	NA	216	"Boulder, CO"	NA	"Denver-Aurora-Boulder, CO"	TRUE	8013	"Boulder County"	TRUE
+"230"	14540	NA	NA	"Bowling Green, KY"	NA	NA	TRUE	21061	"Edmonson County"	FALSE
+"231"	14540	NA	NA	"Bowling Green, KY"	NA	NA	TRUE	21227	"Warren County"	TRUE
+"232"	14580	NA	NA	"Bozeman, MT"	NA	NA	FALSE	30031	"Gallatin County"	TRUE
+"233"	14600	NA	494	"Bradenton-Sarasota-Venice, FL"	NA	"Sarasota-Bradenton-Punta Gorda, FL"	TRUE	12081	"Manatee County"	TRUE
+"234"	14600	NA	494	"Bradenton-Sarasota-Venice, FL"	NA	"Sarasota-Bradenton-Punta Gorda, FL"	TRUE	12115	"Sarasota County"	TRUE
+"235"	14620	NA	NA	"Bradford, PA"	NA	NA	FALSE	42083	"McKean County"	TRUE
+"236"	14660	NA	NA	"Brainerd, MN"	NA	NA	FALSE	27021	"Cass County"	FALSE
+"237"	14660	NA	NA	"Brainerd, MN"	NA	NA	FALSE	27035	"Crow Wing County"	TRUE
+"238"	14700	NA	NA	"Branson, MO"	NA	NA	FALSE	29209	"Stone County"	FALSE
+"239"	14700	NA	NA	"Branson, MO"	NA	NA	FALSE	29213	"Taney County"	TRUE
+"240"	14740	NA	500	"Bremerton-Silverdale, WA"	NA	"Seattle-Tacoma-Olympia, WA"	TRUE	53035	"Kitsap County"	TRUE
+"241"	14780	NA	NA	"Brenham, TX"	NA	NA	FALSE	48477	"Washington County"	TRUE
+"242"	14820	NA	120	"Brevard, NC"	NA	"Asheville-Brevard, NC"	FALSE	37175	"Transylvania County"	TRUE
+"243"	14860	NA	408	"Bridgeport-Stamford-Norwalk, CT"	NA	"New York-Newark-Bridgeport, NY-NJ-CT-PA"	TRUE	9001	"Fairfield County"	TRUE
+"244"	14940	NA	482	"Brigham City, UT"	NA	"Salt Lake City-Ogden-Clearfield, UT"	FALSE	49003	"Box Elder County"	TRUE
+"245"	15020	NA	NA	"Brookhaven, MS"	NA	NA	FALSE	28085	"Lincoln County"	TRUE
+"246"	15060	NA	NA	"Brookings, OR"	NA	NA	FALSE	41015	"Curry County"	TRUE
+"247"	15100	NA	NA	"Brookings, SD"	NA	NA	FALSE	46011	"Brookings County"	TRUE
+"248"	15140	NA	NA	"Brownsville, TN"	NA	NA	FALSE	47075	"Haywood County"	TRUE
+"249"	15180	NA	154	"Brownsville-Harlingen, TX"	NA	"Brownsville-Harlingen-Raymondville, TX"	TRUE	48061	"Cameron County"	TRUE
+"250"	15220	NA	NA	"Brownwood, TX"	NA	NA	FALSE	48049	"Brown County"	TRUE
+"251"	15260	NA	NA	"Brunswick, GA"	NA	NA	TRUE	13025	"Brantley County"	FALSE
+"252"	15260	NA	NA	"Brunswick, GA"	NA	NA	TRUE	13127	"Glynn County"	TRUE
+"253"	15260	NA	NA	"Brunswick, GA"	NA	NA	TRUE	13191	"McIntosh County"	FALSE
+"254"	15340	NA	360	"Bucyrus, OH"	NA	"Mansfield-Bucyrus, OH"	FALSE	39033	"Crawford County"	TRUE
+"255"	15380	NA	160	"Buffalo-Niagara Falls, NY"	NA	"Buffalo-Niagara-Cattaraugus, NY"	TRUE	36029	"Erie County"	TRUE
+"256"	15380	NA	160	"Buffalo-Niagara Falls, NY"	NA	"Buffalo-Niagara-Cattaraugus, NY"	TRUE	36063	"Niagara County"	TRUE
+"257"	15420	NA	NA	"Burley, ID"	NA	NA	FALSE	16031	"Cassia County"	TRUE
+"258"	15420	NA	NA	"Burley, ID"	NA	NA	FALSE	16067	"Minidoka County"	FALSE
+"259"	15460	NA	NA	"Burlington, IA-IL"	NA	NA	FALSE	17071	"Henderson County"	FALSE
+"260"	15460	NA	NA	"Burlington, IA-IL"	NA	NA	FALSE	19057	"Des Moines County"	TRUE
+"261"	15500	NA	268	"Burlington, NC"	NA	"Greensboro--Winston-Salem--High Point, NC"	TRUE	37001	"Alamance County"	TRUE
+"262"	15540	NA	NA	"Burlington-South Burlington, VT"	NA	NA	TRUE	50007	"Chittenden County"	TRUE
+"263"	15540	NA	NA	"Burlington-South Burlington, VT"	NA	NA	TRUE	50011	"Franklin County"	FALSE
+"264"	15540	NA	NA	"Burlington-South Burlington, VT"	NA	NA	TRUE	50013	"Grand Isle County"	FALSE
+"265"	15580	NA	NA	"Butte-Silver Bow, MT"	NA	NA	FALSE	30093	"Silver Bow County"	TRUE
+"266"	15620	NA	NA	"Cadillac, MI"	NA	NA	FALSE	26113	"Missaukee County"	FALSE
+"267"	15620	NA	NA	"Cadillac, MI"	NA	NA	FALSE	26165	"Wexford County"	TRUE
+"268"	15660	NA	NA	"Calhoun, GA"	NA	NA	FALSE	13129	"Gordon County"	TRUE
+"269"	15700	NA	NA	"Cambridge, MD"	NA	NA	FALSE	24019	"Dorchester County"	TRUE
+"270"	15740	NA	NA	"Cambridge, OH"	NA	NA	FALSE	39059	"Guernsey County"	TRUE
+"271"	15780	NA	NA	"Camden, AR"	NA	NA	FALSE	5013	"Calhoun County"	FALSE
+"272"	15780	NA	NA	"Camden, AR"	NA	NA	FALSE	5103	"Ouachita County"	TRUE
+"273"	15820	NA	NA	"Campbellsville, KY"	NA	NA	FALSE	21217	"Taylor County"	TRUE
+"274"	15860	NA	NA	"Canon City, CO"	NA	NA	FALSE	8043	"Fremont County"	TRUE
+"275"	15900	NA	426	"Canton, IL"	NA	"Peoria-Canton, IL"	FALSE	17057	"Fulton County"	TRUE
+"276"	15940	NA	NA	"Canton-Massillon, OH"	NA	NA	TRUE	39019	"Carroll County"	FALSE
+"277"	15940	NA	NA	"Canton-Massillon, OH"	NA	NA	TRUE	39151	"Stark County"	TRUE
+"278"	15980	NA	NA	"Cape Coral-Fort Myers, FL"	NA	NA	TRUE	12071	"Lee County"	TRUE
+"279"	16020	NA	164	"Cape Girardeau-Jackson, MO-IL"	NA	"Cape Girardeau-Sikeston-Jackson, MO-IL"	TRUE	17003	"Alexander County"	FALSE
+"280"	16020	NA	164	"Cape Girardeau-Jackson, MO-IL"	NA	"Cape Girardeau-Sikeston-Jackson, MO-IL"	TRUE	29017	"Bollinger County"	FALSE
+"281"	16020	NA	164	"Cape Girardeau-Jackson, MO-IL"	NA	"Cape Girardeau-Sikeston-Jackson, MO-IL"	TRUE	29031	"Cape Girardeau County"	TRUE
+"282"	16060	NA	166	"Carbondale, IL"	NA	"Carbondale-Marion-Herrin, IL"	FALSE	17077	"Jackson County"	TRUE
+"283"	16100	NA	NA	"Carlsbad-Artesia, NM"	NA	NA	FALSE	35015	"Eddy County"	TRUE
+"284"	16180	NA	NA	"Carson City, NV"	NA	NA	TRUE	32510	"Carson City"	TRUE
+"285"	16220	NA	NA	"Casper, WY"	NA	NA	TRUE	56025	"Natrona County"	TRUE
+"286"	16260	NA	NA	"Cedar City, UT"	NA	NA	FALSE	49021	"Iron County"	TRUE
+"287"	16300	NA	NA	"Cedar Rapids, IA"	NA	NA	TRUE	19011	"Benton County"	FALSE
+"288"	16300	NA	NA	"Cedar Rapids, IA"	NA	NA	TRUE	19105	"Jones County"	FALSE
+"289"	16300	NA	NA	"Cedar Rapids, IA"	NA	NA	TRUE	19113	"Linn County"	TRUE
+"290"	16340	NA	122	"Cedartown, GA"	NA	"Atlanta-Sandy Springs-Gainesville, GA-AL"	FALSE	13233	"Polk County"	TRUE
+"291"	16380	NA	NA	"Celina, OH"	NA	NA	FALSE	39107	"Mercer County"	TRUE
+"292"	16420	NA	NA	"Central City, KY"	NA	NA	FALSE	21177	"Muhlenberg County"	TRUE
+"293"	16460	NA	NA	"Centralia, IL"	NA	NA	FALSE	17121	"Marion County"	TRUE
+"294"	16500	NA	NA	"Centralia, WA"	NA	NA	FALSE	53041	"Lewis County"	TRUE
+"295"	16540	NA	NA	"Chambersburg, PA"	NA	NA	FALSE	42055	"Franklin County"	TRUE
+"296"	16580	NA	NA	"Champaign-Urbana, IL"	NA	NA	TRUE	17019	"Champaign County"	TRUE
+"297"	16580	NA	NA	"Champaign-Urbana, IL"	NA	NA	TRUE	17053	"Ford County"	FALSE
+"298"	16580	NA	NA	"Champaign-Urbana, IL"	NA	NA	TRUE	17147	"Piatt County"	FALSE
+"299"	16620	NA	NA	"Charleston, WV"	NA	NA	TRUE	54005	"Boone County"	FALSE
+"300"	16620	NA	NA	"Charleston, WV"	NA	NA	TRUE	54015	"Clay County"	FALSE
+"301"	16620	NA	NA	"Charleston, WV"	NA	NA	TRUE	54039	"Kanawha County"	TRUE
+"302"	16620	NA	NA	"Charleston, WV"	NA	NA	TRUE	54043	"Lincoln County"	FALSE
+"303"	16620	NA	NA	"Charleston, WV"	NA	NA	TRUE	54079	"Putnam County"	TRUE
+"304"	16660	NA	NA	"Charleston-Mattoon, IL"	NA	NA	FALSE	17029	"Coles County"	TRUE
+"305"	16660	NA	NA	"Charleston-Mattoon, IL"	NA	NA	FALSE	17035	"Cumberland County"	FALSE
+"306"	16700	NA	NA	"Charleston-North Charleston-Summerville, SC"	NA	NA	TRUE	45015	"Berkeley County"	TRUE
+"307"	16700	NA	NA	"Charleston-North Charleston-Summerville, SC"	NA	NA	TRUE	45019	"Charleston County"	TRUE
+"308"	16700	NA	NA	"Charleston-North Charleston-Summerville, SC"	NA	NA	TRUE	45035	"Dorchester County"	TRUE
+"309"	16740	NA	172	"Charlotte-Gastonia-Concord, NC-SC"	NA	"Charlotte-Gastonia-Salisbury, NC-SC"	TRUE	37007	"Anson County"	FALSE
+"310"	16740	NA	172	"Charlotte-Gastonia-Concord, NC-SC"	NA	"Charlotte-Gastonia-Salisbury, NC-SC"	TRUE	37025	"Cabarrus County"	FALSE
+"311"	16740	NA	172	"Charlotte-Gastonia-Concord, NC-SC"	NA	"Charlotte-Gastonia-Salisbury, NC-SC"	TRUE	37071	"Gaston County"	FALSE
+"312"	16740	NA	172	"Charlotte-Gastonia-Concord, NC-SC"	NA	"Charlotte-Gastonia-Salisbury, NC-SC"	TRUE	37119	"Mecklenburg County"	TRUE
+"313"	16740	NA	172	"Charlotte-Gastonia-Concord, NC-SC"	NA	"Charlotte-Gastonia-Salisbury, NC-SC"	TRUE	37179	"Union County"	TRUE
+"314"	16740	NA	172	"Charlotte-Gastonia-Concord, NC-SC"	NA	"Charlotte-Gastonia-Salisbury, NC-SC"	TRUE	45091	"York County"	FALSE
+"315"	16820	NA	NA	"Charlottesville, VA"	NA	NA	TRUE	51003	"Albemarle County"	TRUE
+"316"	16820	NA	NA	"Charlottesville, VA"	NA	NA	TRUE	51065	"Fluvanna County"	FALSE
+"317"	16820	NA	NA	"Charlottesville, VA"	NA	NA	TRUE	51079	"Greene County"	FALSE
+"318"	16820	NA	NA	"Charlottesville, VA"	NA	NA	TRUE	51125	"Nelson County"	FALSE
+"319"	16820	NA	NA	"Charlottesville, VA"	NA	NA	TRUE	51540	"Charlottesville city"	TRUE
+"320"	16860	NA	174	"Chattanooga, TN-GA"	NA	"Chattanooga-Cleveland-Athens, TN-GA"	TRUE	13047	"Catoosa County"	TRUE
+"321"	16860	NA	174	"Chattanooga, TN-GA"	NA	"Chattanooga-Cleveland-Athens, TN-GA"	TRUE	13083	"Dade County"	FALSE
+"322"	16860	NA	174	"Chattanooga, TN-GA"	NA	"Chattanooga-Cleveland-Athens, TN-GA"	TRUE	13295	"Walker County"	TRUE
+"323"	16860	NA	174	"Chattanooga, TN-GA"	NA	"Chattanooga-Cleveland-Athens, TN-GA"	TRUE	47065	"Hamilton County"	TRUE
+"324"	16860	NA	174	"Chattanooga, TN-GA"	NA	"Chattanooga-Cleveland-Athens, TN-GA"	TRUE	47115	"Marion County"	FALSE
+"325"	16860	NA	174	"Chattanooga, TN-GA"	NA	"Chattanooga-Cleveland-Athens, TN-GA"	TRUE	47153	"Sequatchie County"	FALSE
+"326"	16900	NA	172	"Chester, SC"	NA	"Charlotte-Gastonia-Salisbury, NC-SC"	FALSE	45023	"Chester County"	TRUE
+"327"	16940	NA	NA	"Cheyenne, WY"	NA	NA	TRUE	56021	"Laramie County"	TRUE
+"328"	16980	16974	176	"Chicago-Naperville-Joliet, IL-IN-WI"	"Chicago-Naperville-Joliet, IL"	"Chicago-Naperville-Michigan City, IL-IN-WI"	TRUE	17031	"Cook County"	TRUE
+"329"	16980	16974	176	"Chicago-Naperville-Joliet, IL-IN-WI"	"Chicago-Naperville-Joliet, IL"	"Chicago-Naperville-Michigan City, IL-IN-WI"	TRUE	17037	"DeKalb County"	FALSE
+"330"	16980	16974	176	"Chicago-Naperville-Joliet, IL-IN-WI"	"Chicago-Naperville-Joliet, IL"	"Chicago-Naperville-Michigan City, IL-IN-WI"	TRUE	17043	"DuPage County"	TRUE
+"331"	16980	16974	176	"Chicago-Naperville-Joliet, IL-IN-WI"	"Chicago-Naperville-Joliet, IL"	"Chicago-Naperville-Michigan City, IL-IN-WI"	TRUE	17063	"Grundy County"	FALSE
+"332"	16980	16974	176	"Chicago-Naperville-Joliet, IL-IN-WI"	"Chicago-Naperville-Joliet, IL"	"Chicago-Naperville-Michigan City, IL-IN-WI"	TRUE	17089	"Kane County"	TRUE
+"333"	16980	16974	176	"Chicago-Naperville-Joliet, IL-IN-WI"	"Chicago-Naperville-Joliet, IL"	"Chicago-Naperville-Michigan City, IL-IN-WI"	TRUE	17093	"Kendall County"	TRUE
+"334"	16980	29404	176	"Chicago-Naperville-Joliet, IL-IN-WI"	"Lake County-Kenosha County, IL-WI"	"Chicago-Naperville-Michigan City, IL-IN-WI"	TRUE	17097	"Lake County"	TRUE
+"335"	16980	16974	176	"Chicago-Naperville-Joliet, IL-IN-WI"	"Chicago-Naperville-Joliet, IL"	"Chicago-Naperville-Michigan City, IL-IN-WI"	TRUE	17111	"McHenry County"	TRUE
+"336"	16980	16974	176	"Chicago-Naperville-Joliet, IL-IN-WI"	"Chicago-Naperville-Joliet, IL"	"Chicago-Naperville-Michigan City, IL-IN-WI"	TRUE	17197	"Will County"	TRUE
+"337"	16980	23844	176	"Chicago-Naperville-Joliet, IL-IN-WI"	"Gary, IN"	"Chicago-Naperville-Michigan City, IL-IN-WI"	TRUE	18073	"Jasper County"	FALSE
+"338"	16980	23844	176	"Chicago-Naperville-Joliet, IL-IN-WI"	"Gary, IN"	"Chicago-Naperville-Michigan City, IL-IN-WI"	TRUE	18089	"Lake County"	TRUE
+"339"	16980	23844	176	"Chicago-Naperville-Joliet, IL-IN-WI"	"Gary, IN"	"Chicago-Naperville-Michigan City, IL-IN-WI"	TRUE	18111	"Newton County"	FALSE
+"340"	16980	23844	176	"Chicago-Naperville-Joliet, IL-IN-WI"	"Gary, IN"	"Chicago-Naperville-Michigan City, IL-IN-WI"	TRUE	18127	"Porter County"	TRUE
+"341"	16980	29404	176	"Chicago-Naperville-Joliet, IL-IN-WI"	"Lake County-Kenosha County, IL-WI"	"Chicago-Naperville-Michigan City, IL-IN-WI"	TRUE	55059	"Kenosha County"	FALSE
+"342"	17020	NA	NA	"Chico, CA"	NA	NA	TRUE	6007	"Butte County"	TRUE
+"343"	17060	NA	198	"Chillicothe, OH"	NA	"Columbus-Marion-Chillicothe, OH"	FALSE	39141	"Ross County"	TRUE
+"344"	17140	NA	178	"Cincinnati-Middletown, OH-KY-IN"	NA	"Cincinnati-Middletown-Wilmington, OH-KY-IN"	TRUE	18029	"Dearborn County"	FALSE
+"345"	17140	NA	178	"Cincinnati-Middletown, OH-KY-IN"	NA	"Cincinnati-Middletown-Wilmington, OH-KY-IN"	TRUE	18047	"Franklin County"	FALSE
+"346"	17140	NA	178	"Cincinnati-Middletown, OH-KY-IN"	NA	"Cincinnati-Middletown-Wilmington, OH-KY-IN"	TRUE	18115	"Ohio County"	FALSE
+"347"	17140	NA	178	"Cincinnati-Middletown, OH-KY-IN"	NA	"Cincinnati-Middletown-Wilmington, OH-KY-IN"	TRUE	21015	"Boone County"	TRUE
+"348"	17140	NA	178	"Cincinnati-Middletown, OH-KY-IN"	NA	"Cincinnati-Middletown-Wilmington, OH-KY-IN"	TRUE	21023	"Bracken County"	FALSE
+"349"	17140	NA	178	"Cincinnati-Middletown, OH-KY-IN"	NA	"Cincinnati-Middletown-Wilmington, OH-KY-IN"	TRUE	21037	"Campbell County"	TRUE
+"350"	17140	NA	178	"Cincinnati-Middletown, OH-KY-IN"	NA	"Cincinnati-Middletown-Wilmington, OH-KY-IN"	TRUE	21077	"Gallatin County"	FALSE
+"351"	17140	NA	178	"Cincinnati-Middletown, OH-KY-IN"	NA	"Cincinnati-Middletown-Wilmington, OH-KY-IN"	TRUE	21081	"Grant County"	FALSE
+"352"	17140	NA	178	"Cincinnati-Middletown, OH-KY-IN"	NA	"Cincinnati-Middletown-Wilmington, OH-KY-IN"	TRUE	21117	"Kenton County"	TRUE
+"353"	17140	NA	178	"Cincinnati-Middletown, OH-KY-IN"	NA	"Cincinnati-Middletown-Wilmington, OH-KY-IN"	TRUE	21191	"Pendleton County"	FALSE
+"354"	17140	NA	178	"Cincinnati-Middletown, OH-KY-IN"	NA	"Cincinnati-Middletown-Wilmington, OH-KY-IN"	TRUE	39015	"Brown County"	FALSE
+"355"	17140	NA	178	"Cincinnati-Middletown, OH-KY-IN"	NA	"Cincinnati-Middletown-Wilmington, OH-KY-IN"	TRUE	39017	"Butler County"	TRUE
+"356"	17140	NA	178	"Cincinnati-Middletown, OH-KY-IN"	NA	"Cincinnati-Middletown-Wilmington, OH-KY-IN"	TRUE	39025	"Clermont County"	TRUE
+"357"	17140	NA	178	"Cincinnati-Middletown, OH-KY-IN"	NA	"Cincinnati-Middletown-Wilmington, OH-KY-IN"	TRUE	39061	"Hamilton County"	TRUE
+"358"	17140	NA	178	"Cincinnati-Middletown, OH-KY-IN"	NA	"Cincinnati-Middletown-Wilmington, OH-KY-IN"	TRUE	39165	"Warren County"	TRUE
+"359"	17200	NA	180	"Claremont, NH"	NA	"Claremont-Lebanon, NH-VT"	FALSE	33019	"Sullivan County"	TRUE
+"360"	17220	NA	242	"Clarksburg, WV"	NA	"Fairmont-Clarksburg, WV"	FALSE	54017	"Doddridge County"	FALSE
+"361"	17220	NA	242	"Clarksburg, WV"	NA	"Fairmont-Clarksburg, WV"	FALSE	54033	"Harrison County"	TRUE
+"362"	17220	NA	242	"Clarksburg, WV"	NA	"Fairmont-Clarksburg, WV"	FALSE	54091	"Taylor County"	FALSE
+"363"	17260	NA	NA	"Clarksdale, MS"	NA	NA	FALSE	28027	"Coahoma County"	TRUE
+"364"	17300	NA	NA	"Clarksville, TN-KY"	NA	NA	TRUE	21047	"Christian County"	FALSE
+"365"	17300	NA	NA	"Clarksville, TN-KY"	NA	NA	TRUE	21221	"Trigg County"	FALSE
+"366"	17300	NA	NA	"Clarksville, TN-KY"	NA	NA	TRUE	47125	"Montgomery County"	TRUE
+"367"	17300	NA	NA	"Clarksville, TN-KY"	NA	NA	TRUE	47161	"Stewart County"	FALSE
+"368"	17340	NA	NA	"Clearlake, CA"	NA	NA	FALSE	6033	"Lake County"	TRUE
+"369"	17380	NA	NA	"Cleveland, MS"	NA	NA	FALSE	28011	"Bolivar County"	TRUE
+"370"	17420	NA	174	"Cleveland, TN"	NA	"Chattanooga-Cleveland-Athens, TN-GA"	TRUE	47011	"Bradley County"	TRUE
+"371"	17420	NA	174	"Cleveland, TN"	NA	"Chattanooga-Cleveland-Athens, TN-GA"	TRUE	47139	"Polk County"	FALSE
+"372"	17460	NA	184	"Cleveland-Elyria-Mentor, OH"	NA	"Cleveland-Akron-Elyria, OH"	TRUE	39035	"Cuyahoga County"	TRUE
+"373"	17460	NA	184	"Cleveland-Elyria-Mentor, OH"	NA	"Cleveland-Akron-Elyria, OH"	TRUE	39055	"Geauga County"	TRUE
+"374"	17460	NA	184	"Cleveland-Elyria-Mentor, OH"	NA	"Cleveland-Akron-Elyria, OH"	TRUE	39085	"Lake County"	TRUE
+"375"	17460	NA	184	"Cleveland-Elyria-Mentor, OH"	NA	"Cleveland-Akron-Elyria, OH"	TRUE	39093	"Lorain County"	FALSE
+"376"	17460	NA	184	"Cleveland-Elyria-Mentor, OH"	NA	"Cleveland-Akron-Elyria, OH"	TRUE	39103	"Medina County"	TRUE
+"377"	17500	NA	NA	"Clewiston, FL"	NA	NA	FALSE	12051	"Hendry County"	TRUE
+"378"	17540	NA	NA	"Clinton, IA"	NA	NA	FALSE	19045	"Clinton County"	TRUE
+"379"	17580	NA	188	"Clovis, NM"	NA	"Clovis-Portales, NM"	FALSE	35009	"Curry County"	TRUE
+"380"	17620	NA	434	"Coamo, PR"	NA	"Ponce-Yauco-Coamo, PR"	FALSE	72043	"Coamo Municipio"	TRUE
+"381"	17620	NA	434	"Coamo, PR"	NA	"Ponce-Yauco-Coamo, PR"	FALSE	72123	"Salinas Municipio"	TRUE
+"382"	17660	NA	NA	"Coeur d'Alene, ID"	NA	NA	TRUE	16055	"Kootenai County"	TRUE
+"383"	17700	NA	NA	"Coffeyville, KS"	NA	NA	FALSE	20125	"Montgomery County"	TRUE
+"384"	17740	NA	NA	"Coldwater, MI"	NA	NA	FALSE	26023	"Branch County"	TRUE
+"385"	17780	NA	NA	"College Station-Bryan, TX"	NA	NA	TRUE	48041	"Brazos County"	TRUE
+"386"	17780	NA	NA	"College Station-Bryan, TX"	NA	NA	TRUE	48051	"Burleson County"	FALSE
+"387"	17780	NA	NA	"College Station-Bryan, TX"	NA	NA	TRUE	48395	"Robertson County"	FALSE
+"388"	17820	NA	NA	"Colorado Springs, CO"	NA	NA	TRUE	8041	"El Paso County"	TRUE
+"389"	17820	NA	NA	"Colorado Springs, CO"	NA	NA	TRUE	8119	"Teller County"	FALSE
+"390"	17860	NA	NA	"Columbia, MO"	NA	NA	TRUE	29019	"Boone County"	TRUE
+"391"	17860	NA	NA	"Columbia, MO"	NA	NA	TRUE	29089	"Howard County"	FALSE
+"392"	17900	NA	192	"Columbia, SC"	NA	"Columbia-Newberry, SC"	TRUE	45017	"Calhoun County"	FALSE
+"393"	17900	NA	192	"Columbia, SC"	NA	"Columbia-Newberry, SC"	TRUE	45039	"Fairfield County"	FALSE
+"394"	17900	NA	192	"Columbia, SC"	NA	"Columbia-Newberry, SC"	TRUE	45055	"Kershaw County"	FALSE
+"395"	17900	NA	192	"Columbia, SC"	NA	"Columbia-Newberry, SC"	TRUE	45063	"Lexington County"	TRUE
+"396"	17900	NA	192	"Columbia, SC"	NA	"Columbia-Newberry, SC"	TRUE	45079	"Richland County"	TRUE
+"397"	17900	NA	192	"Columbia, SC"	NA	"Columbia-Newberry, SC"	TRUE	45081	"Saluda County"	FALSE
+"398"	17940	NA	400	"Columbia, TN"	NA	"Nashville-Davidson--Murfreesboro--Columbia, TN"	FALSE	47119	"Maury County"	TRUE
+"399"	17980	NA	194	"Columbus, GA-AL"	NA	"Columbus-Auburn-Opelika, GA-AL"	TRUE	1113	"Russell County"	TRUE
+"400"	17980	NA	194	"Columbus, GA-AL"	NA	"Columbus-Auburn-Opelika, GA-AL"	TRUE	13053	"Chattahoochee County"	TRUE
+"401"	17980	NA	194	"Columbus, GA-AL"	NA	"Columbus-Auburn-Opelika, GA-AL"	TRUE	13145	"Harris County"	FALSE
+"402"	17980	NA	194	"Columbus, GA-AL"	NA	"Columbus-Auburn-Opelika, GA-AL"	TRUE	13197	"Marion County"	FALSE
+"403"	17980	NA	194	"Columbus, GA-AL"	NA	"Columbus-Auburn-Opelika, GA-AL"	TRUE	13215	"Muscogee County"	TRUE
+"404"	18020	NA	294	"Columbus, IN"	NA	"Indianapolis-Anderson-Columbus, IN"	TRUE	18005	"Bartholomew County"	TRUE
+"405"	18060	NA	200	"Columbus, MS"	NA	"Columbus-West Point, MS"	FALSE	28087	"Lowndes County"	TRUE
+"406"	18100	NA	NA	"Columbus, NE"	NA	NA	FALSE	31141	"Platte County"	TRUE
+"407"	18140	NA	198	"Columbus, OH"	NA	"Columbus-Marion-Chillicothe, OH"	TRUE	39041	"Delaware County"	TRUE
+"408"	18140	NA	198	"Columbus, OH"	NA	"Columbus-Marion-Chillicothe, OH"	TRUE	39045	"Fairfield County"	FALSE
+"409"	18140	NA	198	"Columbus, OH"	NA	"Columbus-Marion-Chillicothe, OH"	TRUE	39049	"Franklin County"	TRUE
+"410"	18140	NA	198	"Columbus, OH"	NA	"Columbus-Marion-Chillicothe, OH"	TRUE	39089	"Licking County"	FALSE
+"411"	18140	NA	198	"Columbus, OH"	NA	"Columbus-Marion-Chillicothe, OH"	TRUE	39097	"Madison County"	FALSE
+"412"	18140	NA	198	"Columbus, OH"	NA	"Columbus-Marion-Chillicothe, OH"	TRUE	39117	"Morrow County"	FALSE
+"413"	18140	NA	198	"Columbus, OH"	NA	"Columbus-Marion-Chillicothe, OH"	TRUE	39129	"Pickaway County"	FALSE
+"414"	18140	NA	198	"Columbus, OH"	NA	"Columbus-Marion-Chillicothe, OH"	TRUE	39159	"Union County"	FALSE
+"415"	18180	NA	148	"Concord, NH"	NA	"Boston-Worcester-Manchester, MA-RI-NH"	FALSE	33013	"Merrimack County"	TRUE
+"416"	18220	NA	NA	"Connersville, IN"	NA	NA	FALSE	18041	"Fayette County"	TRUE
+"417"	18260	NA	NA	"Cookeville, TN"	NA	NA	FALSE	47087	"Jackson County"	FALSE
+"418"	18260	NA	NA	"Cookeville, TN"	NA	NA	FALSE	47133	"Overton County"	FALSE
+"419"	18260	NA	NA	"Cookeville, TN"	NA	NA	FALSE	47141	"Putnam County"	TRUE
+"420"	18300	NA	NA	"Coos Bay, OR"	NA	NA	FALSE	41011	"Coos County"	TRUE
+"421"	18340	NA	202	"Corbin, KY"	NA	"Corbin-London, KY"	FALSE	21235	"Whitley County"	TRUE
+"422"	18380	NA	NA	"Cordele, GA"	NA	NA	FALSE	13081	"Crisp County"	TRUE
+"423"	18420	NA	NA	"Corinth, MS"	NA	NA	FALSE	28003	"Alcorn County"	TRUE
+"424"	18460	NA	NA	"Cornelia, GA"	NA	NA	FALSE	13137	"Habersham County"	TRUE
+"425"	18500	NA	NA	"Corning, NY"	NA	NA	FALSE	36101	"Steuben County"	TRUE
+"426"	18580	NA	204	"Corpus Christi, TX"	NA	"Corpus Christi-Kingsville, TX"	TRUE	48007	"Aransas County"	FALSE
+"427"	18580	NA	204	"Corpus Christi, TX"	NA	"Corpus Christi-Kingsville, TX"	TRUE	48355	"Nueces County"	TRUE
+"428"	18580	NA	204	"Corpus Christi, TX"	NA	"Corpus Christi-Kingsville, TX"	TRUE	48409	"San Patricio County"	TRUE
+"429"	18620	NA	NA	"Corsicana, TX"	NA	NA	FALSE	48349	"Navarro County"	TRUE
+"430"	18660	NA	296	"Cortland, NY"	NA	"Ithaca-Cortland, NY"	FALSE	36023	"Cortland County"	TRUE
+"431"	18700	NA	102	"Corvallis, OR"	NA	"Albany-Corvallis-Lebanon, OR"	TRUE	41003	"Benton County"	TRUE
+"432"	18740	NA	NA	"Coshocton, OH"	NA	NA	FALSE	39031	"Coshocton County"	TRUE
+"433"	18820	NA	294	"Crawfordsville, IN"	NA	"Indianapolis-Anderson-Columbus, IN"	FALSE	18107	"Montgomery County"	TRUE
+"434"	18860	NA	NA	"Crescent City, CA"	NA	NA	FALSE	6015	"Del Norte County"	TRUE
+"435"	18900	NA	NA	"Crossville, TN"	NA	NA	FALSE	47035	"Cumberland County"	TRUE
+"436"	18940	NA	318	"Crowley, LA"	NA	"Lafayette-Acadiana, LA"	FALSE	22001	"Acadia Parish"	TRUE
+"437"	18980	NA	142	"Cullman, AL"	NA	"Birmingham-Hoover-Cullman, AL"	FALSE	1043	"Cullman County"	TRUE
+"438"	19020	NA	548	"Culpeper, VA"	NA	"Washington-Baltimore-Northern Virginia, DC-MD-VA-WV"	FALSE	51047	"Culpeper County"	TRUE
+"439"	19060	NA	NA	"Cumberland, MD-WV"	NA	NA	TRUE	24001	"Allegany County"	TRUE
+"440"	19060	NA	NA	"Cumberland, MD-WV"	NA	NA	TRUE	54057	"Mineral County"	FALSE
+"441"	19100	19124	206	"Dallas-Fort Worth-Arlington, TX"	"Dallas-Plano-Irving, TX"	"Dallas-Fort Worth, TX"	TRUE	48085	"Collin County"	TRUE
+"442"	19100	19124	206	"Dallas-Fort Worth-Arlington, TX"	"Dallas-Plano-Irving, TX"	"Dallas-Fort Worth, TX"	TRUE	48113	"Dallas County"	TRUE
+"443"	19100	19124	206	"Dallas-Fort Worth-Arlington, TX"	"Dallas-Plano-Irving, TX"	"Dallas-Fort Worth, TX"	TRUE	48119	"Delta County"	FALSE
+"444"	19100	19124	206	"Dallas-Fort Worth-Arlington, TX"	"Dallas-Plano-Irving, TX"	"Dallas-Fort Worth, TX"	TRUE	48121	"Denton County"	FALSE
+"445"	19100	19124	206	"Dallas-Fort Worth-Arlington, TX"	"Dallas-Plano-Irving, TX"	"Dallas-Fort Worth, TX"	TRUE	48139	"Ellis County"	TRUE
+"446"	19100	19124	206	"Dallas-Fort Worth-Arlington, TX"	"Dallas-Plano-Irving, TX"	"Dallas-Fort Worth, TX"	TRUE	48231	"Hunt County"	FALSE
+"447"	19100	23104	206	"Dallas-Fort Worth-Arlington, TX"	"Fort Worth-Arlington, TX"	"Dallas-Fort Worth, TX"	TRUE	48251	"Johnson County"	FALSE
+"448"	19100	19124	206	"Dallas-Fort Worth-Arlington, TX"	"Dallas-Plano-Irving, TX"	"Dallas-Fort Worth, TX"	TRUE	48257	"Kaufman County"	FALSE
+"449"	19100	23104	206	"Dallas-Fort Worth-Arlington, TX"	"Fort Worth-Arlington, TX"	"Dallas-Fort Worth, TX"	TRUE	48367	"Parker County"	FALSE
+"450"	19100	19124	206	"Dallas-Fort Worth-Arlington, TX"	"Dallas-Plano-Irving, TX"	"Dallas-Fort Worth, TX"	TRUE	48397	"Rockwall County"	TRUE
+"451"	19100	23104	206	"Dallas-Fort Worth-Arlington, TX"	"Fort Worth-Arlington, TX"	"Dallas-Fort Worth, TX"	TRUE	48439	"Tarrant County"	TRUE
+"452"	19100	23104	206	"Dallas-Fort Worth-Arlington, TX"	"Fort Worth-Arlington, TX"	"Dallas-Fort Worth, TX"	TRUE	48497	"Wise County"	FALSE
+"453"	19140	NA	NA	"Dalton, GA"	NA	NA	TRUE	13213	"Murray County"	FALSE
+"454"	19140	NA	NA	"Dalton, GA"	NA	NA	TRUE	13313	"Whitfield County"	TRUE
+"455"	19180	NA	NA	"Danville, IL"	NA	NA	TRUE	17183	"Vermilion County"	TRUE
+"456"	19220	NA	NA	"Danville, KY"	NA	NA	FALSE	21021	"Boyle County"	TRUE
+"457"	19220	NA	NA	"Danville, KY"	NA	NA	FALSE	21137	"Lincoln County"	FALSE
+"458"	19260	NA	NA	"Danville, VA"	NA	NA	TRUE	51143	"Pittsylvania County"	TRUE
+"459"	19260	NA	NA	"Danville, VA"	NA	NA	TRUE	51590	"Danville city"	TRUE
+"460"	19300	NA	380	"Daphne-Fairhope-Foley, AL"	NA	"Mobile-Daphne-Fairhope, AL"	FALSE	1003	"Baldwin County"	TRUE
+"461"	19340	NA	NA	"Davenport-Moline-Rock Island, IA-IL"	NA	NA	TRUE	17073	"Henry County"	FALSE
+"462"	19340	NA	NA	"Davenport-Moline-Rock Island, IA-IL"	NA	NA	TRUE	17131	"Mercer County"	FALSE
+"463"	19340	NA	NA	"Davenport-Moline-Rock Island, IA-IL"	NA	NA	TRUE	17161	"Rock Island County"	TRUE
+"464"	19340	NA	NA	"Davenport-Moline-Rock Island, IA-IL"	NA	NA	TRUE	19163	"Scott County"	TRUE
+"465"	19380	NA	212	"Dayton, OH"	NA	"Dayton-Springfield-Greenville, OH"	TRUE	39057	"Greene County"	TRUE
+"466"	19380	NA	212	"Dayton, OH"	NA	"Dayton-Springfield-Greenville, OH"	TRUE	39109	"Miami County"	TRUE
+"467"	19380	NA	212	"Dayton, OH"	NA	"Dayton-Springfield-Greenville, OH"	TRUE	39113	"Montgomery County"	TRUE
+"468"	19380	NA	212	"Dayton, OH"	NA	"Dayton-Springfield-Greenville, OH"	TRUE	39135	"Preble County"	FALSE
+"469"	19460	NA	290	"Decatur, AL"	NA	"Huntsville-Decatur, AL"	TRUE	1079	"Lawrence County"	FALSE
+"470"	19460	NA	290	"Decatur, AL"	NA	"Huntsville-Decatur, AL"	TRUE	1103	"Morgan County"	TRUE
+"471"	19500	NA	NA	"Decatur, IL"	NA	NA	TRUE	17115	"Macon County"	TRUE
+"472"	19540	NA	258	"Decatur, IN"	NA	"Fort Wayne-Huntington-Auburn, IN"	FALSE	18001	"Adams County"	TRUE
+"473"	19580	NA	NA	"Defiance, OH"	NA	NA	FALSE	39039	"Defiance County"	TRUE
+"474"	19620	NA	NA	"Del Rio, TX"	NA	NA	FALSE	48465	"Val Verde County"	TRUE
+"475"	19660	NA	422	"Deltona-Daytona Beach-Ormond Beach, FL"	NA	"Orlando-Deltona-Daytona Beach, FL"	TRUE	12127	"Volusia County"	TRUE
+"476"	19700	NA	NA	"Deming, NM"	NA	NA	FALSE	35029	"Luna County"	TRUE
+"477"	19740	NA	216	"Denver-Aurora-Broomfield, CO"	NA	"Denver-Aurora-Boulder, CO"	TRUE	8001	"Adams County"	TRUE
+"478"	19740	NA	216	"Denver-Aurora-Broomfield, CO"	NA	"Denver-Aurora-Boulder, CO"	TRUE	8005	"Arapahoe County"	TRUE
+"479"	19740	NA	216	"Denver-Aurora-Broomfield, CO"	NA	"Denver-Aurora-Boulder, CO"	TRUE	8014	"Broomfield County"	TRUE
+"480"	19740	NA	216	"Denver-Aurora-Broomfield, CO"	NA	"Denver-Aurora-Boulder, CO"	TRUE	8019	"Clear Creek County"	FALSE
+"481"	19740	NA	216	"Denver-Aurora-Broomfield, CO"	NA	"Denver-Aurora-Boulder, CO"	TRUE	8031	"Denver County"	TRUE
+"482"	19740	NA	216	"Denver-Aurora-Broomfield, CO"	NA	"Denver-Aurora-Boulder, CO"	TRUE	8035	"Douglas County"	TRUE
+"483"	19740	NA	216	"Denver-Aurora-Broomfield, CO"	NA	"Denver-Aurora-Boulder, CO"	TRUE	8039	"Elbert County"	FALSE
+"484"	19740	NA	216	"Denver-Aurora-Broomfield, CO"	NA	"Denver-Aurora-Boulder, CO"	TRUE	8047	"Gilpin County"	FALSE
+"485"	19740	NA	216	"Denver-Aurora-Broomfield, CO"	NA	"Denver-Aurora-Boulder, CO"	TRUE	8059	"Jefferson County"	TRUE
+"486"	19740	NA	216	"Denver-Aurora-Broomfield, CO"	NA	"Denver-Aurora-Boulder, CO"	TRUE	8093	"Park County"	FALSE
+"487"	19760	NA	256	"De Ridder, LA"	NA	"Fort Polk South-De Ridder, LA"	FALSE	22011	"Beauregard Parish"	TRUE
+"488"	19780	NA	218	"Des Moines-West Des Moines, IA"	NA	"Des Moines-Newton-Pella, IA"	TRUE	19049	"Dallas County"	TRUE
+"489"	19780	NA	218	"Des Moines-West Des Moines, IA"	NA	"Des Moines-Newton-Pella, IA"	TRUE	19077	"Guthrie County"	FALSE
+"490"	19780	NA	218	"Des Moines-West Des Moines, IA"	NA	"Des Moines-Newton-Pella, IA"	TRUE	19121	"Madison County"	FALSE
+"491"	19780	NA	218	"Des Moines-West Des Moines, IA"	NA	"Des Moines-Newton-Pella, IA"	TRUE	19153	"Polk County"	TRUE
+"492"	19780	NA	218	"Des Moines-West Des Moines, IA"	NA	"Des Moines-Newton-Pella, IA"	TRUE	19181	"Warren County"	FALSE
+"493"	19820	47644	220	"Detroit-Warren-Livonia, MI"	"Warren-Troy-Farmington Hills, MI"	"Detroit-Warren-Flint, MI"	TRUE	26087	"Lapeer County"	FALSE
+"494"	19820	47644	220	"Detroit-Warren-Livonia, MI"	"Warren-Troy-Farmington Hills, MI"	"Detroit-Warren-Flint, MI"	TRUE	26093	"Livingston County"	FALSE
+"495"	19820	47644	220	"Detroit-Warren-Livonia, MI"	"Warren-Troy-Farmington Hills, MI"	"Detroit-Warren-Flint, MI"	TRUE	26099	"Macomb County"	TRUE
+"496"	19820	47644	220	"Detroit-Warren-Livonia, MI"	"Warren-Troy-Farmington Hills, MI"	"Detroit-Warren-Flint, MI"	TRUE	26125	"Oakland County"	TRUE
+"497"	19820	47644	220	"Detroit-Warren-Livonia, MI"	"Warren-Troy-Farmington Hills, MI"	"Detroit-Warren-Flint, MI"	TRUE	26147	"St. Clair County"	FALSE
+"498"	19820	19804	220	"Detroit-Warren-Livonia, MI"	"Detroit-Livonia-Dearborn, MI"	"Detroit-Warren-Flint, MI"	TRUE	26163	"Wayne County"	TRUE
+"499"	19860	NA	NA	"Dickinson, ND"	NA	NA	FALSE	38007	"Billings County"	FALSE
+"500"	19860	NA	NA	"Dickinson, ND"	NA	NA	FALSE	38089	"Stark County"	TRUE
+"501"	19900	NA	NA	"Dillon, SC"	NA	NA	FALSE	45033	"Dillon County"	TRUE
+"502"	19940	NA	NA	"Dixon, IL"	NA	NA	FALSE	17103	"Lee County"	TRUE
+"503"	19980	NA	NA	"Dodge City, KS"	NA	NA	FALSE	20057	"Ford County"	TRUE
+"504"	20020	NA	222	"Dothan, AL"	NA	"Dothan-Enterprise-Ozark, AL"	TRUE	1061	"Geneva County"	FALSE
+"505"	20020	NA	222	"Dothan, AL"	NA	"Dothan-Enterprise-Ozark, AL"	TRUE	1067	"Henry County"	FALSE
+"506"	20020	NA	222	"Dothan, AL"	NA	"Dothan-Enterprise-Ozark, AL"	TRUE	1069	"Houston County"	TRUE
+"507"	20060	NA	NA	"Douglas, GA"	NA	NA	FALSE	13003	"Atkinson County"	FALSE
+"508"	20060	NA	NA	"Douglas, GA"	NA	NA	FALSE	13069	"Coffee County"	TRUE
+"509"	20100	NA	NA	"Dover, DE"	NA	NA	TRUE	10001	"Kent County"	TRUE
+"510"	20140	NA	NA	"Dublin, GA"	NA	NA	FALSE	13167	"Johnson County"	FALSE
+"511"	20140	NA	NA	"Dublin, GA"	NA	NA	FALSE	13175	"Laurens County"	TRUE
+"512"	20180	NA	NA	"DuBois, PA"	NA	NA	FALSE	42033	"Clearfield County"	TRUE
+"513"	20220	NA	NA	"Dubuque, IA"	NA	NA	TRUE	19061	"Dubuque County"	TRUE
+"514"	20260	NA	NA	"Duluth, MN-WI"	NA	NA	TRUE	27017	"Carlton County"	FALSE
+"515"	20260	NA	NA	"Duluth, MN-WI"	NA	NA	TRUE	27137	"St. Louis County"	TRUE
+"516"	20260	NA	NA	"Duluth, MN-WI"	NA	NA	TRUE	55031	"Douglas County"	TRUE
+"517"	20300	NA	NA	"Dumas, TX"	NA	NA	FALSE	48341	"Moore County"	TRUE
+"518"	20340	NA	NA	"Duncan, OK"	NA	NA	FALSE	40137	"Stephens County"	TRUE
+"519"	20380	NA	450	"Dunn, NC"	NA	"Raleigh-Durham-Cary, NC"	FALSE	37085	"Harnett County"	TRUE
+"520"	20420	NA	NA	"Durango, CO"	NA	NA	FALSE	8067	"La Plata County"	TRUE
+"521"	20460	NA	NA	"Durant, OK"	NA	NA	FALSE	40013	"Bryan County"	TRUE
+"522"	20500	NA	450	"Durham-Chapel Hill, NC"	NA	"Raleigh-Durham-Cary, NC"	TRUE	37037	"Chatham County"	FALSE
+"523"	20500	NA	450	"Durham-Chapel Hill, NC"	NA	"Raleigh-Durham-Cary, NC"	TRUE	37063	"Durham County"	TRUE
+"524"	20500	NA	450	"Durham-Chapel Hill, NC"	NA	"Raleigh-Durham-Cary, NC"	TRUE	37135	"Orange County"	TRUE
+"525"	20500	NA	450	"Durham-Chapel Hill, NC"	NA	"Raleigh-Durham-Cary, NC"	TRUE	37145	"Person County"	FALSE
+"526"	20540	NA	NA	"Dyersburg, TN"	NA	NA	FALSE	47045	"Dyer County"	TRUE
+"527"	20580	NA	NA	"Eagle Pass, TX"	NA	NA	FALSE	48323	"Maverick County"	TRUE
+"528"	20620	NA	566	"East Liverpool-Salem, OH"	NA	"Youngstown-Warren-East Liverpool, OH-PA"	FALSE	39029	"Columbiana County"	TRUE
+"529"	20660	NA	NA	"Easton, MD"	NA	NA	FALSE	24041	"Talbot County"	TRUE
+"530"	20700	NA	NA	"East Stroudsburg, PA"	NA	NA	FALSE	42089	"Monroe County"	TRUE
+"531"	20740	NA	232	"Eau Claire, WI"	NA	"Eau Claire-Menomonie, WI"	TRUE	55017	"Chippewa County"	TRUE
+"532"	20740	NA	232	"Eau Claire, WI"	NA	"Eau Claire-Menomonie, WI"	TRUE	55035	"Eau Claire County"	TRUE
+"533"	20780	NA	NA	"Edwards, CO"	NA	NA	FALSE	8037	"Eagle County"	TRUE
+"534"	20780	NA	NA	"Edwards, CO"	NA	NA	FALSE	8065	"Lake County"	FALSE
+"535"	20820	NA	NA	"Effingham, IL"	NA	NA	FALSE	17049	"Effingham County"	TRUE
+"536"	20900	NA	NA	"El Campo, TX"	NA	NA	FALSE	48481	"Wharton County"	TRUE
+"537"	20940	NA	NA	"El Centro, CA"	NA	NA	TRUE	6025	"Imperial County"	TRUE
+"538"	20980	NA	NA	"El Dorado, AR"	NA	NA	FALSE	5139	"Union County"	TRUE
+"539"	21020	NA	NA	"Elizabeth City, NC"	NA	NA	FALSE	37029	"Camden County"	FALSE
+"540"	21020	NA	NA	"Elizabeth City, NC"	NA	NA	FALSE	37139	"Pasquotank County"	TRUE
+"541"	21020	NA	NA	"Elizabeth City, NC"	NA	NA	FALSE	37143	"Perquimans County"	FALSE
+"542"	21060	NA	350	"Elizabethtown, KY"	NA	"Louisville/Jefferson County--Elizabethtown--Scottsburg, KY-IN"	TRUE	21093	"Hardin County"	TRUE
+"543"	21060	NA	350	"Elizabethtown, KY"	NA	"Louisville/Jefferson County--Elizabethtown--Scottsburg, KY-IN"	TRUE	21123	"Larue County"	FALSE
+"544"	21120	NA	NA	"Elk City, OK"	NA	NA	FALSE	40009	"Beckham County"	TRUE
+"545"	21140	NA	515	"Elkhart-Goshen, IN"	NA	"South Bend-Elkhart-Mishawaka, IN-MI"	TRUE	18039	"Elkhart County"	TRUE
+"546"	21220	NA	NA	"Elko, NV"	NA	NA	FALSE	32007	"Elko County"	TRUE
+"547"	21220	NA	NA	"Elko, NV"	NA	NA	FALSE	32011	"Eureka County"	FALSE
+"548"	21260	NA	NA	"Ellensburg, WA"	NA	NA	FALSE	53037	"Kittitas County"	TRUE
+"549"	21300	NA	NA	"Elmira, NY"	NA	NA	TRUE	36015	"Chemung County"	TRUE
+"550"	21340	NA	NA	"El Paso, TX"	NA	NA	TRUE	48141	"El Paso County"	TRUE
+"551"	21380	NA	NA	"Emporia, KS"	NA	NA	FALSE	20017	"Chase County"	FALSE
+"552"	21380	NA	NA	"Emporia, KS"	NA	NA	FALSE	20111	"Lyon County"	TRUE
+"553"	21420	NA	NA	"Enid, OK"	NA	NA	FALSE	40047	"Garfield County"	TRUE
+"554"	21460	NA	222	"Enterprise-Ozark, AL"	NA	"Dothan-Enterprise-Ozark, AL"	FALSE	1031	"Coffee County"	TRUE
+"555"	21460	NA	222	"Enterprise-Ozark, AL"	NA	"Dothan-Enterprise-Ozark, AL"	FALSE	1045	"Dale County"	TRUE
+"556"	21500	NA	NA	"Erie, PA"	NA	NA	TRUE	42049	"Erie County"	TRUE
+"557"	21540	NA	NA	"Escanaba, MI"	NA	NA	FALSE	26041	"Delta County"	TRUE
+"558"	21580	NA	492	"Espanola, NM"	NA	"Santa Fe-Espanola, NM"	FALSE	35039	"Rio Arriba County"	TRUE
+"559"	21640	NA	NA	"Eufaula, AL-GA"	NA	NA	FALSE	1005	"Barbour County"	TRUE
+"560"	21640	NA	NA	"Eufaula, AL-GA"	NA	NA	FALSE	13239	"Quitman County"	FALSE
+"561"	21660	NA	NA	"Eugene-Springfield, OR"	NA	NA	TRUE	41039	"Lane County"	TRUE
+"562"	21700	NA	NA	"Eureka-Arcata-Fortuna, CA"	NA	NA	FALSE	6023	"Humboldt County"	TRUE
+"563"	21740	NA	NA	"Evanston, WY"	NA	NA	FALSE	56041	"Uinta County"	TRUE
+"564"	21780	NA	NA	"Evansville, IN-KY"	NA	NA	TRUE	18051	"Gibson County"	FALSE
+"565"	21780	NA	NA	"Evansville, IN-KY"	NA	NA	TRUE	18129	"Posey County"	FALSE
+"566"	21780	NA	NA	"Evansville, IN-KY"	NA	NA	TRUE	18163	"Vanderburgh County"	TRUE
+"567"	21780	NA	NA	"Evansville, IN-KY"	NA	NA	TRUE	18173	"Warrick County"	TRUE
+"568"	21780	NA	NA	"Evansville, IN-KY"	NA	NA	TRUE	21101	"Henderson County"	TRUE
+"569"	21780	NA	NA	"Evansville, IN-KY"	NA	NA	TRUE	21233	"Webster County"	FALSE
+"570"	21820	NA	NA	"Fairbanks, AK"	NA	NA	TRUE	2090	"Fairbanks North Star Borough"	TRUE
+"571"	21860	NA	NA	"Fairmont, MN"	NA	NA	FALSE	27091	"Martin County"	TRUE
+"572"	21900	NA	242	"Fairmont, WV"	NA	"Fairmont-Clarksburg, WV"	FALSE	54049	"Marion County"	TRUE
+"573"	21940	NA	490	"Fajardo, PR"	NA	"San Juan-Caguas-Fajardo, PR"	TRUE	72037	"Ceiba Municipio"	TRUE
+"574"	21940	NA	490	"Fajardo, PR"	NA	"San Juan-Caguas-Fajardo, PR"	TRUE	72053	"Fajardo Municipio"	TRUE
+"575"	21940	NA	490	"Fajardo, PR"	NA	"San Juan-Caguas-Fajardo, PR"	TRUE	72089	"Luquillo Municipio"	TRUE
+"576"	21980	NA	NA	"Fallon, NV"	NA	NA	FALSE	32001	"Churchill County"	TRUE
+"577"	22020	NA	244	"Fargo, ND-MN"	NA	"Fargo-Wahpeton, ND-MN"	TRUE	27027	"Clay County"	TRUE
+"578"	22020	NA	244	"Fargo, ND-MN"	NA	"Fargo-Wahpeton, ND-MN"	TRUE	38017	"Cass County"	TRUE
+"579"	22060	NA	378	"Faribault-Northfield, MN"	NA	"Minneapolis-St. Paul-St. Cloud, MN-WI"	FALSE	27131	"Rice County"	TRUE
+"580"	22100	NA	476	"Farmington, MO"	NA	"St. Louis-St. Charles-Farmington, MO-IL"	FALSE	29187	"St. Francois County"	TRUE
+"581"	22140	NA	NA	"Farmington, NM"	NA	NA	TRUE	35045	"San Juan County"	TRUE
+"582"	22180	NA	NA	"Fayetteville, NC"	NA	NA	TRUE	37051	"Cumberland County"	TRUE
+"583"	22180	NA	NA	"Fayetteville, NC"	NA	NA	TRUE	37093	"Hoke County"	TRUE
+"584"	22220	NA	NA	"Fayetteville-Springdale-Rogers, AR-MO"	NA	NA	TRUE	5007	"Benton County"	TRUE
+"585"	22220	NA	NA	"Fayetteville-Springdale-Rogers, AR-MO"	NA	NA	TRUE	5087	"Madison County"	FALSE
+"586"	22220	NA	NA	"Fayetteville-Springdale-Rogers, AR-MO"	NA	NA	TRUE	5143	"Washington County"	TRUE
+"587"	22220	NA	NA	"Fayetteville-Springdale-Rogers, AR-MO"	NA	NA	TRUE	29119	"McDonald County"	FALSE
+"588"	22260	NA	NA	"Fergus Falls, MN"	NA	NA	FALSE	27111	"Otter Tail County"	TRUE
+"589"	22280	NA	456	"Fernley, NV"	NA	"Reno-Sparks-Fernley, NV"	FALSE	32019	"Lyon County"	TRUE
+"590"	22300	NA	248	"Findlay, OH"	NA	"Findlay-Tiffin, OH"	FALSE	39063	"Hancock County"	TRUE
+"591"	22340	NA	NA	"Fitzgerald, GA"	NA	NA	FALSE	13017	"Ben Hill County"	TRUE
+"592"	22340	NA	NA	"Fitzgerald, GA"	NA	NA	FALSE	13155	"Irwin County"	FALSE
+"593"	22380	NA	NA	"Flagstaff, AZ"	NA	NA	TRUE	4005	"Coconino County"	TRUE
+"594"	22420	NA	220	"Flint, MI"	NA	"Detroit-Warren-Flint, MI"	TRUE	26049	"Genesee County"	TRUE
+"595"	22500	NA	NA	"Florence, SC"	NA	NA	TRUE	45031	"Darlington County"	FALSE
+"596"	22500	NA	NA	"Florence, SC"	NA	NA	TRUE	45041	"Florence County"	TRUE
+"597"	22520	NA	NA	"Florence-Muscle Shoals, AL"	NA	NA	TRUE	1033	"Colbert County"	TRUE
+"598"	22520	NA	NA	"Florence-Muscle Shoals, AL"	NA	NA	TRUE	1077	"Lauderdale County"	TRUE
+"599"	22540	NA	252	"Fond du Lac, WI"	NA	"Fond du Lac-Beaver Dam, WI"	TRUE	55039	"Fond du Lac County"	TRUE
+"600"	22580	NA	NA	"Forest City, NC"	NA	NA	FALSE	37161	"Rutherford County"	TRUE
+"601"	22620	NA	NA	"Forrest City, AR"	NA	NA	FALSE	5123	"St. Francis County"	TRUE
+"602"	22660	NA	NA	"Fort Collins-Loveland, CO"	NA	NA	TRUE	8069	"Larimer County"	TRUE
+"603"	22700	NA	NA	"Fort Dodge, IA"	NA	NA	FALSE	19187	"Webster County"	TRUE
+"604"	22780	NA	NA	"Fort Leonard Wood, MO"	NA	NA	FALSE	29169	"Pulaski County"	TRUE
+"605"	22800	NA	NA	"Fort Madison-Keokuk, IA-MO"	NA	NA	FALSE	19111	"Lee County"	TRUE
+"606"	22800	NA	NA	"Fort Madison-Keokuk, IA-MO"	NA	NA	FALSE	29045	"Clark County"	FALSE
+"607"	22820	NA	NA	"Fort Morgan, CO"	NA	NA	FALSE	8087	"Morgan County"	TRUE
+"608"	22840	NA	NA	"Fort Payne, AL"	NA	NA	FALSE	1049	"DeKalb County"	TRUE
+"609"	22860	NA	256	"Fort Polk South, LA"	NA	"Fort Polk South-De Ridder, LA"	FALSE	22115	"Vernon Parish"	TRUE
+"610"	22900	NA	NA	"Fort Smith, AR-OK"	NA	NA	TRUE	5033	"Crawford County"	TRUE
+"611"	22900	NA	NA	"Fort Smith, AR-OK"	NA	NA	TRUE	5047	"Franklin County"	FALSE
+"612"	22900	NA	NA	"Fort Smith, AR-OK"	NA	NA	TRUE	5131	"Sebastian County"	TRUE
+"613"	22900	NA	NA	"Fort Smith, AR-OK"	NA	NA	TRUE	40079	"Le Flore County"	FALSE
+"614"	22900	NA	NA	"Fort Smith, AR-OK"	NA	NA	TRUE	40135	"Sequoyah County"	FALSE
+"615"	22980	NA	356	"Fort Valley, GA"	NA	"Macon-Warner Robins-Fort Valley, GA"	FALSE	13225	"Peach County"	TRUE
+"616"	23020	NA	NA	"Fort Walton Beach-Crestview-Destin, FL"	NA	NA	TRUE	12091	"Okaloosa County"	TRUE
+"617"	23060	NA	258	"Fort Wayne, IN"	NA	"Fort Wayne-Huntington-Auburn, IN"	TRUE	18003	"Allen County"	TRUE
+"618"	23060	NA	258	"Fort Wayne, IN"	NA	"Fort Wayne-Huntington-Auburn, IN"	TRUE	18179	"Wells County"	FALSE
+"619"	23060	NA	258	"Fort Wayne, IN"	NA	"Fort Wayne-Huntington-Auburn, IN"	TRUE	18183	"Whitley County"	FALSE
+"620"	23140	NA	320	"Frankfort, IN"	NA	"Lafayette-Frankfort, IN"	FALSE	18023	"Clinton County"	TRUE
+"621"	23180	NA	336	"Frankfort, KY"	NA	"Lexington-Fayette--Frankfort--Richmond, KY"	FALSE	21005	"Anderson County"	FALSE
+"622"	23180	NA	336	"Frankfort, KY"	NA	"Lexington-Fayette--Frankfort--Richmond, KY"	FALSE	21073	"Franklin County"	TRUE
+"623"	23240	NA	NA	"Fredericksburg, TX"	NA	NA	FALSE	48171	"Gillespie County"	TRUE
+"624"	23300	NA	466	"Freeport, IL"	NA	"Rockford-Freeport-Rochelle, IL"	FALSE	17177	"Stephenson County"	TRUE
+"625"	23340	NA	420	"Fremont, NE"	NA	"Omaha-Council Bluffs-Fremont, NE-IA"	FALSE	31053	"Dodge County"	TRUE
+"626"	23380	NA	534	"Fremont, OH"	NA	"Toledo-Fremont, OH"	FALSE	39143	"Sandusky County"	TRUE
+"627"	23420	NA	260	"Fresno, CA"	NA	"Fresno-Madera, CA"	TRUE	6019	"Fresno County"	TRUE
+"628"	23460	NA	NA	"Gadsden, AL"	NA	NA	TRUE	1055	"Etowah County"	TRUE
+"629"	23500	NA	273	"Gaffney, SC"	NA	"Greenville-Spartanburg-Anderson, SC"	FALSE	45021	"Cherokee County"	TRUE
+"630"	23540	NA	NA	"Gainesville, FL"	NA	NA	TRUE	12001	"Alachua County"	TRUE
+"631"	23540	NA	NA	"Gainesville, FL"	NA	NA	TRUE	12041	"Gilchrist County"	FALSE
+"632"	23580	NA	122	"Gainesville, GA"	NA	"Atlanta-Sandy Springs-Gainesville, GA-AL"	TRUE	13139	"Hall County"	TRUE
+"633"	23620	NA	206	"Gainesville, TX"	NA	"Dallas-Fort Worth, TX"	FALSE	48097	"Cooke County"	TRUE
+"634"	23660	NA	NA	"Galesburg, IL"	NA	NA	FALSE	17095	"Knox County"	TRUE
+"635"	23660	NA	NA	"Galesburg, IL"	NA	NA	FALSE	17187	"Warren County"	FALSE
+"636"	23700	NA	NA	"Gallup, NM"	NA	NA	FALSE	35031	"McKinley County"	TRUE
+"637"	23780	NA	NA	"Garden City, KS"	NA	NA	FALSE	20055	"Finney County"	TRUE
+"638"	23820	NA	472	"Gardnerville Ranchos, NV"	NA	"Sacramento--Arden-Arcade--Yuba City, CA-NV"	FALSE	32005	"Douglas County"	TRUE
+"639"	23860	NA	396	"Georgetown, SC"	NA	"Myrtle Beach-Conway-Georgetown, SC"	FALSE	45043	"Georgetown County"	TRUE
+"640"	23900	NA	564	"Gettysburg, PA"	NA	"York-Hanover-Gettysburg, PA"	FALSE	42001	"Adams County"	TRUE
+"641"	23940	NA	NA	"Gillette, WY"	NA	NA	FALSE	56005	"Campbell County"	TRUE
+"642"	23980	NA	NA	"Glasgow, KY"	NA	NA	FALSE	21009	"Barren County"	TRUE
+"643"	23980	NA	NA	"Glasgow, KY"	NA	NA	FALSE	21169	"Metcalfe County"	FALSE
+"644"	24020	NA	104	"Glens Falls, NY"	NA	"Albany-Schenectady-Amsterdam, NY"	TRUE	36113	"Warren County"	TRUE
+"645"	24020	NA	104	"Glens Falls, NY"	NA	"Albany-Schenectady-Amsterdam, NY"	TRUE	36115	"Washington County"	TRUE
+"646"	24100	NA	104	"Gloversville, NY"	NA	"Albany-Schenectady-Amsterdam, NY"	FALSE	36035	"Fulton County"	TRUE
+"647"	24140	NA	NA	"Goldsboro, NC"	NA	NA	TRUE	37191	"Wayne County"	TRUE
+"648"	24180	NA	206	"Granbury, TX"	NA	"Dallas-Fort Worth, TX"	FALSE	48221	"Hood County"	TRUE
+"649"	24180	NA	206	"Granbury, TX"	NA	"Dallas-Fort Worth, TX"	FALSE	48425	"Somervell County"	FALSE
+"650"	24220	NA	NA	"Grand Forks, ND-MN"	NA	NA	TRUE	27119	"Polk County"	TRUE
+"651"	24220	NA	NA	"Grand Forks, ND-MN"	NA	NA	TRUE	38035	"Grand Forks County"	TRUE
+"652"	24260	NA	NA	"Grand Island, NE"	NA	NA	FALSE	31079	"Hall County"	TRUE
+"653"	24260	NA	NA	"Grand Island, NE"	NA	NA	FALSE	31093	"Howard County"	FALSE
+"654"	24260	NA	NA	"Grand Island, NE"	NA	NA	FALSE	31121	"Merrick County"	FALSE
+"655"	24300	NA	NA	"Grand Junction, CO"	NA	NA	TRUE	8077	"Mesa County"	TRUE
+"656"	24340	NA	266	"Grand Rapids-Wyoming, MI"	NA	"Grand Rapids-Muskegon-Holland, MI"	TRUE	26015	"Barry County"	FALSE
+"657"	24340	NA	266	"Grand Rapids-Wyoming, MI"	NA	"Grand Rapids-Muskegon-Holland, MI"	TRUE	26067	"Ionia County"	FALSE
+"658"	24340	NA	266	"Grand Rapids-Wyoming, MI"	NA	"Grand Rapids-Muskegon-Holland, MI"	TRUE	26081	"Kent County"	TRUE
+"659"	24340	NA	266	"Grand Rapids-Wyoming, MI"	NA	"Grand Rapids-Muskegon-Holland, MI"	TRUE	26123	"Newaygo County"	FALSE
+"660"	24380	NA	NA	"Grants, NM"	NA	NA	FALSE	35006	"Cibola County"	TRUE
+"661"	24420	NA	NA	"Grants Pass, OR"	NA	NA	FALSE	41033	"Josephine County"	TRUE
+"662"	24460	NA	NA	"Great Bend, KS"	NA	NA	FALSE	20009	"Barton County"	TRUE
+"663"	24500	NA	NA	"Great Falls, MT"	NA	NA	TRUE	30013	"Cascade County"	TRUE
+"664"	24540	NA	216	"Greeley, CO"	NA	"Denver-Aurora-Boulder, CO"	TRUE	8123	"Weld County"	TRUE
+"665"	24580	NA	NA	"Green Bay, WI"	NA	NA	TRUE	55009	"Brown County"	TRUE
+"666"	24580	NA	NA	"Green Bay, WI"	NA	NA	TRUE	55061	"Kewaunee County"	FALSE
+"667"	24580	NA	NA	"Green Bay, WI"	NA	NA	TRUE	55083	"Oconto County"	FALSE
+"668"	24620	NA	NA	"Greeneville, TN"	NA	NA	FALSE	47059	"Greene County"	TRUE
+"669"	24660	NA	268	"Greensboro-High Point, NC"	NA	"Greensboro--Winston-Salem--High Point, NC"	TRUE	37081	"Guilford County"	TRUE
+"670"	24660	NA	268	"Greensboro-High Point, NC"	NA	"Greensboro--Winston-Salem--High Point, NC"	TRUE	37151	"Randolph County"	FALSE
+"671"	24660	NA	268	"Greensboro-High Point, NC"	NA	"Greensboro--Winston-Salem--High Point, NC"	TRUE	37157	"Rockingham County"	FALSE
+"672"	24700	NA	NA	"Greensburg, IN"	NA	NA	FALSE	18031	"Decatur County"	TRUE
+"673"	24740	NA	NA	"Greenville, MS"	NA	NA	FALSE	28151	"Washington County"	TRUE
+"674"	24780	NA	NA	"Greenville, NC"	NA	NA	TRUE	37079	"Greene County"	FALSE
+"675"	24780	NA	NA	"Greenville, NC"	NA	NA	TRUE	37147	"Pitt County"	TRUE
+"676"	24820	NA	212	"Greenville, OH"	NA	"Dayton-Springfield-Greenville, OH"	FALSE	39037	"Darke County"	TRUE
+"677"	24860	NA	273	"Greenville-Mauldin-Easley, SC"	NA	"Greenville-Spartanburg-Anderson, SC"	TRUE	45045	"Greenville County"	TRUE
+"678"	24860	NA	273	"Greenville-Mauldin-Easley, SC"	NA	"Greenville-Spartanburg-Anderson, SC"	TRUE	45059	"Laurens County"	FALSE
+"679"	24860	NA	273	"Greenville-Mauldin-Easley, SC"	NA	"Greenville-Spartanburg-Anderson, SC"	TRUE	45077	"Pickens County"	TRUE
+"680"	24900	NA	NA	"Greenwood, MS"	NA	NA	FALSE	28015	"Carroll County"	FALSE
+"681"	24900	NA	NA	"Greenwood, MS"	NA	NA	FALSE	28083	"Leflore County"	TRUE
+"682"	24940	NA	NA	"Greenwood, SC"	NA	NA	FALSE	45047	"Greenwood County"	TRUE
+"683"	24980	NA	NA	"Grenada, MS"	NA	NA	FALSE	28043	"Grenada County"	TRUE
+"684"	25020	NA	NA	"Guayama, PR"	NA	NA	TRUE	72015	"Arroyo Municipio"	TRUE
+"685"	25020	NA	NA	"Guayama, PR"	NA	NA	TRUE	72057	"Guayama Municipio"	TRUE
+"686"	25020	NA	NA	"Guayama, PR"	NA	NA	TRUE	72109	"Patillas Municipio"	TRUE
+"687"	25060	NA	274	"Gulfport-Biloxi, MS"	NA	"Gulfport-Biloxi-Pascagoula, MS"	TRUE	28045	"Hancock County"	TRUE
+"688"	25060	NA	274	"Gulfport-Biloxi, MS"	NA	"Gulfport-Biloxi-Pascagoula, MS"	TRUE	28047	"Harrison County"	TRUE
+"689"	25060	NA	274	"Gulfport-Biloxi, MS"	NA	"Gulfport-Biloxi-Pascagoula, MS"	TRUE	28131	"Stone County"	FALSE
+"690"	25100	NA	NA	"Guymon, OK"	NA	NA	FALSE	40139	"Texas County"	TRUE
+"691"	25180	NA	NA	"Hagerstown-Martinsburg, MD-WV"	NA	NA	TRUE	24043	"Washington County"	TRUE
+"692"	25180	NA	NA	"Hagerstown-Martinsburg, MD-WV"	NA	NA	TRUE	54003	"Berkeley County"	TRUE
+"693"	25180	NA	NA	"Hagerstown-Martinsburg, MD-WV"	NA	NA	TRUE	54065	"Morgan County"	FALSE
+"694"	25220	NA	NA	"Hammond, LA"	NA	NA	FALSE	22105	"Tangipahoa Parish"	TRUE
+"695"	25260	NA	NA	"Hanford-Corcoran, CA"	NA	NA	TRUE	6031	"Kings County"	TRUE
+"696"	25300	NA	NA	"Hannibal, MO"	NA	NA	FALSE	29127	"Marion County"	TRUE
+"697"	25300	NA	NA	"Hannibal, MO"	NA	NA	FALSE	29173	"Ralls County"	FALSE
+"698"	25340	NA	314	"Harriman, TN"	NA	"Knoxville-Sevierville-La Follette, TN"	FALSE	47145	"Roane County"	TRUE
+"699"	25380	NA	NA	"Harrisburg, IL"	NA	NA	FALSE	17165	"Saline County"	TRUE
+"700"	25420	NA	276	"Harrisburg-Carlisle, PA"	NA	"Harrisburg-Carlisle-Lebanon, PA"	TRUE	42041	"Cumberland County"	TRUE
+"701"	25420	NA	276	"Harrisburg-Carlisle, PA"	NA	"Harrisburg-Carlisle-Lebanon, PA"	TRUE	42043	"Dauphin County"	TRUE
+"702"	25420	NA	276	"Harrisburg-Carlisle, PA"	NA	"Harrisburg-Carlisle-Lebanon, PA"	TRUE	42099	"Perry County"	FALSE
+"703"	25460	NA	NA	"Harrison, AR"	NA	NA	FALSE	5009	"Boone County"	TRUE
+"704"	25460	NA	NA	"Harrison, AR"	NA	NA	FALSE	5101	"Newton County"	FALSE
+"705"	25500	NA	NA	"Harrisonburg, VA"	NA	NA	TRUE	51165	"Rockingham County"	TRUE
+"706"	25500	NA	NA	"Harrisonburg, VA"	NA	NA	TRUE	51660	"Harrisonburg city"	TRUE
+"707"	25540	NA	278	"Hartford-West Hartford-East Hartford, CT"	NA	"Hartford-West Hartford-Willimantic, CT"	TRUE	9003	"Hartford County"	TRUE
+"708"	25540	NA	278	"Hartford-West Hartford-East Hartford, CT"	NA	"Hartford-West Hartford-Willimantic, CT"	TRUE	9007	"Middlesex County"	TRUE
+"709"	25540	NA	278	"Hartford-West Hartford-East Hartford, CT"	NA	"Hartford-West Hartford-Willimantic, CT"	TRUE	9013	"Tolland County"	TRUE
+"710"	25580	NA	NA	"Hastings, NE"	NA	NA	FALSE	31001	"Adams County"	TRUE
+"711"	25580	NA	NA	"Hastings, NE"	NA	NA	FALSE	31035	"Clay County"	FALSE
+"712"	25620	NA	NA	"Hattiesburg, MS"	NA	NA	TRUE	28035	"Forrest County"	TRUE
+"713"	25620	NA	NA	"Hattiesburg, MS"	NA	NA	TRUE	28073	"Lamar County"	TRUE
+"714"	25620	NA	NA	"Hattiesburg, MS"	NA	NA	TRUE	28111	"Perry County"	FALSE
+"715"	25660	NA	NA	"Havre, MT"	NA	NA	FALSE	30041	"Hill County"	TRUE
+"716"	25700	NA	NA	"Hays, KS"	NA	NA	FALSE	20051	"Ellis County"	TRUE
+"717"	25720	NA	482	"Heber, UT"	NA	"Salt Lake City-Ogden-Clearfield, UT"	FALSE	49051	"Wasatch County"	TRUE
+"718"	25740	NA	NA	"Helena, MT"	NA	NA	FALSE	30043	"Jefferson County"	FALSE
+"719"	25740	NA	NA	"Helena, MT"	NA	NA	FALSE	30049	"Lewis and Clark County"	TRUE
+"720"	25760	NA	NA	"Helena-West Helena, AR"	NA	NA	FALSE	5107	"Phillips County"	TRUE
+"721"	25780	NA	NA	"Henderson, NC"	NA	NA	FALSE	37181	"Vance County"	TRUE
+"722"	25820	NA	NA	"Hereford, TX"	NA	NA	FALSE	48117	"Deaf Smith County"	TRUE
+"723"	25860	NA	NA	"Hickory-Lenoir-Morganton, NC"	NA	NA	TRUE	37003	"Alexander County"	FALSE
+"724"	25860	NA	NA	"Hickory-Lenoir-Morganton, NC"	NA	NA	TRUE	37023	"Burke County"	TRUE
+"725"	25860	NA	NA	"Hickory-Lenoir-Morganton, NC"	NA	NA	TRUE	37027	"Caldwell County"	TRUE
+"726"	25860	NA	NA	"Hickory-Lenoir-Morganton, NC"	NA	NA	TRUE	37035	"Catawba County"	TRUE
+"727"	25900	NA	NA	"Hilo, HI"	NA	NA	FALSE	15001	"Hawaii County"	TRUE
+"728"	25940	NA	NA	"Hilton Head Island-Beaufort, SC"	NA	NA	FALSE	45013	"Beaufort County"	TRUE
+"729"	25940	NA	NA	"Hilton Head Island-Beaufort, SC"	NA	NA	FALSE	45053	"Jasper County"	FALSE
+"730"	25980	NA	496	"Hinesville-Fort Stewart, GA"	NA	"Savannah-Hinesville-Fort Stewart, GA"	TRUE	13179	"Liberty County"	TRUE
+"731"	25980	NA	496	"Hinesville-Fort Stewart, GA"	NA	"Savannah-Hinesville-Fort Stewart, GA"	TRUE	13183	"Long County"	FALSE
+"732"	26020	NA	NA	"Hobbs, NM"	NA	NA	FALSE	35025	"Lea County"	TRUE
+"733"	26100	NA	266	"Holland-Grand Haven, MI"	NA	"Grand Rapids-Muskegon-Holland, MI"	TRUE	26139	"Ottawa County"	TRUE
+"734"	26140	NA	NA	"Homosassa Springs, FL"	NA	NA	FALSE	12017	"Citrus County"	TRUE
+"735"	26180	NA	NA	"Honolulu, HI"	NA	NA	TRUE	15003	"Honolulu County"	TRUE
+"736"	26220	NA	NA	"Hood River, OR"	NA	NA	FALSE	41027	"Hood River County"	TRUE
+"737"	26260	NA	NA	"Hope, AR"	NA	NA	FALSE	5057	"Hempstead County"	TRUE
+"738"	26260	NA	NA	"Hope, AR"	NA	NA	FALSE	5099	"Nevada County"	FALSE
+"739"	26300	NA	NA	"Hot Springs, AR"	NA	NA	TRUE	5051	"Garland County"	TRUE
+"740"	26340	NA	NA	"Houghton, MI"	NA	NA	FALSE	26061	"Houghton County"	TRUE
+"741"	26340	NA	NA	"Houghton, MI"	NA	NA	FALSE	26083	"Keweenaw County"	FALSE
+"742"	26380	NA	NA	"Houma-Bayou Cane-Thibodaux, LA"	NA	NA	TRUE	22057	"Lafourche Parish"	TRUE
+"743"	26380	NA	NA	"Houma-Bayou Cane-Thibodaux, LA"	NA	NA	TRUE	22109	"Terrebonne Parish"	TRUE
+"744"	26420	NA	288	"Houston-Sugar Land-Baytown, TX"	NA	"Houston-Baytown-Huntsville, TX"	TRUE	48015	"Austin County"	FALSE
+"745"	26420	NA	288	"Houston-Sugar Land-Baytown, TX"	NA	"Houston-Baytown-Huntsville, TX"	TRUE	48039	"Brazoria County"	TRUE
+"746"	26420	NA	288	"Houston-Sugar Land-Baytown, TX"	NA	"Houston-Baytown-Huntsville, TX"	TRUE	48071	"Chambers County"	FALSE
+"747"	26420	NA	288	"Houston-Sugar Land-Baytown, TX"	NA	"Houston-Baytown-Huntsville, TX"	TRUE	48157	"Fort Bend County"	TRUE
+"748"	26420	NA	288	"Houston-Sugar Land-Baytown, TX"	NA	"Houston-Baytown-Huntsville, TX"	TRUE	48167	"Galveston County"	FALSE
+"749"	26420	NA	288	"Houston-Sugar Land-Baytown, TX"	NA	"Houston-Baytown-Huntsville, TX"	TRUE	48201	"Harris County"	TRUE
+"750"	26420	NA	288	"Houston-Sugar Land-Baytown, TX"	NA	"Houston-Baytown-Huntsville, TX"	TRUE	48291	"Liberty County"	FALSE
+"751"	26420	NA	288	"Houston-Sugar Land-Baytown, TX"	NA	"Houston-Baytown-Huntsville, TX"	TRUE	48339	"Montgomery County"	FALSE
+"752"	26420	NA	288	"Houston-Sugar Land-Baytown, TX"	NA	"Houston-Baytown-Huntsville, TX"	TRUE	48407	"San Jacinto County"	FALSE
+"753"	26420	NA	288	"Houston-Sugar Land-Baytown, TX"	NA	"Houston-Baytown-Huntsville, TX"	TRUE	48473	"Waller County"	FALSE
+"754"	26460	NA	104	"Hudson, NY"	NA	"Albany-Schenectady-Amsterdam, NY"	FALSE	36021	"Columbia County"	TRUE
+"755"	26480	NA	297	"Humboldt, TN"	NA	"Jackson-Humboldt, TN"	FALSE	47053	"Gibson County"	TRUE
+"756"	26500	NA	NA	"Huntingdon, PA"	NA	NA	FALSE	42061	"Huntingdon County"	TRUE
+"757"	26540	NA	258	"Huntington, IN"	NA	"Fort Wayne-Huntington-Auburn, IN"	FALSE	18069	"Huntington County"	TRUE
+"758"	26580	NA	NA	"Huntington-Ashland, WV-KY-OH"	NA	NA	TRUE	21019	"Boyd County"	TRUE
+"759"	26580	NA	NA	"Huntington-Ashland, WV-KY-OH"	NA	NA	TRUE	21089	"Greenup County"	TRUE
+"760"	26580	NA	NA	"Huntington-Ashland, WV-KY-OH"	NA	NA	TRUE	39087	"Lawrence County"	TRUE
+"761"	26580	NA	NA	"Huntington-Ashland, WV-KY-OH"	NA	NA	TRUE	54011	"Cabell County"	TRUE
+"762"	26580	NA	NA	"Huntington-Ashland, WV-KY-OH"	NA	NA	TRUE	54099	"Wayne County"	TRUE
+"763"	26620	NA	290	"Huntsville, AL"	NA	"Huntsville-Decatur, AL"	TRUE	1083	"Limestone County"	FALSE
+"764"	26620	NA	290	"Huntsville, AL"	NA	"Huntsville-Decatur, AL"	TRUE	1089	"Madison County"	TRUE
+"765"	26660	NA	288	"Huntsville, TX"	NA	"Houston-Baytown-Huntsville, TX"	FALSE	48471	"Walker County"	TRUE
+"766"	26700	NA	NA	"Huron, SD"	NA	NA	FALSE	46005	"Beadle County"	TRUE
+"767"	26740	NA	NA	"Hutchinson, KS"	NA	NA	FALSE	20155	"Reno County"	TRUE
+"768"	26780	NA	378	"Hutchinson, MN"	NA	"Minneapolis-St. Paul-St. Cloud, MN-WI"	FALSE	27085	"McLeod County"	TRUE
+"769"	26820	NA	292	"Idaho Falls, ID"	NA	"Idaho Falls-Blackfoot, ID"	TRUE	16019	"Bonneville County"	TRUE
+"770"	26820	NA	292	"Idaho Falls, ID"	NA	"Idaho Falls-Blackfoot, ID"	TRUE	16051	"Jefferson County"	FALSE
+"771"	26860	NA	NA	"Indiana, PA"	NA	NA	FALSE	42063	"Indiana County"	TRUE
+"772"	26900	NA	294	"Indianapolis-Carmel, IN"	NA	"Indianapolis-Anderson-Columbus, IN"	TRUE	18011	"Boone County"	FALSE
+"773"	26900	NA	294	"Indianapolis-Carmel, IN"	NA	"Indianapolis-Anderson-Columbus, IN"	TRUE	18013	"Brown County"	FALSE
+"774"	26900	NA	294	"Indianapolis-Carmel, IN"	NA	"Indianapolis-Anderson-Columbus, IN"	TRUE	18057	"Hamilton County"	TRUE
+"775"	26900	NA	294	"Indianapolis-Carmel, IN"	NA	"Indianapolis-Anderson-Columbus, IN"	TRUE	18059	"Hancock County"	FALSE
+"776"	26900	NA	294	"Indianapolis-Carmel, IN"	NA	"Indianapolis-Anderson-Columbus, IN"	TRUE	18063	"Hendricks County"	TRUE
+"777"	26900	NA	294	"Indianapolis-Carmel, IN"	NA	"Indianapolis-Anderson-Columbus, IN"	TRUE	18081	"Johnson County"	TRUE
+"778"	26900	NA	294	"Indianapolis-Carmel, IN"	NA	"Indianapolis-Anderson-Columbus, IN"	TRUE	18097	"Marion County"	TRUE
+"779"	26900	NA	294	"Indianapolis-Carmel, IN"	NA	"Indianapolis-Anderson-Columbus, IN"	TRUE	18109	"Morgan County"	TRUE
+"780"	26900	NA	294	"Indianapolis-Carmel, IN"	NA	"Indianapolis-Anderson-Columbus, IN"	TRUE	18133	"Putnam County"	FALSE
+"781"	26900	NA	294	"Indianapolis-Carmel, IN"	NA	"Indianapolis-Anderson-Columbus, IN"	TRUE	18145	"Shelby County"	FALSE
+"782"	26940	NA	NA	"Indianola, MS"	NA	NA	FALSE	28133	"Sunflower County"	TRUE
+"783"	26980	NA	NA	"Iowa City, IA"	NA	NA	TRUE	19103	"Johnson County"	TRUE
+"784"	26980	NA	NA	"Iowa City, IA"	NA	NA	TRUE	19183	"Washington County"	FALSE
+"785"	27020	NA	NA	"Iron Mountain, MI-WI"	NA	NA	FALSE	26043	"Dickinson County"	TRUE
+"786"	27020	NA	NA	"Iron Mountain, MI-WI"	NA	NA	FALSE	55037	"Florence County"	FALSE
+"787"	27060	NA	296	"Ithaca, NY"	NA	"Ithaca-Cortland, NY"	TRUE	36109	"Tompkins County"	TRUE
+"788"	27100	NA	NA	"Jackson, MI"	NA	NA	TRUE	26075	"Jackson County"	TRUE
+"789"	27140	NA	298	"Jackson, MS"	NA	"Jackson-Yazoo City, MS"	TRUE	28029	"Copiah County"	FALSE
+"790"	27140	NA	298	"Jackson, MS"	NA	"Jackson-Yazoo City, MS"	TRUE	28049	"Hinds County"	TRUE
+"791"	27140	NA	298	"Jackson, MS"	NA	"Jackson-Yazoo City, MS"	TRUE	28089	"Madison County"	TRUE
+"792"	27140	NA	298	"Jackson, MS"	NA	"Jackson-Yazoo City, MS"	TRUE	28121	"Rankin County"	TRUE
+"793"	27140	NA	298	"Jackson, MS"	NA	"Jackson-Yazoo City, MS"	TRUE	28127	"Simpson County"	FALSE
+"794"	27180	NA	297	"Jackson, TN"	NA	"Jackson-Humboldt, TN"	TRUE	47023	"Chester County"	FALSE
+"795"	27180	NA	297	"Jackson, TN"	NA	"Jackson-Humboldt, TN"	TRUE	47113	"Madison County"	TRUE
+"796"	27220	NA	NA	"Jackson, WY-ID"	NA	NA	FALSE	16081	"Teton County"	FALSE
+"797"	27220	NA	NA	"Jackson, WY-ID"	NA	NA	FALSE	56039	"Teton County"	TRUE
+"798"	27260	NA	NA	"Jacksonville, FL"	NA	NA	TRUE	12003	"Baker County"	FALSE
+"799"	27260	NA	NA	"Jacksonville, FL"	NA	NA	TRUE	12019	"Clay County"	TRUE
+"800"	27260	NA	NA	"Jacksonville, FL"	NA	NA	TRUE	12031	"Duval County"	TRUE
+"801"	27260	NA	NA	"Jacksonville, FL"	NA	NA	TRUE	12089	"Nassau County"	FALSE
+"802"	27260	NA	NA	"Jacksonville, FL"	NA	NA	TRUE	12109	"St. Johns County"	FALSE
+"803"	27300	NA	NA	"Jacksonville, IL"	NA	NA	FALSE	17137	"Morgan County"	TRUE
+"804"	27300	NA	NA	"Jacksonville, IL"	NA	NA	FALSE	17171	"Scott County"	FALSE
+"805"	27340	NA	NA	"Jacksonville, NC"	NA	NA	TRUE	37133	"Onslow County"	TRUE
+"806"	27380	NA	540	"Jacksonville, TX"	NA	"Tyler-Jacksonville, TX"	FALSE	48073	"Cherokee County"	TRUE
+"807"	27420	NA	NA	"Jamestown, ND"	NA	NA	FALSE	38093	"Stutsman County"	TRUE
+"808"	27460	NA	NA	"Jamestown-Dunkirk-Fredonia, NY"	NA	NA	FALSE	36013	"Chautauqua County"	TRUE
+"809"	27500	NA	NA	"Janesville, WI"	NA	NA	TRUE	55105	"Rock County"	TRUE
+"810"	27540	NA	NA	"Jasper, IN"	NA	NA	FALSE	18037	"Dubois County"	TRUE
+"811"	27540	NA	NA	"Jasper, IN"	NA	NA	FALSE	18125	"Pike County"	FALSE
+"812"	27580	NA	NA	"Jayuya, PR"	NA	NA	FALSE	72073	"Jayuya Municipio"	TRUE
+"813"	27620	NA	NA	"Jefferson City, MO"	NA	NA	TRUE	29027	"Callaway County"	FALSE
+"814"	27620	NA	NA	"Jefferson City, MO"	NA	NA	TRUE	29051	"Cole County"	TRUE
+"815"	27620	NA	NA	"Jefferson City, MO"	NA	NA	TRUE	29135	"Moniteau County"	FALSE
+"816"	27620	NA	NA	"Jefferson City, MO"	NA	NA	TRUE	29151	"Osage County"	FALSE
+"817"	27660	NA	324	"Jennings, LA"	NA	"Lake Charles-Jennings, LA"	FALSE	22053	"Jefferson Davis Parish"	TRUE
+"818"	27700	NA	NA	"Jesup, GA"	NA	NA	FALSE	13305	"Wayne County"	TRUE
+"819"	27740	NA	304	"Johnson City, TN"	NA	"Johnson City-Kingsport-Bristol (Tri-Cities), TN-VA"	TRUE	47019	"Carter County"	TRUE
+"820"	27740	NA	304	"Johnson City, TN"	NA	"Johnson City-Kingsport-Bristol (Tri-Cities), TN-VA"	TRUE	47171	"Unicoi County"	FALSE
+"821"	27740	NA	304	"Johnson City, TN"	NA	"Johnson City-Kingsport-Bristol (Tri-Cities), TN-VA"	TRUE	47179	"Washington County"	TRUE
+"822"	27780	NA	NA	"Johnstown, PA"	NA	NA	TRUE	42021	"Cambria County"	TRUE
+"823"	27860	NA	308	"Jonesboro, AR"	NA	"Jonesboro-Paragould, AR"	TRUE	5031	"Craighead County"	TRUE
+"824"	27860	NA	308	"Jonesboro, AR"	NA	"Jonesboro-Paragould, AR"	TRUE	5111	"Poinsett County"	FALSE
+"825"	27900	NA	NA	"Joplin, MO"	NA	NA	TRUE	29097	"Jasper County"	TRUE
+"826"	27900	NA	NA	"Joplin, MO"	NA	NA	TRUE	29145	"Newton County"	FALSE
+"827"	27940	NA	NA	"Juneau, AK"	NA	NA	FALSE	2110	"Juneau City and Borough"	TRUE
+"828"	27980	NA	NA	"Kahului-Wailuku, HI"	NA	NA	FALSE	15009	"Maui County"	TRUE
+"829"	28020	NA	NA	"Kalamazoo-Portage, MI"	NA	NA	TRUE	26077	"Kalamazoo County"	TRUE
+"830"	28020	NA	NA	"Kalamazoo-Portage, MI"	NA	NA	TRUE	26159	"Van Buren County"	FALSE
+"831"	28060	NA	NA	"Kalispell, MT"	NA	NA	FALSE	30029	"Flathead County"	TRUE
+"832"	28100	NA	176	"Kankakee-Bradley, IL"	NA	"Chicago-Naperville-Michigan City, IL-IN-WI"	TRUE	17091	"Kankakee County"	TRUE
+"833"	28140	NA	312	"Kansas City, MO-KS"	NA	"Kansas City-Overland Park-Kansas City, MO-KS"	TRUE	20059	"Franklin County"	FALSE
+"834"	28140	NA	312	"Kansas City, MO-KS"	NA	"Kansas City-Overland Park-Kansas City, MO-KS"	TRUE	20091	"Johnson County"	TRUE
+"835"	28140	NA	312	"Kansas City, MO-KS"	NA	"Kansas City-Overland Park-Kansas City, MO-KS"	TRUE	20103	"Leavenworth County"	FALSE
+"836"	28140	NA	312	"Kansas City, MO-KS"	NA	"Kansas City-Overland Park-Kansas City, MO-KS"	TRUE	20107	"Linn County"	FALSE
+"837"	28140	NA	312	"Kansas City, MO-KS"	NA	"Kansas City-Overland Park-Kansas City, MO-KS"	TRUE	20121	"Miami County"	FALSE
+"838"	28140	NA	312	"Kansas City, MO-KS"	NA	"Kansas City-Overland Park-Kansas City, MO-KS"	TRUE	20209	"Wyandotte County"	TRUE
+"839"	28140	NA	312	"Kansas City, MO-KS"	NA	"Kansas City-Overland Park-Kansas City, MO-KS"	TRUE	29013	"Bates County"	FALSE
+"840"	28140	NA	312	"Kansas City, MO-KS"	NA	"Kansas City-Overland Park-Kansas City, MO-KS"	TRUE	29025	"Caldwell County"	FALSE
+"841"	28140	NA	312	"Kansas City, MO-KS"	NA	"Kansas City-Overland Park-Kansas City, MO-KS"	TRUE	29037	"Cass County"	TRUE
+"842"	28140	NA	312	"Kansas City, MO-KS"	NA	"Kansas City-Overland Park-Kansas City, MO-KS"	TRUE	29047	"Clay County"	TRUE
+"843"	28140	NA	312	"Kansas City, MO-KS"	NA	"Kansas City-Overland Park-Kansas City, MO-KS"	TRUE	29049	"Clinton County"	FALSE
+"844"	28140	NA	312	"Kansas City, MO-KS"	NA	"Kansas City-Overland Park-Kansas City, MO-KS"	TRUE	29095	"Jackson County"	TRUE
+"845"	28140	NA	312	"Kansas City, MO-KS"	NA	"Kansas City-Overland Park-Kansas City, MO-KS"	TRUE	29107	"Lafayette County"	FALSE
+"846"	28140	NA	312	"Kansas City, MO-KS"	NA	"Kansas City-Overland Park-Kansas City, MO-KS"	TRUE	29165	"Platte County"	TRUE
+"847"	28140	NA	312	"Kansas City, MO-KS"	NA	"Kansas City-Overland Park-Kansas City, MO-KS"	TRUE	29177	"Ray County"	FALSE
+"848"	28180	NA	NA	"Kapaa, HI"	NA	NA	FALSE	15007	"Kauai County"	TRUE
+"849"	28260	NA	NA	"Kearney, NE"	NA	NA	FALSE	31019	"Buffalo County"	TRUE
+"850"	28260	NA	NA	"Kearney, NE"	NA	NA	FALSE	31099	"Kearney County"	FALSE
+"851"	28300	NA	NA	"Keene, NH"	NA	NA	FALSE	33005	"Cheshire County"	TRUE
+"852"	28340	NA	258	"Kendallville, IN"	NA	"Fort Wayne-Huntington-Auburn, IN"	FALSE	18113	"Noble County"	TRUE
+"853"	28380	NA	NA	"Kennett, MO"	NA	NA	FALSE	29069	"Dunklin County"	TRUE
+"854"	28420	NA	NA	"Kennewick-Pasco-Richland, WA"	NA	NA	TRUE	53005	"Benton County"	TRUE
+"855"	28420	NA	NA	"Kennewick-Pasco-Richland, WA"	NA	NA	TRUE	53021	"Franklin County"	TRUE
+"856"	28500	NA	NA	"Kerrville, TX"	NA	NA	FALSE	48265	"Kerr County"	TRUE
+"857"	28540	NA	NA	"Ketchikan, AK"	NA	NA	FALSE	2130	"Ketchikan Gateway Borough"	TRUE
+"858"	28580	NA	NA	"Key West, FL"	NA	NA	FALSE	12087	"Monroe County"	TRUE
+"859"	28620	NA	NA	"Kill Devil Hills, NC"	NA	NA	FALSE	37055	"Dare County"	TRUE
+"860"	28660	NA	NA	"Killeen-Temple-Fort Hood, TX"	NA	NA	TRUE	48027	"Bell County"	TRUE
+"861"	28660	NA	NA	"Killeen-Temple-Fort Hood, TX"	NA	NA	TRUE	48099	"Coryell County"	TRUE
+"862"	28660	NA	NA	"Killeen-Temple-Fort Hood, TX"	NA	NA	TRUE	48281	"Lampasas County"	FALSE
+"863"	28700	NA	304	"Kingsport-Bristol-Bristol, TN-VA"	NA	"Johnson City-Kingsport-Bristol (Tri-Cities), TN-VA"	TRUE	47073	"Hawkins County"	TRUE
+"864"	28700	NA	304	"Kingsport-Bristol-Bristol, TN-VA"	NA	"Johnson City-Kingsport-Bristol (Tri-Cities), TN-VA"	TRUE	47163	"Sullivan County"	TRUE
+"865"	28700	NA	304	"Kingsport-Bristol-Bristol, TN-VA"	NA	"Johnson City-Kingsport-Bristol (Tri-Cities), TN-VA"	TRUE	51169	"Scott County"	FALSE
+"866"	28700	NA	304	"Kingsport-Bristol-Bristol, TN-VA"	NA	"Johnson City-Kingsport-Bristol (Tri-Cities), TN-VA"	TRUE	51191	"Washington County"	FALSE
+"867"	28700	NA	304	"Kingsport-Bristol-Bristol, TN-VA"	NA	"Johnson City-Kingsport-Bristol (Tri-Cities), TN-VA"	TRUE	51520	"Bristol city"	FALSE
+"868"	28740	NA	408	"Kingston, NY"	NA	"New York-Newark-Bridgeport, NY-NJ-CT-PA"	TRUE	36111	"Ulster County"	TRUE
+"869"	28780	NA	204	"Kingsville, TX"	NA	"Corpus Christi-Kingsville, TX"	FALSE	48261	"Kenedy County"	FALSE
+"870"	28780	NA	204	"Kingsville, TX"	NA	"Corpus Christi-Kingsville, TX"	FALSE	48273	"Kleberg County"	TRUE
+"871"	28820	NA	NA	"Kinston, NC"	NA	NA	FALSE	37107	"Lenoir County"	TRUE
+"872"	28860	NA	NA	"Kirksville, MO"	NA	NA	FALSE	29001	"Adair County"	TRUE
+"873"	28860	NA	NA	"Kirksville, MO"	NA	NA	FALSE	29197	"Schuyler County"	FALSE
+"874"	28900	NA	NA	"Klamath Falls, OR"	NA	NA	FALSE	41035	"Klamath County"	TRUE
+"875"	28940	NA	314	"Knoxville, TN"	NA	"Knoxville-Sevierville-La Follette, TN"	TRUE	47001	"Anderson County"	FALSE
+"876"	28940	NA	314	"Knoxville, TN"	NA	"Knoxville-Sevierville-La Follette, TN"	TRUE	47009	"Blount County"	TRUE
+"877"	28940	NA	314	"Knoxville, TN"	NA	"Knoxville-Sevierville-La Follette, TN"	TRUE	47093	"Knox County"	TRUE
+"878"	28940	NA	314	"Knoxville, TN"	NA	"Knoxville-Sevierville-La Follette, TN"	TRUE	47105	"Loudon County"	TRUE
+"879"	28940	NA	314	"Knoxville, TN"	NA	"Knoxville-Sevierville-La Follette, TN"	TRUE	47173	"Union County"	FALSE
+"880"	28980	NA	NA	"Kodiak, AK"	NA	NA	FALSE	2150	"Kodiak Island Borough"	TRUE
+"881"	29020	NA	316	"Kokomo, IN"	NA	"Kokomo-Peru, IN"	TRUE	18067	"Howard County"	TRUE
+"882"	29020	NA	316	"Kokomo, IN"	NA	"Kokomo-Peru, IN"	TRUE	18159	"Tipton County"	FALSE
+"883"	29060	NA	148	"Laconia, NH"	NA	"Boston-Worcester-Manchester, MA-RI-NH"	FALSE	33001	"Belknap County"	TRUE
+"884"	29100	NA	NA	"La Crosse, WI-MN"	NA	NA	TRUE	27055	"Houston County"	TRUE
+"885"	29100	NA	NA	"La Crosse, WI-MN"	NA	NA	TRUE	55063	"La Crosse County"	TRUE
+"886"	29140	NA	320	"Lafayette, IN"	NA	"Lafayette-Frankfort, IN"	TRUE	18007	"Benton County"	FALSE
+"887"	29140	NA	320	"Lafayette, IN"	NA	"Lafayette-Frankfort, IN"	TRUE	18015	"Carroll County"	FALSE
+"888"	29140	NA	320	"Lafayette, IN"	NA	"Lafayette-Frankfort, IN"	TRUE	18157	"Tippecanoe County"	TRUE
+"889"	29180	NA	318	"Lafayette, LA"	NA	"Lafayette-Acadiana, LA"	TRUE	22055	"Lafayette Parish"	TRUE
+"890"	29180	NA	318	"Lafayette, LA"	NA	"Lafayette-Acadiana, LA"	TRUE	22099	"St. Martin Parish"	TRUE
+"891"	29220	NA	314	"La Follette, TN"	NA	"Knoxville-Sevierville-La Follette, TN"	FALSE	47013	"Campbell County"	TRUE
+"892"	29260	NA	NA	"La Grande, OR"	NA	NA	FALSE	41061	"Union County"	TRUE
+"893"	29300	NA	122	"LaGrange, GA"	NA	"Atlanta-Sandy Springs-Gainesville, GA-AL"	FALSE	13285	"Troup County"	TRUE
+"894"	29340	NA	324	"Lake Charles, LA"	NA	"Lake Charles-Jennings, LA"	TRUE	22019	"Calcasieu Parish"	TRUE
+"895"	29340	NA	324	"Lake Charles, LA"	NA	"Lake Charles-Jennings, LA"	TRUE	22023	"Cameron Parish"	FALSE
+"896"	29380	NA	NA	"Lake City, FL"	NA	NA	FALSE	12023	"Columbia County"	TRUE
+"897"	29420	NA	NA	"Lake Havasu City-Kingman, AZ"	NA	NA	TRUE	4015	"Mohave County"	TRUE
+"898"	29460	NA	NA	"Lakeland-Winter Haven, FL"	NA	NA	TRUE	12105	"Polk County"	TRUE
+"899"	29500	NA	NA	"Lamesa, TX"	NA	NA	FALSE	48115	"Dawson County"	TRUE
+"900"	29540	NA	NA	"Lancaster, PA"	NA	NA	TRUE	42071	"Lancaster County"	TRUE
+"901"	29580	NA	172	"Lancaster, SC"	NA	"Charlotte-Gastonia-Salisbury, NC-SC"	FALSE	45057	"Lancaster County"	TRUE
+"902"	29620	NA	330	"Lansing-East Lansing, MI"	NA	"Lansing-East Lansing-Owosso, MI"	TRUE	26037	"Clinton County"	TRUE
+"903"	29620	NA	330	"Lansing-East Lansing, MI"	NA	"Lansing-East Lansing-Owosso, MI"	TRUE	26045	"Eaton County"	TRUE
+"904"	29620	NA	330	"Lansing-East Lansing, MI"	NA	"Lansing-East Lansing-Owosso, MI"	TRUE	26065	"Ingham County"	TRUE
+"905"	29660	NA	NA	"Laramie, WY"	NA	NA	FALSE	56001	"Albany County"	TRUE
+"906"	29700	NA	NA	"Laredo, TX"	NA	NA	TRUE	48479	"Webb County"	TRUE
+"907"	29740	NA	NA	"Las Cruces, NM"	NA	NA	TRUE	35013	"Dona Ana County"	TRUE
+"908"	29780	NA	NA	"Las Vegas, NM"	NA	NA	FALSE	35047	"San Miguel County"	TRUE
+"909"	29820	NA	332	"Las Vegas-Paradise, NV"	NA	"Las Vegas-Paradise-Pahrump, NV"	TRUE	32003	"Clark County"	TRUE
+"910"	29860	NA	NA	"Laurel, MS"	NA	NA	FALSE	28061	"Jasper County"	FALSE
+"911"	29860	NA	NA	"Laurel, MS"	NA	NA	FALSE	28067	"Jones County"	TRUE
+"912"	29900	NA	354	"Laurinburg, NC"	NA	"Lumberton-Laurinburg, NC"	FALSE	37165	"Scotland County"	TRUE
+"913"	29940	NA	NA	"Lawrence, KS"	NA	NA	TRUE	20045	"Douglas County"	TRUE
+"914"	29980	NA	NA	"Lawrenceburg, TN"	NA	NA	FALSE	47099	"Lawrence County"	TRUE
+"915"	30020	NA	NA	"Lawton, OK"	NA	NA	TRUE	40031	"Comanche County"	TRUE
+"916"	30060	NA	NA	"Lebanon, MO"	NA	NA	FALSE	29105	"Laclede County"	TRUE
+"917"	30100	NA	180	"Lebanon, NH-VT"	NA	"Claremont-Lebanon, NH-VT"	FALSE	33009	"Grafton County"	TRUE
+"918"	30100	NA	180	"Lebanon, NH-VT"	NA	"Claremont-Lebanon, NH-VT"	FALSE	50017	"Orange County"	FALSE
+"919"	30100	NA	180	"Lebanon, NH-VT"	NA	"Claremont-Lebanon, NH-VT"	FALSE	50027	"Windsor County"	TRUE
+"920"	30140	NA	276	"Lebanon, PA"	NA	"Harrisburg-Carlisle-Lebanon, PA"	TRUE	42075	"Lebanon County"	TRUE
+"921"	30220	NA	352	"Levelland, TX"	NA	"Lubbock-Levelland, TX"	FALSE	48219	"Hockley County"	TRUE
+"922"	30260	NA	526	"Lewisburg, PA"	NA	"Sunbury-Lewisburg-Selinsgrove, PA"	FALSE	42119	"Union County"	TRUE
+"923"	30280	NA	NA	"Lewisburg, TN"	NA	NA	FALSE	47117	"Marshall County"	TRUE
+"924"	30300	NA	NA	"Lewiston, ID-WA"	NA	NA	TRUE	16069	"Nez Perce County"	TRUE
+"925"	30300	NA	NA	"Lewiston, ID-WA"	NA	NA	TRUE	53003	"Asotin County"	TRUE
+"926"	30340	NA	438	"Lewiston-Auburn, ME"	NA	"Portland-Lewiston-South Portland, ME"	TRUE	23001	"Androscoggin County"	TRUE
+"927"	30380	NA	NA	"Lewistown, PA"	NA	NA	FALSE	42087	"Mifflin County"	TRUE
+"928"	30420	NA	NA	"Lexington, NE"	NA	NA	FALSE	31047	"Dawson County"	TRUE
+"929"	30420	NA	NA	"Lexington, NE"	NA	NA	FALSE	31073	"Gosper County"	FALSE
+"930"	30460	NA	336	"Lexington-Fayette, KY"	NA	"Lexington-Fayette--Frankfort--Richmond, KY"	TRUE	21017	"Bourbon County"	FALSE
+"931"	30460	NA	336	"Lexington-Fayette, KY"	NA	"Lexington-Fayette--Frankfort--Richmond, KY"	TRUE	21049	"Clark County"	FALSE
+"932"	30460	NA	336	"Lexington-Fayette, KY"	NA	"Lexington-Fayette--Frankfort--Richmond, KY"	TRUE	21067	"Fayette County"	TRUE
+"933"	30460	NA	336	"Lexington-Fayette, KY"	NA	"Lexington-Fayette--Frankfort--Richmond, KY"	TRUE	21113	"Jessamine County"	FALSE
+"934"	30460	NA	336	"Lexington-Fayette, KY"	NA	"Lexington-Fayette--Frankfort--Richmond, KY"	TRUE	21209	"Scott County"	FALSE
+"935"	30460	NA	336	"Lexington-Fayette, KY"	NA	"Lexington-Fayette--Frankfort--Richmond, KY"	TRUE	21239	"Woodford County"	FALSE
+"936"	30500	NA	548	"Lexington Park, MD"	NA	"Washington-Baltimore-Northern Virginia, DC-MD-VA-WV"	FALSE	24037	"St. Mary's County"	TRUE
+"937"	30580	NA	NA	"Liberal, KS"	NA	NA	FALSE	20175	"Seward County"	TRUE
+"938"	30620	NA	338	"Lima, OH"	NA	"Lima-Van Wert-Wapakoneta, OH"	TRUE	39003	"Allen County"	TRUE
+"939"	30660	NA	NA	"Lincoln, IL"	NA	NA	FALSE	17107	"Logan County"	TRUE
+"940"	30700	NA	NA	"Lincoln, NE"	NA	NA	TRUE	31109	"Lancaster County"	TRUE
+"941"	30700	NA	NA	"Lincoln, NE"	NA	NA	TRUE	31159	"Seward County"	FALSE
+"942"	30740	NA	172	"Lincolnton, NC"	NA	"Charlotte-Gastonia-Salisbury, NC-SC"	FALSE	37109	"Lincoln County"	TRUE
+"943"	30780	NA	340	"Little Rock-North Little Rock-Conway, AR"	NA	"Little Rock-North Little Rock-Pine Bluff, AR"	TRUE	5045	"Faulkner County"	FALSE
+"944"	30780	NA	340	"Little Rock-North Little Rock-Conway, AR"	NA	"Little Rock-North Little Rock-Pine Bluff, AR"	TRUE	5053	"Grant County"	FALSE
+"945"	30780	NA	340	"Little Rock-North Little Rock-Conway, AR"	NA	"Little Rock-North Little Rock-Pine Bluff, AR"	TRUE	5085	"Lonoke County"	TRUE
+"946"	30780	NA	340	"Little Rock-North Little Rock-Conway, AR"	NA	"Little Rock-North Little Rock-Pine Bluff, AR"	TRUE	5105	"Perry County"	FALSE
+"947"	30780	NA	340	"Little Rock-North Little Rock-Conway, AR"	NA	"Little Rock-North Little Rock-Pine Bluff, AR"	TRUE	5119	"Pulaski County"	TRUE
+"948"	30780	NA	340	"Little Rock-North Little Rock-Conway, AR"	NA	"Little Rock-North Little Rock-Pine Bluff, AR"	TRUE	5125	"Saline County"	TRUE
+"949"	30820	NA	558	"Lock Haven, PA"	NA	"Williamsport-Lock Haven, PA"	FALSE	42035	"Clinton County"	TRUE
+"950"	30860	NA	NA	"Logan, UT-ID"	NA	NA	TRUE	16041	"Franklin County"	FALSE
+"951"	30860	NA	NA	"Logan, UT-ID"	NA	NA	TRUE	49005	"Cache County"	TRUE
+"952"	30900	NA	NA	"Logansport, IN"	NA	NA	FALSE	18017	"Cass County"	TRUE
+"953"	30940	NA	202	"London, KY"	NA	"Corbin-London, KY"	FALSE	21125	"Laurel County"	TRUE
+"954"	30980	NA	346	"Longview, TX"	NA	"Longview-Marshall, TX"	TRUE	48183	"Gregg County"	TRUE
+"955"	30980	NA	346	"Longview, TX"	NA	"Longview-Marshall, TX"	TRUE	48401	"Rusk County"	FALSE
+"956"	30980	NA	346	"Longview, TX"	NA	"Longview-Marshall, TX"	TRUE	48459	"Upshur County"	FALSE
+"957"	31020	NA	NA	"Longview, WA"	NA	NA	TRUE	53015	"Cowlitz County"	TRUE
+"958"	31060	NA	NA	"Los Alamos, NM"	NA	NA	FALSE	35028	"Los Alamos County"	TRUE
+"959"	31100	31084	348	"Los Angeles-Long Beach-Santa Ana, CA"	"Los Angeles-Long Beach-Glendale, CA"	"Los Angeles-Long Beach-Riverside, CA"	TRUE	6037	"Los Angeles County"	TRUE
+"960"	31100	42044	348	"Los Angeles-Long Beach-Santa Ana, CA"	"Santa Ana-Anaheim-Irvine, CA"	"Los Angeles-Long Beach-Riverside, CA"	TRUE	6059	"Orange County"	TRUE
+"961"	31140	NA	350	"Louisville/Jefferson County, KY-IN"	NA	"Louisville/Jefferson County--Elizabethtown--Scottsburg, KY-IN"	TRUE	18019	"Clark County"	TRUE
+"962"	31140	NA	350	"Louisville/Jefferson County, KY-IN"	NA	"Louisville/Jefferson County--Elizabethtown--Scottsburg, KY-IN"	TRUE	18043	"Floyd County"	TRUE
+"963"	31140	NA	350	"Louisville/Jefferson County, KY-IN"	NA	"Louisville/Jefferson County--Elizabethtown--Scottsburg, KY-IN"	TRUE	18061	"Harrison County"	FALSE
+"964"	31140	NA	350	"Louisville/Jefferson County, KY-IN"	NA	"Louisville/Jefferson County--Elizabethtown--Scottsburg, KY-IN"	TRUE	18175	"Washington County"	FALSE
+"965"	31140	NA	350	"Louisville/Jefferson County, KY-IN"	NA	"Louisville/Jefferson County--Elizabethtown--Scottsburg, KY-IN"	TRUE	21029	"Bullitt County"	TRUE
+"966"	31140	NA	350	"Louisville/Jefferson County, KY-IN"	NA	"Louisville/Jefferson County--Elizabethtown--Scottsburg, KY-IN"	TRUE	21103	"Henry County"	FALSE
+"967"	31140	NA	350	"Louisville/Jefferson County, KY-IN"	NA	"Louisville/Jefferson County--Elizabethtown--Scottsburg, KY-IN"	TRUE	21111	"Jefferson County"	TRUE
+"968"	31140	NA	350	"Louisville/Jefferson County, KY-IN"	NA	"Louisville/Jefferson County--Elizabethtown--Scottsburg, KY-IN"	TRUE	21163	"Meade County"	FALSE
+"969"	31140	NA	350	"Louisville/Jefferson County, KY-IN"	NA	"Louisville/Jefferson County--Elizabethtown--Scottsburg, KY-IN"	TRUE	21179	"Nelson County"	FALSE
+"970"	31140	NA	350	"Louisville/Jefferson County, KY-IN"	NA	"Louisville/Jefferson County--Elizabethtown--Scottsburg, KY-IN"	TRUE	21185	"Oldham County"	TRUE
+"971"	31140	NA	350	"Louisville/Jefferson County, KY-IN"	NA	"Louisville/Jefferson County--Elizabethtown--Scottsburg, KY-IN"	TRUE	21211	"Shelby County"	FALSE
+"972"	31140	NA	350	"Louisville/Jefferson County, KY-IN"	NA	"Louisville/Jefferson County--Elizabethtown--Scottsburg, KY-IN"	TRUE	21215	"Spencer County"	FALSE
+"973"	31140	NA	350	"Louisville/Jefferson County, KY-IN"	NA	"Louisville/Jefferson County--Elizabethtown--Scottsburg, KY-IN"	TRUE	21223	"Trimble County"	FALSE
+"974"	31180	NA	352	"Lubbock, TX"	NA	"Lubbock-Levelland, TX"	TRUE	48107	"Crosby County"	FALSE
+"975"	31180	NA	352	"Lubbock, TX"	NA	"Lubbock-Levelland, TX"	TRUE	48303	"Lubbock County"	TRUE
+"976"	31260	NA	NA	"Lufkin, TX"	NA	NA	FALSE	48005	"Angelina County"	TRUE
+"977"	31300	NA	354	"Lumberton, NC"	NA	"Lumberton-Laurinburg, NC"	FALSE	37155	"Robeson County"	TRUE
+"978"	31340	NA	NA	"Lynchburg, VA"	NA	NA	TRUE	51009	"Amherst County"	TRUE
+"979"	31340	NA	NA	"Lynchburg, VA"	NA	NA	TRUE	51011	"Appomattox County"	FALSE
+"980"	31340	NA	NA	"Lynchburg, VA"	NA	NA	TRUE	51019	"Bedford County"	TRUE
+"981"	31340	NA	NA	"Lynchburg, VA"	NA	NA	TRUE	51031	"Campbell County"	TRUE
+"982"	31340	NA	NA	"Lynchburg, VA"	NA	NA	TRUE	51515	"Bedford city"	TRUE
+"983"	31340	NA	NA	"Lynchburg, VA"	NA	NA	TRUE	51680	"Lynchburg city"	TRUE
+"984"	31380	NA	NA	"Macomb, IL"	NA	NA	FALSE	17109	"McDonough County"	TRUE
+"985"	31420	NA	356	"Macon, GA"	NA	"Macon-Warner Robins-Fort Valley, GA"	TRUE	13021	"Bibb County"	TRUE
+"986"	31420	NA	356	"Macon, GA"	NA	"Macon-Warner Robins-Fort Valley, GA"	TRUE	13079	"Crawford County"	FALSE
+"987"	31420	NA	356	"Macon, GA"	NA	"Macon-Warner Robins-Fort Valley, GA"	TRUE	13169	"Jones County"	FALSE
+"988"	31420	NA	356	"Macon, GA"	NA	"Macon-Warner Robins-Fort Valley, GA"	TRUE	13207	"Monroe County"	FALSE
+"989"	31420	NA	356	"Macon, GA"	NA	"Macon-Warner Robins-Fort Valley, GA"	TRUE	13289	"Twiggs County"	FALSE
+"990"	31460	NA	260	"Madera-Chowchilla, CA"	NA	"Fresno-Madera, CA"	TRUE	6039	"Madera County"	TRUE
+"991"	31500	NA	NA	"Madison, IN"	NA	NA	FALSE	18077	"Jefferson County"	TRUE
+"992"	31540	NA	358	"Madison, WI"	NA	"Madison-Baraboo, WI"	TRUE	55021	"Columbia County"	FALSE
+"993"	31540	NA	358	"Madison, WI"	NA	"Madison-Baraboo, WI"	TRUE	55025	"Dane County"	TRUE
+"994"	31540	NA	358	"Madison, WI"	NA	"Madison-Baraboo, WI"	TRUE	55049	"Iowa County"	FALSE
+"995"	31580	NA	NA	"Madisonville, KY"	NA	NA	FALSE	21107	"Hopkins County"	TRUE
+"996"	31620	NA	NA	"Magnolia, AR"	NA	NA	FALSE	5027	"Columbia County"	TRUE
+"997"	31660	NA	NA	"Malone, NY"	NA	NA	FALSE	36033	"Franklin County"	TRUE
+"998"	31700	NA	148	"Manchester-Nashua, NH"	NA	"Boston-Worcester-Manchester, MA-RI-NH"	TRUE	33011	"Hillsborough County"	TRUE
+"999"	31740	NA	NA	"Manhattan, KS"	NA	NA	TRUE	20061	"Geary County"	FALSE
+"1000"	31740	NA	NA	"Manhattan, KS"	NA	NA	TRUE	20149	"Pottawatomie County"	FALSE
+"1001"	31740	NA	NA	"Manhattan, KS"	NA	NA	TRUE	20161	"Riley County"	TRUE
+"1002"	31820	NA	NA	"Manitowoc, WI"	NA	NA	FALSE	55071	"Manitowoc County"	TRUE
+"1003"	31860	NA	NA	"Mankato-North Mankato, MN"	NA	NA	TRUE	27013	"Blue Earth County"	TRUE
+"1004"	31860	NA	NA	"Mankato-North Mankato, MN"	NA	NA	TRUE	27103	"Nicollet County"	TRUE
+"1005"	31900	NA	360	"Mansfield, OH"	NA	"Mansfield-Bucyrus, OH"	TRUE	39139	"Richland County"	TRUE
+"1006"	31940	NA	NA	"Marinette, WI-MI"	NA	NA	FALSE	26109	"Menominee County"	TRUE
+"1007"	31940	NA	NA	"Marinette, WI-MI"	NA	NA	FALSE	55075	"Marinette County"	TRUE
+"1008"	31980	NA	NA	"Marion, IN"	NA	NA	FALSE	18053	"Grant County"	TRUE
+"1009"	32020	NA	198	"Marion, OH"	NA	"Columbus-Marion-Chillicothe, OH"	FALSE	39101	"Marion County"	TRUE
+"1010"	32060	NA	166	"Marion-Herrin, IL"	NA	"Carbondale-Marion-Herrin, IL"	FALSE	17199	"Williamson County"	TRUE
+"1011"	32100	NA	NA	"Marquette, MI"	NA	NA	FALSE	26103	"Marquette County"	TRUE
+"1012"	32140	NA	NA	"Marshall, MN"	NA	NA	FALSE	27083	"Lyon County"	TRUE
+"1013"	32180	NA	NA	"Marshall, MO"	NA	NA	FALSE	29195	"Saline County"	TRUE
+"1014"	32220	NA	346	"Marshall, TX"	NA	"Longview-Marshall, TX"	FALSE	48203	"Harrison County"	TRUE
+"1015"	32260	NA	NA	"Marshalltown, IA"	NA	NA	FALSE	19127	"Marshall County"	TRUE
+"1016"	32270	NA	NA	"Marshfield-Wisconsin Rapids, WI"	NA	NA	FALSE	55141	"Wood County"	TRUE
+"1017"	32280	NA	542	"Martin, TN"	NA	"Union City-Martin, TN-KY"	FALSE	47183	"Weakley County"	TRUE
+"1018"	32300	NA	NA	"Martinsville, VA"	NA	NA	FALSE	51089	"Henry County"	TRUE
+"1019"	32300	NA	NA	"Martinsville, VA"	NA	NA	FALSE	51690	"Martinsville city"	TRUE
+"1020"	32340	NA	NA	"Maryville, MO"	NA	NA	FALSE	29147	"Nodaway County"	TRUE
+"1021"	32380	NA	NA	"Mason City, IA"	NA	NA	FALSE	19033	"Cerro Gordo County"	TRUE
+"1022"	32380	NA	NA	"Mason City, IA"	NA	NA	FALSE	19195	"Worth County"	FALSE
+"1023"	32420	NA	364	"Mayagüez, PR"	NA	"Mayagüez-San Germán-Cabo Rojo, PR"	TRUE	72067	"Hormigueros Municipio"	TRUE
+"1024"	32420	NA	364	"Mayagüez, PR"	NA	"Mayagüez-San Germán-Cabo Rojo, PR"	TRUE	72097	"Mayagüez Municipio"	TRUE
+"1025"	32460	NA	424	"Mayfield, KY"	NA	"Paducah-Mayfield, KY-IL"	FALSE	21083	"Graves County"	TRUE
+"1026"	32500	NA	NA	"Maysville, KY"	NA	NA	FALSE	21135	"Lewis County"	FALSE
+"1027"	32500	NA	NA	"Maysville, KY"	NA	NA	FALSE	21161	"Mason County"	TRUE
+"1028"	32540	NA	NA	"McAlester, OK"	NA	NA	FALSE	40121	"Pittsburg County"	TRUE
+"1029"	32580	NA	NA	"McAllen-Edinburg-Mission, TX"	NA	NA	TRUE	48215	"Hidalgo County"	TRUE
+"1030"	32620	NA	NA	"McComb, MS"	NA	NA	FALSE	28005	"Amite County"	FALSE
+"1031"	32620	NA	NA	"McComb, MS"	NA	NA	FALSE	28113	"Pike County"	TRUE
+"1032"	32660	NA	NA	"McMinnville, TN"	NA	NA	FALSE	47177	"Warren County"	TRUE
+"1033"	32700	NA	NA	"McPherson, KS"	NA	NA	FALSE	20113	"McPherson County"	TRUE
+"1034"	32740	NA	NA	"Meadville, PA"	NA	NA	FALSE	42039	"Crawford County"	TRUE
+"1035"	32780	NA	NA	"Medford, OR"	NA	NA	TRUE	41029	"Jackson County"	TRUE
+"1036"	32820	NA	NA	"Memphis, TN-MS-AR"	NA	NA	TRUE	5035	"Crittenden County"	TRUE
+"1037"	32820	NA	NA	"Memphis, TN-MS-AR"	NA	NA	TRUE	28033	"DeSoto County"	TRUE
+"1038"	32820	NA	NA	"Memphis, TN-MS-AR"	NA	NA	TRUE	28093	"Marshall County"	FALSE
+"1039"	32820	NA	NA	"Memphis, TN-MS-AR"	NA	NA	TRUE	28137	"Tate County"	FALSE
+"1040"	32820	NA	NA	"Memphis, TN-MS-AR"	NA	NA	TRUE	28143	"Tunica County"	FALSE
+"1041"	32820	NA	NA	"Memphis, TN-MS-AR"	NA	NA	TRUE	47047	"Fayette County"	FALSE
+"1042"	32820	NA	NA	"Memphis, TN-MS-AR"	NA	NA	TRUE	47157	"Shelby County"	TRUE
+"1043"	32820	NA	NA	"Memphis, TN-MS-AR"	NA	NA	TRUE	47167	"Tipton County"	FALSE
+"1044"	32860	NA	232	"Menomonie, WI"	NA	"Eau Claire-Menomonie, WI"	FALSE	55033	"Dunn County"	TRUE
+"1045"	32900	NA	NA	"Merced, CA"	NA	NA	TRUE	6047	"Merced County"	TRUE
+"1046"	32940	NA	NA	"Meridian, MS"	NA	NA	FALSE	28023	"Clarke County"	FALSE
+"1047"	32940	NA	NA	"Meridian, MS"	NA	NA	FALSE	28069	"Kemper County"	FALSE
+"1048"	32940	NA	NA	"Meridian, MS"	NA	NA	FALSE	28075	"Lauderdale County"	TRUE
+"1049"	32980	NA	554	"Merrill, WI"	NA	"Wausau-Merrill, WI"	FALSE	55069	"Lincoln County"	TRUE
+"1050"	33020	NA	NA	"Mexico, MO"	NA	NA	FALSE	29007	"Audrain County"	TRUE
+"1051"	33060	NA	NA	"Miami, OK"	NA	NA	FALSE	40115	"Ottawa County"	TRUE
+"1052"	33100	22744	NA	"Miami-Fort Lauderdale-Pompano Beach, FL"	"Fort Lauderdale-Pompano Beach-Deerfield Beach, FL"	NA	TRUE	12011	"Broward County"	TRUE
+"1053"	33100	33124	NA	"Miami-Fort Lauderdale-Pompano Beach, FL"	"Miami-Miami Beach-Kendall, FL"	NA	TRUE	12086	"Miami-Dade County"	TRUE
+"1054"	33100	48424	NA	"Miami-Fort Lauderdale-Pompano Beach, FL"	"West Palm Beach-Boca Raton-Boynton Beach, FL"	NA	TRUE	12099	"Palm Beach County"	TRUE
+"1055"	33140	NA	176	"Michigan City-La Porte, IN"	NA	"Chicago-Naperville-Michigan City, IL-IN-WI"	TRUE	18091	"LaPorte County"	TRUE
+"1056"	33180	NA	NA	"Middlesborough, KY"	NA	NA	FALSE	21013	"Bell County"	TRUE
+"1057"	33220	NA	NA	"Midland, MI"	NA	NA	FALSE	26111	"Midland County"	TRUE
+"1058"	33260	NA	372	"Midland, TX"	NA	"Midland-Odessa, TX"	TRUE	48329	"Midland County"	TRUE
+"1059"	33300	NA	NA	"Milledgeville, GA"	NA	NA	FALSE	13009	"Baldwin County"	TRUE
+"1060"	33300	NA	NA	"Milledgeville, GA"	NA	NA	FALSE	13141	"Hancock County"	FALSE
+"1061"	33340	NA	376	"Milwaukee-Waukesha-West Allis, WI"	NA	"Milwaukee-Racine-Waukesha, WI"	TRUE	55079	"Milwaukee County"	TRUE
+"1062"	33340	NA	376	"Milwaukee-Waukesha-West Allis, WI"	NA	"Milwaukee-Racine-Waukesha, WI"	TRUE	55089	"Ozaukee County"	TRUE
+"1063"	33340	NA	376	"Milwaukee-Waukesha-West Allis, WI"	NA	"Milwaukee-Racine-Waukesha, WI"	TRUE	55131	"Washington County"	FALSE
+"1064"	33340	NA	376	"Milwaukee-Waukesha-West Allis, WI"	NA	"Milwaukee-Racine-Waukesha, WI"	TRUE	55133	"Waukesha County"	TRUE
+"1065"	33380	NA	508	"Minden, LA"	NA	"Shreveport-Bossier City-Minden, LA"	FALSE	22119	"Webster Parish"	TRUE
+"1066"	33420	NA	206	"Mineral Wells, TX"	NA	"Dallas-Fort Worth, TX"	FALSE	48363	"Palo Pinto County"	TRUE
+"1067"	33460	NA	378	"Minneapolis-St. Paul-Bloomington, MN-WI"	NA	"Minneapolis-St. Paul-St. Cloud, MN-WI"	TRUE	27003	"Anoka County"	TRUE
+"1068"	33460	NA	378	"Minneapolis-St. Paul-Bloomington, MN-WI"	NA	"Minneapolis-St. Paul-St. Cloud, MN-WI"	TRUE	27019	"Carver County"	TRUE
+"1069"	33460	NA	378	"Minneapolis-St. Paul-Bloomington, MN-WI"	NA	"Minneapolis-St. Paul-St. Cloud, MN-WI"	TRUE	27025	"Chisago County"	FALSE
+"1070"	33460	NA	378	"Minneapolis-St. Paul-Bloomington, MN-WI"	NA	"Minneapolis-St. Paul-St. Cloud, MN-WI"	TRUE	27037	"Dakota County"	TRUE
+"1071"	33460	NA	378	"Minneapolis-St. Paul-Bloomington, MN-WI"	NA	"Minneapolis-St. Paul-St. Cloud, MN-WI"	TRUE	27053	"Hennepin County"	TRUE
+"1072"	33460	NA	378	"Minneapolis-St. Paul-Bloomington, MN-WI"	NA	"Minneapolis-St. Paul-St. Cloud, MN-WI"	TRUE	27059	"Isanti County"	FALSE
+"1073"	33460	NA	378	"Minneapolis-St. Paul-Bloomington, MN-WI"	NA	"Minneapolis-St. Paul-St. Cloud, MN-WI"	TRUE	27123	"Ramsey County"	TRUE
+"1074"	33460	NA	378	"Minneapolis-St. Paul-Bloomington, MN-WI"	NA	"Minneapolis-St. Paul-St. Cloud, MN-WI"	TRUE	27139	"Scott County"	TRUE
+"1075"	33460	NA	378	"Minneapolis-St. Paul-Bloomington, MN-WI"	NA	"Minneapolis-St. Paul-St. Cloud, MN-WI"	TRUE	27141	"Sherburne County"	FALSE
+"1076"	33460	NA	378	"Minneapolis-St. Paul-Bloomington, MN-WI"	NA	"Minneapolis-St. Paul-St. Cloud, MN-WI"	TRUE	27163	"Washington County"	TRUE
+"1077"	33460	NA	378	"Minneapolis-St. Paul-Bloomington, MN-WI"	NA	"Minneapolis-St. Paul-St. Cloud, MN-WI"	TRUE	27171	"Wright County"	FALSE
+"1078"	33460	NA	378	"Minneapolis-St. Paul-Bloomington, MN-WI"	NA	"Minneapolis-St. Paul-St. Cloud, MN-WI"	TRUE	55093	"Pierce County"	FALSE
+"1079"	33460	NA	378	"Minneapolis-St. Paul-Bloomington, MN-WI"	NA	"Minneapolis-St. Paul-St. Cloud, MN-WI"	TRUE	55109	"St. Croix County"	FALSE
+"1080"	33500	NA	NA	"Minot, ND"	NA	NA	FALSE	38049	"McHenry County"	FALSE
+"1081"	33500	NA	NA	"Minot, ND"	NA	NA	FALSE	38075	"Renville County"	FALSE
+"1082"	33500	NA	NA	"Minot, ND"	NA	NA	FALSE	38101	"Ward County"	TRUE
+"1083"	33540	NA	NA	"Missoula, MT"	NA	NA	TRUE	30063	"Missoula County"	TRUE
+"1084"	33580	NA	NA	"Mitchell, SD"	NA	NA	FALSE	46035	"Davison County"	TRUE
+"1085"	33580	NA	NA	"Mitchell, SD"	NA	NA	FALSE	46061	"Hanson County"	FALSE
+"1086"	33620	NA	NA	"Moberly, MO"	NA	NA	FALSE	29175	"Randolph County"	TRUE
+"1087"	33660	NA	380	"Mobile, AL"	NA	"Mobile-Daphne-Fairhope, AL"	TRUE	1097	"Mobile County"	TRUE
+"1088"	33700	NA	NA	"Modesto, CA"	NA	NA	TRUE	6099	"Stanislaus County"	TRUE
+"1089"	33740	NA	384	"Monroe, LA"	NA	"Monroe-Bastrop, LA"	TRUE	22073	"Ouachita Parish"	TRUE
+"1090"	33740	NA	384	"Monroe, LA"	NA	"Monroe-Bastrop, LA"	TRUE	22111	"Union Parish"	FALSE
+"1091"	33780	NA	220	"Monroe, MI"	NA	"Detroit-Warren-Flint, MI"	TRUE	26115	"Monroe County"	TRUE
+"1092"	33820	NA	NA	"Monroe, WI"	NA	NA	FALSE	55045	"Green County"	TRUE
+"1093"	33860	NA	388	"Montgomery, AL"	NA	"Montgomery-Alexander City, AL"	TRUE	1001	"Autauga County"	FALSE
+"1094"	33860	NA	388	"Montgomery, AL"	NA	"Montgomery-Alexander City, AL"	TRUE	1051	"Elmore County"	FALSE
+"1095"	33860	NA	388	"Montgomery, AL"	NA	"Montgomery-Alexander City, AL"	TRUE	1085	"Lowndes County"	FALSE
+"1096"	33860	NA	388	"Montgomery, AL"	NA	"Montgomery-Alexander City, AL"	TRUE	1101	"Montgomery County"	TRUE
+"1097"	33940	NA	NA	"Montrose, CO"	NA	NA	FALSE	8085	"Montrose County"	TRUE
+"1098"	33980	NA	NA	"Morehead City, NC"	NA	NA	FALSE	37031	"Carteret County"	TRUE
+"1099"	34020	NA	NA	"Morgan City, LA"	NA	NA	FALSE	22101	"St. Mary Parish"	TRUE
+"1100"	34060	NA	NA	"Morgantown, WV"	NA	NA	TRUE	54061	"Monongalia County"	TRUE
+"1101"	34060	NA	NA	"Morgantown, WV"	NA	NA	TRUE	54077	"Preston County"	FALSE
+"1102"	34100	NA	314	"Morristown, TN"	NA	"Knoxville-Sevierville-La Follette, TN"	TRUE	47057	"Grainger County"	FALSE
+"1103"	34100	NA	314	"Morristown, TN"	NA	"Knoxville-Sevierville-La Follette, TN"	TRUE	47063	"Hamblen County"	TRUE
+"1104"	34100	NA	314	"Morristown, TN"	NA	"Knoxville-Sevierville-La Follette, TN"	TRUE	47089	"Jefferson County"	TRUE
+"1105"	34140	NA	NA	"Moscow, ID"	NA	NA	FALSE	16057	"Latah County"	TRUE
+"1106"	34180	NA	NA	"Moses Lake, WA"	NA	NA	FALSE	53025	"Grant County"	TRUE
+"1107"	34220	NA	NA	"Moultrie, GA"	NA	NA	FALSE	13071	"Colquitt County"	TRUE
+"1108"	34260	NA	NA	"Mountain Home, AR"	NA	NA	FALSE	5005	"Baxter County"	TRUE
+"1109"	34300	NA	NA	"Mountain Home, ID"	NA	NA	FALSE	16039	"Elmore County"	TRUE
+"1110"	34340	NA	268	"Mount Airy, NC"	NA	"Greensboro--Winston-Salem--High Point, NC"	FALSE	37171	"Surry County"	TRUE
+"1111"	34380	NA	NA	"Mount Pleasant, MI"	NA	NA	FALSE	26073	"Isabella County"	TRUE
+"1112"	34420	NA	NA	"Mount Pleasant, TX"	NA	NA	FALSE	48449	"Titus County"	TRUE
+"1113"	34460	NA	336	"Mount Sterling, KY"	NA	"Lexington-Fayette--Frankfort--Richmond, KY"	FALSE	21011	"Bath County"	FALSE
+"1114"	34460	NA	336	"Mount Sterling, KY"	NA	"Lexington-Fayette--Frankfort--Richmond, KY"	FALSE	21165	"Menifee County"	FALSE
+"1115"	34460	NA	336	"Mount Sterling, KY"	NA	"Lexington-Fayette--Frankfort--Richmond, KY"	FALSE	21173	"Montgomery County"	TRUE
+"1116"	34500	NA	NA	"Mount Vernon, IL"	NA	NA	FALSE	17065	"Hamilton County"	FALSE
+"1117"	34500	NA	NA	"Mount Vernon, IL"	NA	NA	FALSE	17081	"Jefferson County"	TRUE
+"1118"	34540	NA	198	"Mount Vernon, OH"	NA	"Columbus-Marion-Chillicothe, OH"	FALSE	39083	"Knox County"	TRUE
+"1119"	34580	NA	500	"Mount Vernon-Anacortes, WA"	NA	"Seattle-Tacoma-Olympia, WA"	TRUE	53057	"Skagit County"	TRUE
+"1120"	34620	NA	NA	"Muncie, IN"	NA	NA	TRUE	18035	"Delaware County"	TRUE
+"1121"	34660	NA	NA	"Murray, KY"	NA	NA	FALSE	21035	"Calloway County"	TRUE
+"1122"	34700	NA	NA	"Muscatine, IA"	NA	NA	FALSE	19115	"Louisa County"	FALSE
+"1123"	34700	NA	NA	"Muscatine, IA"	NA	NA	FALSE	19139	"Muscatine County"	TRUE
+"1124"	34740	NA	266	"Muskegon-Norton Shores, MI"	NA	"Grand Rapids-Muskegon-Holland, MI"	TRUE	26121	"Muskegon County"	TRUE
+"1125"	34780	NA	NA	"Muskogee, OK"	NA	NA	FALSE	40101	"Muskogee County"	TRUE
+"1126"	34820	NA	396	"Myrtle Beach-North Myrtle Beach-Conway, SC"	NA	"Myrtle Beach-Conway-Georgetown, SC"	TRUE	45051	"Horry County"	TRUE
+"1127"	34860	NA	NA	"Nacogdoches, TX"	NA	NA	FALSE	48347	"Nacogdoches County"	TRUE
+"1128"	34900	NA	488	"Napa, CA"	NA	"San Jose-San Francisco-Oakland, CA"	TRUE	6055	"Napa County"	TRUE
+"1129"	34940	NA	NA	"Naples-Marco Island, FL"	NA	NA	TRUE	12021	"Collier County"	TRUE
+"1130"	34980	NA	400	"Nashville-Davidson--Murfreesboro--Franklin, TN"	NA	"Nashville-Davidson--Murfreesboro--Columbia, TN"	TRUE	47015	"Cannon County"	FALSE
+"1131"	34980	NA	400	"Nashville-Davidson--Murfreesboro--Franklin, TN"	NA	"Nashville-Davidson--Murfreesboro--Columbia, TN"	TRUE	47021	"Cheatham County"	FALSE
+"1132"	34980	NA	400	"Nashville-Davidson--Murfreesboro--Franklin, TN"	NA	"Nashville-Davidson--Murfreesboro--Columbia, TN"	TRUE	47037	"Davidson County"	TRUE
+"1133"	34980	NA	400	"Nashville-Davidson--Murfreesboro--Franklin, TN"	NA	"Nashville-Davidson--Murfreesboro--Columbia, TN"	TRUE	47043	"Dickson County"	FALSE
+"1134"	34980	NA	400	"Nashville-Davidson--Murfreesboro--Franklin, TN"	NA	"Nashville-Davidson--Murfreesboro--Columbia, TN"	TRUE	47081	"Hickman County"	FALSE
+"1135"	34980	NA	400	"Nashville-Davidson--Murfreesboro--Franklin, TN"	NA	"Nashville-Davidson--Murfreesboro--Columbia, TN"	TRUE	47111	"Macon County"	FALSE
+"1136"	34980	NA	400	"Nashville-Davidson--Murfreesboro--Franklin, TN"	NA	"Nashville-Davidson--Murfreesboro--Columbia, TN"	TRUE	47147	"Robertson County"	TRUE
+"1137"	34980	NA	400	"Nashville-Davidson--Murfreesboro--Franklin, TN"	NA	"Nashville-Davidson--Murfreesboro--Columbia, TN"	TRUE	47149	"Rutherford County"	FALSE
+"1138"	34980	NA	400	"Nashville-Davidson--Murfreesboro--Franklin, TN"	NA	"Nashville-Davidson--Murfreesboro--Columbia, TN"	TRUE	47159	"Smith County"	FALSE
+"1139"	34980	NA	400	"Nashville-Davidson--Murfreesboro--Franklin, TN"	NA	"Nashville-Davidson--Murfreesboro--Columbia, TN"	TRUE	47165	"Sumner County"	TRUE
+"1140"	34980	NA	400	"Nashville-Davidson--Murfreesboro--Franklin, TN"	NA	"Nashville-Davidson--Murfreesboro--Columbia, TN"	TRUE	47169	"Trousdale County"	FALSE
+"1141"	34980	NA	400	"Nashville-Davidson--Murfreesboro--Franklin, TN"	NA	"Nashville-Davidson--Murfreesboro--Columbia, TN"	TRUE	47187	"Williamson County"	TRUE
+"1142"	34980	NA	400	"Nashville-Davidson--Murfreesboro--Franklin, TN"	NA	"Nashville-Davidson--Murfreesboro--Columbia, TN"	TRUE	47189	"Wilson County"	TRUE
+"1143"	35020	NA	NA	"Natchez, MS-LA"	NA	NA	FALSE	22029	"Concordia Parish"	TRUE
+"1144"	35020	NA	NA	"Natchez, MS-LA"	NA	NA	FALSE	28001	"Adams County"	TRUE
+"1145"	35060	NA	NA	"Natchitoches, LA"	NA	NA	FALSE	22069	"Natchitoches Parish"	TRUE
+"1146"	35100	NA	NA	"New Bern, NC"	NA	NA	FALSE	37049	"Craven County"	TRUE
+"1147"	35100	NA	NA	"New Bern, NC"	NA	NA	FALSE	37103	"Jones County"	FALSE
+"1148"	35100	NA	NA	"New Bern, NC"	NA	NA	FALSE	37137	"Pamlico County"	FALSE
+"1149"	35140	NA	192	"Newberry, SC"	NA	"Columbia-Newberry, SC"	FALSE	45071	"Newberry County"	TRUE
+"1150"	35220	NA	294	"New Castle, IN"	NA	"Indianapolis-Anderson-Columbus, IN"	FALSE	18065	"Henry County"	TRUE
+"1151"	35260	NA	430	"New Castle, PA"	NA	"Pittsburgh-New Castle, PA"	FALSE	42073	"Lawrence County"	TRUE
+"1152"	35300	NA	408	"New Haven-Milford, CT"	NA	"New York-Newark-Bridgeport, NY-NJ-CT-PA"	TRUE	9009	"New Haven County"	TRUE
+"1153"	35340	NA	318	"New Iberia, LA"	NA	"Lafayette-Acadiana, LA"	FALSE	22045	"Iberia Parish"	TRUE
+"1154"	35380	NA	406	"New Orleans-Metairie-Kenner, LA"	NA	"New Orleans-Metairie-Bogalusa, LA"	TRUE	22051	"Jefferson Parish"	TRUE
+"1155"	35380	NA	406	"New Orleans-Metairie-Kenner, LA"	NA	"New Orleans-Metairie-Bogalusa, LA"	TRUE	22071	"Orleans Parish"	TRUE
+"1156"	35380	NA	406	"New Orleans-Metairie-Kenner, LA"	NA	"New Orleans-Metairie-Bogalusa, LA"	TRUE	22075	"Plaquemines Parish"	TRUE
+"1157"	35380	NA	406	"New Orleans-Metairie-Kenner, LA"	NA	"New Orleans-Metairie-Bogalusa, LA"	TRUE	22087	"St. Bernard Parish"	TRUE
+"1158"	35380	NA	406	"New Orleans-Metairie-Kenner, LA"	NA	"New Orleans-Metairie-Bogalusa, LA"	TRUE	22089	"St. Charles Parish"	FALSE
+"1159"	35380	NA	406	"New Orleans-Metairie-Kenner, LA"	NA	"New Orleans-Metairie-Bogalusa, LA"	TRUE	22095	"St. John the Baptist Parish"	FALSE
+"1160"	35380	NA	406	"New Orleans-Metairie-Kenner, LA"	NA	"New Orleans-Metairie-Bogalusa, LA"	TRUE	22103	"St. Tammany Parish"	FALSE
+"1161"	35420	NA	NA	"New Philadelphia-Dover, OH"	NA	NA	FALSE	39157	"Tuscarawas County"	TRUE
+"1162"	35460	NA	314	"Newport, TN"	NA	"Knoxville-Sevierville-La Follette, TN"	FALSE	47029	"Cocke County"	TRUE
+"1163"	35500	NA	218	"Newton, IA"	NA	"Des Moines-Newton-Pella, IA"	FALSE	19099	"Jasper County"	TRUE
+"1164"	35580	NA	NA	"New Ulm, MN"	NA	NA	FALSE	27015	"Brown County"	TRUE
+"1165"	35620	35644	408	"New York-Northern New Jersey-Long Island, NY-NJ-PA"	"New York-White Plains-Wayne, NY-NJ"	"New York-Newark-Bridgeport, NY-NJ-CT-PA"	TRUE	34003	"Bergen County"	TRUE
+"1166"	35620	35084	408	"New York-Northern New Jersey-Long Island, NY-NJ-PA"	"Newark-Union, NJ-PA"	"New York-Newark-Bridgeport, NY-NJ-CT-PA"	TRUE	34013	"Essex County"	TRUE
+"1167"	35620	35644	408	"New York-Northern New Jersey-Long Island, NY-NJ-PA"	"New York-White Plains-Wayne, NY-NJ"	"New York-Newark-Bridgeport, NY-NJ-CT-PA"	TRUE	34017	"Hudson County"	TRUE
+"1168"	35620	35084	408	"New York-Northern New Jersey-Long Island, NY-NJ-PA"	"Newark-Union, NJ-PA"	"New York-Newark-Bridgeport, NY-NJ-CT-PA"	TRUE	34019	"Hunterdon County"	TRUE
+"1169"	35620	20764	408	"New York-Northern New Jersey-Long Island, NY-NJ-PA"	"Edison-New Brunswick, NJ"	"New York-Newark-Bridgeport, NY-NJ-CT-PA"	TRUE	34023	"Middlesex County"	TRUE
+"1170"	35620	20764	408	"New York-Northern New Jersey-Long Island, NY-NJ-PA"	"Edison-New Brunswick, NJ"	"New York-Newark-Bridgeport, NY-NJ-CT-PA"	TRUE	34025	"Monmouth County"	TRUE
+"1171"	35620	35084	408	"New York-Northern New Jersey-Long Island, NY-NJ-PA"	"Newark-Union, NJ-PA"	"New York-Newark-Bridgeport, NY-NJ-CT-PA"	TRUE	34027	"Morris County"	TRUE
+"1172"	35620	20764	408	"New York-Northern New Jersey-Long Island, NY-NJ-PA"	"Edison-New Brunswick, NJ"	"New York-Newark-Bridgeport, NY-NJ-CT-PA"	TRUE	34029	"Ocean County"	TRUE
+"1173"	35620	35644	408	"New York-Northern New Jersey-Long Island, NY-NJ-PA"	"New York-White Plains-Wayne, NY-NJ"	"New York-Newark-Bridgeport, NY-NJ-CT-PA"	TRUE	34031	"Passaic County"	TRUE
+"1174"	35620	20764	408	"New York-Northern New Jersey-Long Island, NY-NJ-PA"	"Edison-New Brunswick, NJ"	"New York-Newark-Bridgeport, NY-NJ-CT-PA"	TRUE	34035	"Somerset County"	TRUE
+"1175"	35620	35084	408	"New York-Northern New Jersey-Long Island, NY-NJ-PA"	"Newark-Union, NJ-PA"	"New York-Newark-Bridgeport, NY-NJ-CT-PA"	TRUE	34037	"Sussex County"	TRUE
+"1176"	35620	35084	408	"New York-Northern New Jersey-Long Island, NY-NJ-PA"	"Newark-Union, NJ-PA"	"New York-Newark-Bridgeport, NY-NJ-CT-PA"	TRUE	34039	"Union County"	TRUE
+"1177"	35620	35644	408	"New York-Northern New Jersey-Long Island, NY-NJ-PA"	"New York-White Plains-Wayne, NY-NJ"	"New York-Newark-Bridgeport, NY-NJ-CT-PA"	TRUE	36005	"Bronx County"	TRUE
+"1178"	35620	35644	408	"New York-Northern New Jersey-Long Island, NY-NJ-PA"	"New York-White Plains-Wayne, NY-NJ"	"New York-Newark-Bridgeport, NY-NJ-CT-PA"	TRUE	36047	"Kings County"	TRUE
+"1179"	35620	35004	408	"New York-Northern New Jersey-Long Island, NY-NJ-PA"	"Nassau-Suffolk, NY"	"New York-Newark-Bridgeport, NY-NJ-CT-PA"	TRUE	36059	"Nassau County"	TRUE
+"1180"	35620	35644	408	"New York-Northern New Jersey-Long Island, NY-NJ-PA"	"New York-White Plains-Wayne, NY-NJ"	"New York-Newark-Bridgeport, NY-NJ-CT-PA"	TRUE	36061	"New York County"	TRUE
+"1181"	35620	35644	408	"New York-Northern New Jersey-Long Island, NY-NJ-PA"	"New York-White Plains-Wayne, NY-NJ"	"New York-Newark-Bridgeport, NY-NJ-CT-PA"	TRUE	36079	"Putnam County"	TRUE
+"1182"	35620	35644	408	"New York-Northern New Jersey-Long Island, NY-NJ-PA"	"New York-White Plains-Wayne, NY-NJ"	"New York-Newark-Bridgeport, NY-NJ-CT-PA"	TRUE	36081	"Queens County"	TRUE
+"1183"	35620	35644	408	"New York-Northern New Jersey-Long Island, NY-NJ-PA"	"New York-White Plains-Wayne, NY-NJ"	"New York-Newark-Bridgeport, NY-NJ-CT-PA"	TRUE	36085	"Richmond County"	TRUE
+"1184"	35620	35644	408	"New York-Northern New Jersey-Long Island, NY-NJ-PA"	"New York-White Plains-Wayne, NY-NJ"	"New York-Newark-Bridgeport, NY-NJ-CT-PA"	TRUE	36087	"Rockland County"	TRUE
+"1185"	35620	35004	408	"New York-Northern New Jersey-Long Island, NY-NJ-PA"	"Nassau-Suffolk, NY"	"New York-Newark-Bridgeport, NY-NJ-CT-PA"	TRUE	36103	"Suffolk County"	TRUE
+"1186"	35620	35644	408	"New York-Northern New Jersey-Long Island, NY-NJ-PA"	"New York-White Plains-Wayne, NY-NJ"	"New York-Newark-Bridgeport, NY-NJ-CT-PA"	TRUE	36119	"Westchester County"	TRUE
+"1187"	35620	35084	408	"New York-Northern New Jersey-Long Island, NY-NJ-PA"	"Newark-Union, NJ-PA"	"New York-Newark-Bridgeport, NY-NJ-CT-PA"	TRUE	42103	"Pike County"	FALSE
+"1188"	35660	NA	NA	"Niles-Benton Harbor, MI"	NA	NA	TRUE	26021	"Berrien County"	TRUE
+"1189"	35700	NA	NA	"Nogales, AZ"	NA	NA	FALSE	4023	"Santa Cruz County"	TRUE
+"1190"	35740	NA	NA	"Norfolk, NE"	NA	NA	FALSE	31119	"Madison County"	TRUE
+"1191"	35740	NA	NA	"Norfolk, NE"	NA	NA	FALSE	31139	"Pierce County"	FALSE
+"1192"	35740	NA	NA	"Norfolk, NE"	NA	NA	FALSE	31167	"Stanton County"	FALSE
+"1193"	35820	NA	NA	"North Platte, NE"	NA	NA	FALSE	31111	"Lincoln County"	TRUE
+"1194"	35820	NA	NA	"North Platte, NE"	NA	NA	FALSE	31113	"Logan County"	FALSE
+"1195"	35820	NA	NA	"North Platte, NE"	NA	NA	FALSE	31117	"McPherson County"	FALSE
+"1196"	35860	NA	294	"North Vernon, IN"	NA	"Indianapolis-Anderson-Columbus, IN"	FALSE	18079	"Jennings County"	TRUE
+"1197"	35900	NA	NA	"North Wilkesboro, NC"	NA	NA	FALSE	37193	"Wilkes County"	TRUE
+"1198"	35940	NA	NA	"Norwalk, OH"	NA	NA	FALSE	39077	"Huron County"	TRUE
+"1199"	35980	NA	NA	"Norwich-New London, CT"	NA	NA	TRUE	9011	"New London County"	TRUE
+"1200"	36020	NA	500	"Oak Harbor, WA"	NA	"Seattle-Tacoma-Olympia, WA"	FALSE	53029	"Island County"	TRUE
+"1201"	36060	NA	138	"Oak Hill, WV"	NA	"Beckley-Oak Hill, WV"	FALSE	54019	"Fayette County"	TRUE
+"1202"	36100	NA	NA	"Ocala, FL"	NA	NA	TRUE	12083	"Marion County"	TRUE
+"1203"	36140	NA	NA	"Ocean City, NJ"	NA	NA	TRUE	34009	"Cape May County"	TRUE
+"1204"	36180	NA	480	"Ocean Pines, MD"	NA	"Salisbury-Ocean Pines, MD"	FALSE	24047	"Worcester County"	TRUE
+"1205"	36220	NA	372	"Odessa, TX"	NA	"Midland-Odessa, TX"	TRUE	48135	"Ector County"	TRUE
+"1206"	36260	NA	482	"Ogden-Clearfield, UT"	NA	"Salt Lake City-Ogden-Clearfield, UT"	TRUE	49011	"Davis County"	TRUE
+"1207"	36260	NA	482	"Ogden-Clearfield, UT"	NA	"Salt Lake City-Ogden-Clearfield, UT"	TRUE	49029	"Morgan County"	FALSE
+"1208"	36260	NA	482	"Ogden-Clearfield, UT"	NA	"Salt Lake City-Ogden-Clearfield, UT"	TRUE	49057	"Weber County"	TRUE
+"1209"	36300	NA	NA	"Ogdensburg-Massena, NY"	NA	NA	FALSE	36089	"St. Lawrence County"	TRUE
+"1210"	36340	NA	NA	"Oil City, PA"	NA	NA	FALSE	42121	"Venango County"	TRUE
+"1211"	36380	NA	NA	"Okeechobee, FL"	NA	NA	FALSE	12093	"Okeechobee County"	TRUE
+"1212"	36420	NA	416	"Oklahoma City, OK"	NA	"Oklahoma City-Shawnee, OK"	TRUE	40017	"Canadian County"	TRUE
+"1213"	36420	NA	416	"Oklahoma City, OK"	NA	"Oklahoma City-Shawnee, OK"	TRUE	40027	"Cleveland County"	FALSE
+"1214"	36420	NA	416	"Oklahoma City, OK"	NA	"Oklahoma City-Shawnee, OK"	TRUE	40051	"Grady County"	FALSE
+"1215"	36420	NA	416	"Oklahoma City, OK"	NA	"Oklahoma City-Shawnee, OK"	TRUE	40081	"Lincoln County"	FALSE
+"1216"	36420	NA	416	"Oklahoma City, OK"	NA	"Oklahoma City-Shawnee, OK"	TRUE	40083	"Logan County"	FALSE
+"1217"	36420	NA	416	"Oklahoma City, OK"	NA	"Oklahoma City-Shawnee, OK"	TRUE	40087	"McClain County"	FALSE
+"1218"	36420	NA	416	"Oklahoma City, OK"	NA	"Oklahoma City-Shawnee, OK"	TRUE	40109	"Oklahoma County"	TRUE
+"1219"	36460	NA	160	"Olean, NY"	NA	"Buffalo-Niagara-Cattaraugus, NY"	FALSE	36009	"Cattaraugus County"	TRUE
+"1220"	36500	NA	500	"Olympia, WA"	NA	"Seattle-Tacoma-Olympia, WA"	TRUE	53067	"Thurston County"	TRUE
+"1221"	36540	NA	420	"Omaha-Council Bluffs, NE-IA"	NA	"Omaha-Council Bluffs-Fremont, NE-IA"	TRUE	19085	"Harrison County"	FALSE
+"1222"	36540	NA	420	"Omaha-Council Bluffs, NE-IA"	NA	"Omaha-Council Bluffs-Fremont, NE-IA"	TRUE	19129	"Mills County"	FALSE
+"1223"	36540	NA	420	"Omaha-Council Bluffs, NE-IA"	NA	"Omaha-Council Bluffs-Fremont, NE-IA"	TRUE	19155	"Pottawattamie County"	TRUE
+"1224"	36540	NA	420	"Omaha-Council Bluffs, NE-IA"	NA	"Omaha-Council Bluffs-Fremont, NE-IA"	TRUE	31025	"Cass County"	FALSE
+"1225"	36540	NA	420	"Omaha-Council Bluffs, NE-IA"	NA	"Omaha-Council Bluffs-Fremont, NE-IA"	TRUE	31055	"Douglas County"	TRUE
+"1226"	36540	NA	420	"Omaha-Council Bluffs, NE-IA"	NA	"Omaha-Council Bluffs-Fremont, NE-IA"	TRUE	31153	"Sarpy County"	TRUE
+"1227"	36540	NA	420	"Omaha-Council Bluffs, NE-IA"	NA	"Omaha-Council Bluffs-Fremont, NE-IA"	TRUE	31155	"Saunders County"	FALSE
+"1228"	36540	NA	420	"Omaha-Council Bluffs, NE-IA"	NA	"Omaha-Council Bluffs-Fremont, NE-IA"	TRUE	31177	"Washington County"	FALSE
+"1229"	36580	NA	NA	"Oneonta, NY"	NA	NA	FALSE	36077	"Otsego County"	TRUE
+"1230"	36620	NA	NA	"Ontario, OR-ID"	NA	NA	FALSE	16075	"Payette County"	TRUE
+"1231"	36620	NA	NA	"Ontario, OR-ID"	NA	NA	FALSE	41045	"Malheur County"	TRUE
+"1232"	36660	NA	318	"Opelousas-Eunice, LA"	NA	"Lafayette-Acadiana, LA"	FALSE	22097	"St. Landry Parish"	TRUE
+"1233"	36700	NA	NA	"Orangeburg, SC"	NA	NA	FALSE	45075	"Orangeburg County"	TRUE
+"1234"	36740	NA	422	"Orlando-Kissimmee, FL"	NA	"Orlando-Deltona-Daytona Beach, FL"	TRUE	12069	"Lake County"	FALSE
+"1235"	36740	NA	422	"Orlando-Kissimmee, FL"	NA	"Orlando-Deltona-Daytona Beach, FL"	TRUE	12095	"Orange County"	TRUE
+"1236"	36740	NA	422	"Orlando-Kissimmee, FL"	NA	"Orlando-Deltona-Daytona Beach, FL"	TRUE	12097	"Osceola County"	FALSE
+"1237"	36740	NA	422	"Orlando-Kissimmee, FL"	NA	"Orlando-Deltona-Daytona Beach, FL"	TRUE	12117	"Seminole County"	TRUE
+"1238"	36780	NA	118	"Oshkosh-Neenah, WI"	NA	"Appleton-Oshkosh-Neenah, WI"	TRUE	55139	"Winnebago County"	TRUE
+"1239"	36820	NA	NA	"Oskaloosa, IA"	NA	NA	FALSE	19123	"Mahaska County"	TRUE
+"1240"	36860	NA	NA	"Ottawa-Streator, IL"	NA	NA	FALSE	17011	"Bureau County"	TRUE
+"1241"	36860	NA	NA	"Ottawa-Streator, IL"	NA	NA	FALSE	17099	"LaSalle County"	TRUE
+"1242"	36860	NA	NA	"Ottawa-Streator, IL"	NA	NA	FALSE	17155	"Putnam County"	FALSE
+"1243"	36900	NA	NA	"Ottumwa, IA"	NA	NA	FALSE	19179	"Wapello County"	TRUE
+"1244"	36940	NA	NA	"Owatonna, MN"	NA	NA	FALSE	27147	"Steele County"	TRUE
+"1245"	36980	NA	NA	"Owensboro, KY"	NA	NA	TRUE	21059	"Daviess County"	TRUE
+"1246"	36980	NA	NA	"Owensboro, KY"	NA	NA	TRUE	21091	"Hancock County"	FALSE
+"1247"	36980	NA	NA	"Owensboro, KY"	NA	NA	TRUE	21149	"McLean County"	FALSE
+"1248"	37020	NA	330	"Owosso, MI"	NA	"Lansing-East Lansing-Owosso, MI"	FALSE	26155	"Shiawassee County"	TRUE
+"1249"	37060	NA	NA	"Oxford, MS"	NA	NA	FALSE	28071	"Lafayette County"	TRUE
+"1250"	37100	NA	348	"Oxnard-Thousand Oaks-Ventura, CA"	NA	"Los Angeles-Long Beach-Riverside, CA"	TRUE	6111	"Ventura County"	TRUE
+"1251"	37140	NA	424	"Paducah, KY-IL"	NA	"Paducah-Mayfield, KY-IL"	FALSE	17127	"Massac County"	FALSE
+"1252"	37140	NA	424	"Paducah, KY-IL"	NA	"Paducah-Mayfield, KY-IL"	FALSE	21007	"Ballard County"	FALSE
+"1253"	37140	NA	424	"Paducah, KY-IL"	NA	"Paducah-Mayfield, KY-IL"	FALSE	21139	"Livingston County"	FALSE
+"1254"	37140	NA	424	"Paducah, KY-IL"	NA	"Paducah-Mayfield, KY-IL"	FALSE	21145	"McCracken County"	TRUE
+"1255"	37220	NA	332	"Pahrump, NV"	NA	"Las Vegas-Paradise-Pahrump, NV"	FALSE	32023	"Nye County"	TRUE
+"1256"	37260	NA	NA	"Palatka, FL"	NA	NA	FALSE	12107	"Putnam County"	TRUE
+"1257"	37300	NA	NA	"Palestine, TX"	NA	NA	FALSE	48001	"Anderson County"	TRUE
+"1258"	37340	NA	NA	"Palm Bay-Melbourne-Titusville, FL"	NA	NA	TRUE	12009	"Brevard County"	TRUE
+"1259"	37380	NA	422	"Palm Coast, FL"	NA	"Orlando-Deltona-Daytona Beach, FL"	TRUE	12035	"Flagler County"	TRUE
+"1260"	37420	NA	NA	"Pampa, TX"	NA	NA	FALSE	48179	"Gray County"	TRUE
+"1261"	37420	NA	NA	"Pampa, TX"	NA	NA	FALSE	48393	"Roberts County"	FALSE
+"1262"	37460	NA	NA	"Panama City-Lynn Haven-Panama City Beach, FL"	NA	NA	TRUE	12005	"Bay County"	TRUE
+"1263"	37500	NA	308	"Paragould, AR"	NA	"Jonesboro-Paragould, AR"	FALSE	5055	"Greene County"	TRUE
+"1264"	37540	NA	NA	"Paris, TN"	NA	NA	FALSE	47079	"Henry County"	TRUE
+"1265"	37580	NA	NA	"Paris, TX"	NA	NA	FALSE	48277	"Lamar County"	TRUE
+"1266"	37620	NA	NA	"Parkersburg-Marietta-Vienna, WV-OH"	NA	NA	TRUE	39167	"Washington County"	TRUE
+"1267"	37620	NA	NA	"Parkersburg-Marietta-Vienna, WV-OH"	NA	NA	TRUE	54073	"Pleasants County"	FALSE
+"1268"	37620	NA	NA	"Parkersburg-Marietta-Vienna, WV-OH"	NA	NA	TRUE	54105	"Wirt County"	FALSE
+"1269"	37620	NA	NA	"Parkersburg-Marietta-Vienna, WV-OH"	NA	NA	TRUE	54107	"Wood County"	TRUE
+"1270"	37660	NA	NA	"Parsons, KS"	NA	NA	FALSE	20099	"Labette County"	TRUE
+"1271"	37700	NA	274	"Pascagoula, MS"	NA	"Gulfport-Biloxi-Pascagoula, MS"	TRUE	28039	"George County"	FALSE
+"1272"	37700	NA	274	"Pascagoula, MS"	NA	"Gulfport-Biloxi-Pascagoula, MS"	TRUE	28059	"Jackson County"	TRUE
+"1273"	37740	NA	NA	"Payson, AZ"	NA	NA	FALSE	4007	"Gila County"	TRUE
+"1274"	37780	NA	NA	"Pecos, TX"	NA	NA	FALSE	48389	"Reeves County"	TRUE
+"1275"	37800	NA	218	"Pella, IA"	NA	"Des Moines-Newton-Pella, IA"	FALSE	19125	"Marion County"	TRUE
+"1276"	37820	NA	NA	"Pendleton-Hermiston, OR"	NA	NA	FALSE	41049	"Morrow County"	FALSE
+"1277"	37820	NA	NA	"Pendleton-Hermiston, OR"	NA	NA	FALSE	41059	"Umatilla County"	TRUE
+"1278"	37860	NA	NA	"Pensacola-Ferry Pass-Brent, FL"	NA	NA	TRUE	12033	"Escambia County"	TRUE
+"1279"	37860	NA	NA	"Pensacola-Ferry Pass-Brent, FL"	NA	NA	TRUE	12113	"Santa Rosa County"	TRUE
+"1280"	37900	NA	426	"Peoria, IL"	NA	"Peoria-Canton, IL"	TRUE	17123	"Marshall County"	FALSE
+"1281"	37900	NA	426	"Peoria, IL"	NA	"Peoria-Canton, IL"	TRUE	17143	"Peoria County"	TRUE
+"1282"	37900	NA	426	"Peoria, IL"	NA	"Peoria-Canton, IL"	TRUE	17175	"Stark County"	FALSE
+"1283"	37900	NA	426	"Peoria, IL"	NA	"Peoria-Canton, IL"	TRUE	17179	"Tazewell County"	TRUE
+"1284"	37900	NA	426	"Peoria, IL"	NA	"Peoria-Canton, IL"	TRUE	17203	"Woodford County"	FALSE
+"1285"	37940	NA	316	"Peru, IN"	NA	"Kokomo-Peru, IN"	FALSE	18103	"Miami County"	TRUE
+"1286"	37980	48864	428	"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD"	"Wilmington, DE-MD-NJ"	"Philadelphia-Camden-Vineland, PA-NJ-DE-MD"	TRUE	10003	"New Castle County"	TRUE
+"1287"	37980	48864	428	"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD"	"Wilmington, DE-MD-NJ"	"Philadelphia-Camden-Vineland, PA-NJ-DE-MD"	TRUE	24015	"Cecil County"	TRUE
+"1288"	37980	15804	428	"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD"	"Camden, NJ"	"Philadelphia-Camden-Vineland, PA-NJ-DE-MD"	TRUE	34005	"Burlington County"	TRUE
+"1289"	37980	15804	428	"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD"	"Camden, NJ"	"Philadelphia-Camden-Vineland, PA-NJ-DE-MD"	TRUE	34007	"Camden County"	TRUE
+"1290"	37980	15804	428	"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD"	"Camden, NJ"	"Philadelphia-Camden-Vineland, PA-NJ-DE-MD"	TRUE	34015	"Gloucester County"	TRUE
+"1291"	37980	48864	428	"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD"	"Wilmington, DE-MD-NJ"	"Philadelphia-Camden-Vineland, PA-NJ-DE-MD"	TRUE	34033	"Salem County"	TRUE
+"1292"	37980	37964	428	"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD"	"Philadelphia, PA"	"Philadelphia-Camden-Vineland, PA-NJ-DE-MD"	TRUE	42017	"Bucks County"	TRUE
+"1293"	37980	37964	428	"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD"	"Philadelphia, PA"	"Philadelphia-Camden-Vineland, PA-NJ-DE-MD"	TRUE	42029	"Chester County"	TRUE
+"1294"	37980	37964	428	"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD"	"Philadelphia, PA"	"Philadelphia-Camden-Vineland, PA-NJ-DE-MD"	TRUE	42045	"Delaware County"	TRUE
+"1295"	37980	37964	428	"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD"	"Philadelphia, PA"	"Philadelphia-Camden-Vineland, PA-NJ-DE-MD"	TRUE	42091	"Montgomery County"	TRUE
+"1296"	37980	37964	428	"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD"	"Philadelphia, PA"	"Philadelphia-Camden-Vineland, PA-NJ-DE-MD"	TRUE	42101	"Philadelphia County"	TRUE
+"1297"	38020	NA	NA	"Phoenix Lake-Cedar Ridge, CA"	NA	NA	FALSE	6109	"Tuolumne County"	TRUE
+"1298"	38060	NA	NA	"Phoenix-Mesa-Scottsdale, AZ"	NA	NA	TRUE	4013	"Maricopa County"	TRUE
+"1299"	38060	NA	NA	"Phoenix-Mesa-Scottsdale, AZ"	NA	NA	TRUE	4021	"Pinal County"	TRUE
+"1300"	38100	NA	NA	"Picayune, MS"	NA	NA	FALSE	28109	"Pearl River County"	TRUE
+"1301"	38180	NA	NA	"Pierre, SD"	NA	NA	FALSE	46065	"Hughes County"	TRUE
+"1302"	38180	NA	NA	"Pierre, SD"	NA	NA	FALSE	46117	"Stanley County"	TRUE
+"1303"	38200	NA	132	"Pierre Part, LA"	NA	"Baton Rouge-Pierre Part, LA"	FALSE	22007	"Assumption Parish"	TRUE
+"1304"	38220	NA	340	"Pine Bluff, AR"	NA	"Little Rock-North Little Rock-Pine Bluff, AR"	TRUE	5025	"Cleveland County"	FALSE
+"1305"	38220	NA	340	"Pine Bluff, AR"	NA	"Little Rock-North Little Rock-Pine Bluff, AR"	TRUE	5069	"Jefferson County"	TRUE
+"1306"	38220	NA	340	"Pine Bluff, AR"	NA	"Little Rock-North Little Rock-Pine Bluff, AR"	TRUE	5079	"Lincoln County"	FALSE
+"1307"	38260	NA	NA	"Pittsburg, KS"	NA	NA	FALSE	20037	"Crawford County"	TRUE
+"1308"	38300	NA	430	"Pittsburgh, PA"	NA	"Pittsburgh-New Castle, PA"	TRUE	42003	"Allegheny County"	TRUE
+"1309"	38300	NA	430	"Pittsburgh, PA"	NA	"Pittsburgh-New Castle, PA"	TRUE	42005	"Armstrong County"	FALSE
+"1310"	38300	NA	430	"Pittsburgh, PA"	NA	"Pittsburgh-New Castle, PA"	TRUE	42007	"Beaver County"	TRUE
+"1311"	38300	NA	430	"Pittsburgh, PA"	NA	"Pittsburgh-New Castle, PA"	TRUE	42019	"Butler County"	FALSE
+"1312"	38300	NA	430	"Pittsburgh, PA"	NA	"Pittsburgh-New Castle, PA"	TRUE	42051	"Fayette County"	FALSE
+"1313"	38300	NA	430	"Pittsburgh, PA"	NA	"Pittsburgh-New Castle, PA"	TRUE	42125	"Washington County"	TRUE
+"1314"	38300	NA	430	"Pittsburgh, PA"	NA	"Pittsburgh-New Castle, PA"	TRUE	42129	"Westmoreland County"	TRUE
+"1315"	38340	NA	NA	"Pittsfield, MA"	NA	NA	TRUE	25003	"Berkshire County"	TRUE
+"1316"	38380	NA	NA	"Plainview, TX"	NA	NA	FALSE	48189	"Hale County"	TRUE
+"1317"	38420	NA	NA	"Platteville, WI"	NA	NA	FALSE	55043	"Grant County"	TRUE
+"1318"	38460	NA	NA	"Plattsburgh, NY"	NA	NA	FALSE	36019	"Clinton County"	TRUE
+"1319"	38500	NA	515	"Plymouth, IN"	NA	"South Bend-Elkhart-Mishawaka, IN-MI"	FALSE	18099	"Marshall County"	TRUE
+"1320"	38540	NA	NA	"Pocatello, ID"	NA	NA	TRUE	16005	"Bannock County"	TRUE
+"1321"	38540	NA	NA	"Pocatello, ID"	NA	NA	TRUE	16077	"Power County"	FALSE
+"1322"	38580	NA	NA	"Point Pleasant, WV-OH"	NA	NA	FALSE	39053	"Gallia County"	TRUE
+"1323"	38580	NA	NA	"Point Pleasant, WV-OH"	NA	NA	FALSE	54053	"Mason County"	TRUE
+"1324"	38620	NA	NA	"Ponca City, OK"	NA	NA	FALSE	40071	"Kay County"	TRUE
+"1325"	38660	NA	434	"Ponce, PR"	NA	"Ponce-Yauco-Coamo, PR"	TRUE	72075	"Juana Díaz Municipio"	FALSE
+"1326"	38660	NA	434	"Ponce, PR"	NA	"Ponce-Yauco-Coamo, PR"	TRUE	72113	"Ponce Municipio"	TRUE
+"1327"	38660	NA	434	"Ponce, PR"	NA	"Ponce-Yauco-Coamo, PR"	TRUE	72149	"Villalba Municipio"	FALSE
+"1328"	38700	NA	NA	"Pontiac, IL"	NA	NA	FALSE	17105	"Livingston County"	TRUE
+"1329"	38740	NA	NA	"Poplar Bluff, MO"	NA	NA	FALSE	29023	"Butler County"	TRUE
+"1330"	38780	NA	188	"Portales, NM"	NA	"Clovis-Portales, NM"	FALSE	35041	"Roosevelt County"	TRUE
+"1331"	38820	NA	NA	"Port Angeles, WA"	NA	NA	FALSE	53009	"Clallam County"	TRUE
+"1332"	38860	NA	438	"Portland-South Portland-Biddeford, ME"	NA	"Portland-Lewiston-South Portland, ME"	TRUE	23005	"Cumberland County"	TRUE
+"1333"	38860	NA	438	"Portland-South Portland-Biddeford, ME"	NA	"Portland-Lewiston-South Portland, ME"	TRUE	23023	"Sagadahoc County"	FALSE
+"1334"	38860	NA	438	"Portland-South Portland-Biddeford, ME"	NA	"Portland-Lewiston-South Portland, ME"	TRUE	23031	"York County"	TRUE
+"1335"	38900	NA	NA	"Portland-Vancouver-Beaverton, OR-WA"	NA	NA	TRUE	41005	"Clackamas County"	TRUE
+"1336"	38900	NA	NA	"Portland-Vancouver-Beaverton, OR-WA"	NA	NA	TRUE	41009	"Columbia County"	FALSE
+"1337"	38900	NA	NA	"Portland-Vancouver-Beaverton, OR-WA"	NA	NA	TRUE	41051	"Multnomah County"	TRUE
+"1338"	38900	NA	NA	"Portland-Vancouver-Beaverton, OR-WA"	NA	NA	TRUE	41067	"Washington County"	TRUE
+"1339"	38900	NA	NA	"Portland-Vancouver-Beaverton, OR-WA"	NA	NA	TRUE	41071	"Yamhill County"	FALSE
+"1340"	38900	NA	NA	"Portland-Vancouver-Beaverton, OR-WA"	NA	NA	TRUE	53011	"Clark County"	TRUE
+"1341"	38900	NA	NA	"Portland-Vancouver-Beaverton, OR-WA"	NA	NA	TRUE	53059	"Skamania County"	FALSE
+"1342"	38940	NA	442	"Port St. Lucie, FL"	NA	"Port St. Lucie-Sebastian-Vero Beach, FL"	TRUE	12085	"Martin County"	TRUE
+"1343"	38940	NA	442	"Port St. Lucie, FL"	NA	"Port St. Lucie-Sebastian-Vero Beach, FL"	TRUE	12111	"St. Lucie County"	TRUE
+"1344"	39020	NA	NA	"Portsmouth, OH"	NA	NA	FALSE	39145	"Scioto County"	TRUE
+"1345"	39060	NA	NA	"Pottsville, PA"	NA	NA	FALSE	42107	"Schuylkill County"	TRUE
+"1346"	39100	NA	408	"Poughkeepsie-Newburgh-Middletown, NY"	NA	"New York-Newark-Bridgeport, NY-NJ-CT-PA"	TRUE	36027	"Dutchess County"	TRUE
+"1347"	39100	NA	408	"Poughkeepsie-Newburgh-Middletown, NY"	NA	"New York-Newark-Bridgeport, NY-NJ-CT-PA"	TRUE	36071	"Orange County"	TRUE
+"1348"	39140	NA	NA	"Prescott, AZ"	NA	NA	TRUE	4025	"Yavapai County"	TRUE
+"1349"	39220	NA	NA	"Price, UT"	NA	NA	FALSE	49007	"Carbon County"	TRUE
+"1350"	39260	NA	140	"Prineville, OR"	NA	"Bend-Prineville, OR"	FALSE	41013	"Crook County"	TRUE
+"1351"	39300	NA	148	"Providence-New Bedford-Fall River, RI-MA"	NA	"Boston-Worcester-Manchester, MA-RI-NH"	TRUE	25005	"Bristol County"	TRUE
+"1352"	39300	NA	148	"Providence-New Bedford-Fall River, RI-MA"	NA	"Boston-Worcester-Manchester, MA-RI-NH"	TRUE	44001	"Bristol County"	TRUE
+"1353"	39300	NA	148	"Providence-New Bedford-Fall River, RI-MA"	NA	"Boston-Worcester-Manchester, MA-RI-NH"	TRUE	44003	"Kent County"	TRUE
+"1354"	39300	NA	148	"Providence-New Bedford-Fall River, RI-MA"	NA	"Boston-Worcester-Manchester, MA-RI-NH"	TRUE	44005	"Newport County"	TRUE
+"1355"	39300	NA	148	"Providence-New Bedford-Fall River, RI-MA"	NA	"Boston-Worcester-Manchester, MA-RI-NH"	TRUE	44007	"Providence County"	TRUE
+"1356"	39300	NA	148	"Providence-New Bedford-Fall River, RI-MA"	NA	"Boston-Worcester-Manchester, MA-RI-NH"	TRUE	44009	"Washington County"	TRUE
+"1357"	39340	NA	NA	"Provo-Orem, UT"	NA	NA	TRUE	49023	"Juab County"	FALSE
+"1358"	39340	NA	NA	"Provo-Orem, UT"	NA	NA	TRUE	49049	"Utah County"	TRUE
+"1359"	39380	NA	NA	"Pueblo, CO"	NA	NA	TRUE	8101	"Pueblo County"	TRUE
+"1360"	39420	NA	NA	"Pullman, WA"	NA	NA	FALSE	53075	"Whitman County"	TRUE
+"1361"	39460	NA	494	"Punta Gorda, FL"	NA	"Sarasota-Bradenton-Punta Gorda, FL"	TRUE	12015	"Charlotte County"	TRUE
+"1362"	39500	NA	NA	"Quincy, IL-MO"	NA	NA	FALSE	17001	"Adams County"	TRUE
+"1363"	39500	NA	NA	"Quincy, IL-MO"	NA	NA	FALSE	29111	"Lewis County"	FALSE
+"1364"	39540	NA	376	"Racine, WI"	NA	"Milwaukee-Racine-Waukesha, WI"	TRUE	55101	"Racine County"	TRUE
+"1365"	39580	NA	450	"Raleigh-Cary, NC"	NA	"Raleigh-Durham-Cary, NC"	TRUE	37069	"Franklin County"	FALSE
+"1366"	39580	NA	450	"Raleigh-Cary, NC"	NA	"Raleigh-Durham-Cary, NC"	TRUE	37101	"Johnston County"	FALSE
+"1367"	39580	NA	450	"Raleigh-Cary, NC"	NA	"Raleigh-Durham-Cary, NC"	TRUE	37183	"Wake County"	TRUE
+"1368"	39660	NA	NA	"Rapid City, SD"	NA	NA	TRUE	46093	"Meade County"	FALSE
+"1369"	39660	NA	NA	"Rapid City, SD"	NA	NA	TRUE	46103	"Pennington County"	TRUE
+"1370"	39700	NA	154	"Raymondville, TX"	NA	"Brownsville-Harlingen-Raymondville, TX"	FALSE	48489	"Willacy County"	TRUE
+"1371"	39740	NA	428	"Reading, PA"	NA	"Philadelphia-Camden-Vineland, PA-NJ-DE-MD"	TRUE	42011	"Berks County"	TRUE
+"1372"	39780	NA	NA	"Red Bluff, CA"	NA	NA	FALSE	6103	"Tehama County"	TRUE
+"1373"	39820	NA	NA	"Redding, CA"	NA	NA	TRUE	6089	"Shasta County"	TRUE
+"1374"	39860	NA	378	"Red Wing, MN"	NA	"Minneapolis-St. Paul-St. Cloud, MN-WI"	FALSE	27049	"Goodhue County"	TRUE
+"1375"	39900	NA	456	"Reno-Sparks, NV"	NA	"Reno-Sparks-Fernley, NV"	TRUE	32029	"Storey County"	FALSE
+"1376"	39900	NA	456	"Reno-Sparks, NV"	NA	"Reno-Sparks-Fernley, NV"	TRUE	32031	"Washoe County"	TRUE
+"1377"	39940	NA	NA	"Rexburg, ID"	NA	NA	FALSE	16043	"Fremont County"	FALSE
+"1378"	39940	NA	NA	"Rexburg, ID"	NA	NA	FALSE	16065	"Madison County"	TRUE
+"1379"	39980	NA	NA	"Richmond, IN"	NA	NA	FALSE	18177	"Wayne County"	TRUE
+"1380"	40060	NA	NA	"Richmond, VA"	NA	NA	TRUE	51007	"Amelia County"	FALSE
+"1381"	40060	NA	NA	"Richmond, VA"	NA	NA	TRUE	51033	"Caroline County"	FALSE
+"1382"	40060	NA	NA	"Richmond, VA"	NA	NA	TRUE	51036	"Charles City County"	FALSE
+"1383"	40060	NA	NA	"Richmond, VA"	NA	NA	TRUE	51041	"Chesterfield County"	TRUE
+"1384"	40060	NA	NA	"Richmond, VA"	NA	NA	TRUE	51049	"Cumberland County"	FALSE
+"1385"	40060	NA	NA	"Richmond, VA"	NA	NA	TRUE	51053	"Dinwiddie County"	TRUE
+"1386"	40060	NA	NA	"Richmond, VA"	NA	NA	TRUE	51075	"Goochland County"	FALSE
+"1387"	40060	NA	NA	"Richmond, VA"	NA	NA	TRUE	51085	"Hanover County"	TRUE
+"1388"	40060	NA	NA	"Richmond, VA"	NA	NA	TRUE	51087	"Henrico County"	TRUE
+"1389"	40060	NA	NA	"Richmond, VA"	NA	NA	TRUE	51097	"King and Queen County"	FALSE
+"1390"	40060	NA	NA	"Richmond, VA"	NA	NA	TRUE	51101	"King William County"	FALSE
+"1391"	40060	NA	NA	"Richmond, VA"	NA	NA	TRUE	51109	"Louisa County"	FALSE
+"1392"	40060	NA	NA	"Richmond, VA"	NA	NA	TRUE	51127	"New Kent County"	FALSE
+"1393"	40060	NA	NA	"Richmond, VA"	NA	NA	TRUE	51145	"Powhatan County"	FALSE
+"1394"	40060	NA	NA	"Richmond, VA"	NA	NA	TRUE	51149	"Prince George County"	TRUE
+"1395"	40060	NA	NA	"Richmond, VA"	NA	NA	TRUE	51183	"Sussex County"	FALSE
+"1396"	40060	NA	NA	"Richmond, VA"	NA	NA	TRUE	51570	"Colonial Heights city"	TRUE
+"1397"	40060	NA	NA	"Richmond, VA"	NA	NA	TRUE	51670	"Hopewell city"	TRUE
+"1398"	40060	NA	NA	"Richmond, VA"	NA	NA	TRUE	51730	"Petersburg city"	TRUE
+"1399"	40060	NA	NA	"Richmond, VA"	NA	NA	TRUE	51760	"Richmond city"	TRUE
+"1400"	40080	NA	336	"Richmond-Berea, KY"	NA	"Lexington-Fayette--Frankfort--Richmond, KY"	FALSE	21151	"Madison County"	TRUE
+"1401"	40080	NA	336	"Richmond-Berea, KY"	NA	"Lexington-Fayette--Frankfort--Richmond, KY"	FALSE	21203	"Rockcastle County"	FALSE
+"1402"	40100	NA	NA	"Rio Grande City-Roma, TX"	NA	NA	FALSE	48427	"Starr County"	TRUE
+"1403"	40140	NA	348	"Riverside-San Bernardino-Ontario, CA"	NA	"Los Angeles-Long Beach-Riverside, CA"	TRUE	6065	"Riverside County"	TRUE
+"1404"	40140	NA	348	"Riverside-San Bernardino-Ontario, CA"	NA	"Los Angeles-Long Beach-Riverside, CA"	TRUE	6071	"San Bernardino County"	TRUE
+"1405"	40180	NA	NA	"Riverton, WY"	NA	NA	FALSE	56013	"Fremont County"	TRUE
+"1406"	40220	NA	NA	"Roanoke, VA"	NA	NA	TRUE	51023	"Botetourt County"	TRUE
+"1407"	40220	NA	NA	"Roanoke, VA"	NA	NA	TRUE	51045	"Craig County"	FALSE
+"1408"	40220	NA	NA	"Roanoke, VA"	NA	NA	TRUE	51067	"Franklin County"	FALSE
+"1409"	40220	NA	NA	"Roanoke, VA"	NA	NA	TRUE	51161	"Roanoke County"	TRUE
+"1410"	40220	NA	NA	"Roanoke, VA"	NA	NA	TRUE	51770	"Roanoke city"	TRUE
+"1411"	40220	NA	NA	"Roanoke, VA"	NA	NA	TRUE	51775	"Salem city"	TRUE
+"1412"	40260	NA	NA	"Roanoke Rapids, NC"	NA	NA	FALSE	37083	"Halifax County"	TRUE
+"1413"	40260	NA	NA	"Roanoke Rapids, NC"	NA	NA	FALSE	37131	"Northampton County"	FALSE
+"1414"	40300	NA	466	"Rochelle, IL"	NA	"Rockford-Freeport-Rochelle, IL"	FALSE	17141	"Ogle County"	TRUE
+"1415"	40340	NA	NA	"Rochester, MN"	NA	NA	TRUE	27039	"Dodge County"	FALSE
+"1416"	40340	NA	NA	"Rochester, MN"	NA	NA	TRUE	27109	"Olmsted County"	TRUE
+"1417"	40340	NA	NA	"Rochester, MN"	NA	NA	TRUE	27157	"Wabasha County"	FALSE
+"1418"	40380	NA	464	"Rochester, NY"	NA	"Rochester-Batavia-Seneca Falls, NY"	TRUE	36051	"Livingston County"	FALSE
+"1419"	40380	NA	464	"Rochester, NY"	NA	"Rochester-Batavia-Seneca Falls, NY"	TRUE	36055	"Monroe County"	TRUE
+"1420"	40380	NA	464	"Rochester, NY"	NA	"Rochester-Batavia-Seneca Falls, NY"	TRUE	36069	"Ontario County"	FALSE
+"1421"	40380	NA	464	"Rochester, NY"	NA	"Rochester-Batavia-Seneca Falls, NY"	TRUE	36073	"Orleans County"	FALSE
+"1422"	40380	NA	464	"Rochester, NY"	NA	"Rochester-Batavia-Seneca Falls, NY"	TRUE	36117	"Wayne County"	FALSE
+"1423"	40420	NA	466	"Rockford, IL"	NA	"Rockford-Freeport-Rochelle, IL"	TRUE	17007	"Boone County"	TRUE
+"1424"	40420	NA	466	"Rockford, IL"	NA	"Rockford-Freeport-Rochelle, IL"	TRUE	17201	"Winnebago County"	TRUE
+"1425"	40460	NA	NA	"Rockingham, NC"	NA	NA	FALSE	37153	"Richmond County"	TRUE
+"1426"	40500	NA	NA	"Rockland, ME"	NA	NA	FALSE	23013	"Knox County"	TRUE
+"1427"	40540	NA	NA	"Rock Springs, WY"	NA	NA	FALSE	56037	"Sweetwater County"	TRUE
+"1428"	40580	NA	NA	"Rocky Mount, NC"	NA	NA	TRUE	37065	"Edgecombe County"	TRUE
+"1429"	40580	NA	NA	"Rocky Mount, NC"	NA	NA	TRUE	37127	"Nash County"	TRUE
+"1430"	40620	NA	NA	"Rolla, MO"	NA	NA	FALSE	29161	"Phelps County"	TRUE
+"1431"	40660	NA	NA	"Rome, GA"	NA	NA	TRUE	13115	"Floyd County"	TRUE
+"1432"	40700	NA	NA	"Roseburg, OR"	NA	NA	FALSE	41019	"Douglas County"	TRUE
+"1433"	40740	NA	NA	"Roswell, NM"	NA	NA	FALSE	35005	"Chaves County"	TRUE
+"1434"	40760	NA	NA	"Ruidoso, NM"	NA	NA	FALSE	35027	"Lincoln County"	TRUE
+"1435"	40780	NA	NA	"Russellville, AR"	NA	NA	FALSE	5115	"Pope County"	TRUE
+"1436"	40780	NA	NA	"Russellville, AR"	NA	NA	FALSE	5149	"Yell County"	FALSE
+"1437"	40820	NA	NA	"Ruston, LA"	NA	NA	FALSE	22049	"Jackson Parish"	FALSE
+"1438"	40820	NA	NA	"Ruston, LA"	NA	NA	FALSE	22061	"Lincoln Parish"	TRUE
+"1439"	40860	NA	NA	"Rutland, VT"	NA	NA	FALSE	50021	"Rutland County"	TRUE
+"1440"	40900	NA	472	"Sacramento--Arden-Arcade--Roseville, CA"	NA	"Sacramento--Arden-Arcade--Yuba City, CA-NV"	TRUE	6017	"El Dorado County"	FALSE
+"1441"	40900	NA	472	"Sacramento--Arden-Arcade--Roseville, CA"	NA	"Sacramento--Arden-Arcade--Yuba City, CA-NV"	TRUE	6061	"Placer County"	TRUE
+"1442"	40900	NA	472	"Sacramento--Arden-Arcade--Roseville, CA"	NA	"Sacramento--Arden-Arcade--Yuba City, CA-NV"	TRUE	6067	"Sacramento County"	TRUE
+"1443"	40900	NA	472	"Sacramento--Arden-Arcade--Roseville, CA"	NA	"Sacramento--Arden-Arcade--Yuba City, CA-NV"	TRUE	6113	"Yolo County"	FALSE
+"1444"	40940	NA	NA	"Safford, AZ"	NA	NA	FALSE	4009	"Graham County"	TRUE
+"1445"	40940	NA	NA	"Safford, AZ"	NA	NA	FALSE	4011	"Greenlee County"	FALSE
+"1446"	40980	NA	474	"Saginaw-Saginaw Township North, MI"	NA	"Saginaw-Bay City-Saginaw Township North, MI"	TRUE	26145	"Saginaw County"	TRUE
+"1447"	41060	NA	378	"St. Cloud, MN"	NA	"Minneapolis-St. Paul-St. Cloud, MN-WI"	TRUE	27009	"Benton County"	TRUE
+"1448"	41060	NA	378	"St. Cloud, MN"	NA	"Minneapolis-St. Paul-St. Cloud, MN-WI"	TRUE	27145	"Stearns County"	TRUE
+"1449"	41100	NA	NA	"St. George, UT"	NA	NA	TRUE	49053	"Washington County"	TRUE
+"1450"	41140	NA	NA	"St. Joseph, MO-KS"	NA	NA	TRUE	20043	"Doniphan County"	FALSE
+"1451"	41140	NA	NA	"St. Joseph, MO-KS"	NA	NA	TRUE	29003	"Andrew County"	FALSE
+"1452"	41140	NA	NA	"St. Joseph, MO-KS"	NA	NA	TRUE	29021	"Buchanan County"	TRUE
+"1453"	41140	NA	NA	"St. Joseph, MO-KS"	NA	NA	TRUE	29063	"DeKalb County"	FALSE
+"1454"	41180	NA	476	"St. Louis, MO-IL"	NA	"St. Louis-St. Charles-Farmington, MO-IL"	TRUE	17005	"Bond County"	FALSE
+"1455"	41180	NA	476	"St. Louis, MO-IL"	NA	"St. Louis-St. Charles-Farmington, MO-IL"	TRUE	17013	"Calhoun County"	FALSE
+"1456"	41180	NA	476	"St. Louis, MO-IL"	NA	"St. Louis-St. Charles-Farmington, MO-IL"	TRUE	17027	"Clinton County"	FALSE
+"1457"	41180	NA	476	"St. Louis, MO-IL"	NA	"St. Louis-St. Charles-Farmington, MO-IL"	TRUE	17083	"Jersey County"	FALSE
+"1458"	41180	NA	476	"St. Louis, MO-IL"	NA	"St. Louis-St. Charles-Farmington, MO-IL"	TRUE	17117	"Macoupin County"	FALSE
+"1459"	41180	NA	476	"St. Louis, MO-IL"	NA	"St. Louis-St. Charles-Farmington, MO-IL"	TRUE	17119	"Madison County"	TRUE
+"1460"	41180	NA	476	"St. Louis, MO-IL"	NA	"St. Louis-St. Charles-Farmington, MO-IL"	TRUE	17133	"Monroe County"	TRUE
+"1461"	41180	NA	476	"St. Louis, MO-IL"	NA	"St. Louis-St. Charles-Farmington, MO-IL"	TRUE	17163	"St. Clair County"	TRUE
+"1462"	41180	NA	476	"St. Louis, MO-IL"	NA	"St. Louis-St. Charles-Farmington, MO-IL"	TRUE	29071	"Franklin County"	FALSE
+"1463"	41180	NA	476	"St. Louis, MO-IL"	NA	"St. Louis-St. Charles-Farmington, MO-IL"	TRUE	29099	"Jefferson County"	TRUE
+"1464"	41180	NA	476	"St. Louis, MO-IL"	NA	"St. Louis-St. Charles-Farmington, MO-IL"	TRUE	29113	"Lincoln County"	FALSE
+"1465"	41180	NA	476	"St. Louis, MO-IL"	NA	"St. Louis-St. Charles-Farmington, MO-IL"	TRUE	29183	"St. Charles County"	TRUE
+"1466"	41180	NA	476	"St. Louis, MO-IL"	NA	"St. Louis-St. Charles-Farmington, MO-IL"	TRUE	29189	"St. Louis County"	TRUE
+"1467"	41180	NA	476	"St. Louis, MO-IL"	NA	"St. Louis-St. Charles-Farmington, MO-IL"	TRUE	29219	"Warren County"	FALSE
+"1468"	41180	NA	476	"St. Louis, MO-IL"	NA	"St. Louis-St. Charles-Farmington, MO-IL"	TRUE	29221	"Washington County"	FALSE
+"1469"	41180	NA	476	"St. Louis, MO-IL"	NA	"St. Louis-St. Charles-Farmington, MO-IL"	TRUE	29510	"St. Louis city"	TRUE
+"1470"	41220	NA	NA	"St. Marys, GA"	NA	NA	FALSE	13039	"Camden County"	TRUE
+"1471"	41260	NA	NA	"St. Marys, PA"	NA	NA	FALSE	42047	"Elk County"	TRUE
+"1472"	41420	NA	NA	"Salem, OR"	NA	NA	TRUE	41047	"Marion County"	TRUE
+"1473"	41420	NA	NA	"Salem, OR"	NA	NA	TRUE	41053	"Polk County"	TRUE
+"1474"	41460	NA	NA	"Salina, KS"	NA	NA	FALSE	20143	"Ottawa County"	FALSE
+"1475"	41460	NA	NA	"Salina, KS"	NA	NA	FALSE	20169	"Saline County"	TRUE
+"1476"	41500	NA	NA	"Salinas, CA"	NA	NA	TRUE	6053	"Monterey County"	TRUE
+"1477"	41540	NA	480	"Salisbury, MD"	NA	"Salisbury-Ocean Pines, MD"	TRUE	24039	"Somerset County"	FALSE
+"1478"	41540	NA	480	"Salisbury, MD"	NA	"Salisbury-Ocean Pines, MD"	TRUE	24045	"Wicomico County"	TRUE
+"1479"	41580	NA	172	"Salisbury, NC"	NA	"Charlotte-Gastonia-Salisbury, NC-SC"	FALSE	37159	"Rowan County"	TRUE
+"1480"	41620	NA	482	"Salt Lake City, UT"	NA	"Salt Lake City-Ogden-Clearfield, UT"	TRUE	49035	"Salt Lake County"	TRUE
+"1481"	41620	NA	482	"Salt Lake City, UT"	NA	"Salt Lake City-Ogden-Clearfield, UT"	TRUE	49043	"Summit County"	FALSE
+"1482"	41620	NA	482	"Salt Lake City, UT"	NA	"Salt Lake City-Ogden-Clearfield, UT"	TRUE	49045	"Tooele County"	FALSE
+"1483"	41660	NA	NA	"San Angelo, TX"	NA	NA	TRUE	48235	"Irion County"	FALSE
+"1484"	41660	NA	NA	"San Angelo, TX"	NA	NA	TRUE	48451	"Tom Green County"	TRUE
+"1485"	41700	NA	NA	"San Antonio, TX"	NA	NA	TRUE	48013	"Atascosa County"	FALSE
+"1486"	41700	NA	NA	"San Antonio, TX"	NA	NA	TRUE	48019	"Bandera County"	FALSE
+"1487"	41700	NA	NA	"San Antonio, TX"	NA	NA	TRUE	48029	"Bexar County"	TRUE
+"1488"	41700	NA	NA	"San Antonio, TX"	NA	NA	TRUE	48091	"Comal County"	FALSE
+"1489"	41700	NA	NA	"San Antonio, TX"	NA	NA	TRUE	48187	"Guadalupe County"	FALSE
+"1490"	41700	NA	NA	"San Antonio, TX"	NA	NA	TRUE	48259	"Kendall County"	FALSE
+"1491"	41700	NA	NA	"San Antonio, TX"	NA	NA	TRUE	48325	"Medina County"	FALSE
+"1492"	41700	NA	NA	"San Antonio, TX"	NA	NA	TRUE	48493	"Wilson County"	FALSE
+"1493"	41740	NA	NA	"San Diego-Carlsbad-San Marcos, CA"	NA	NA	TRUE	6073	"San Diego County"	TRUE
+"1494"	41780	NA	NA	"Sandusky, OH"	NA	NA	TRUE	39043	"Erie County"	TRUE
+"1495"	41820	NA	NA	"Sanford, NC"	NA	NA	FALSE	37105	"Lee County"	TRUE
+"1496"	41860	36084	488	"San Francisco-Oakland-Fremont, CA"	"Oakland-Fremont-Hayward, CA"	"San Jose-San Francisco-Oakland, CA"	TRUE	6001	"Alameda County"	TRUE
+"1497"	41860	36084	488	"San Francisco-Oakland-Fremont, CA"	"Oakland-Fremont-Hayward, CA"	"San Jose-San Francisco-Oakland, CA"	TRUE	6013	"Contra Costa County"	FALSE
+"1498"	41860	41884	488	"San Francisco-Oakland-Fremont, CA"	"San Francisco-San Mateo-Redwood City, CA"	"San Jose-San Francisco-Oakland, CA"	TRUE	6041	"Marin County"	FALSE
+"1499"	41860	41884	488	"San Francisco-Oakland-Fremont, CA"	"San Francisco-San Mateo-Redwood City, CA"	"San Jose-San Francisco-Oakland, CA"	TRUE	6075	"San Francisco County"	TRUE
+"1500"	41860	41884	488	"San Francisco-Oakland-Fremont, CA"	"San Francisco-San Mateo-Redwood City, CA"	"San Jose-San Francisco-Oakland, CA"	TRUE	6081	"San Mateo County"	TRUE
+"1501"	41900	NA	364	"San Germán-Cabo Rojo, PR"	NA	"Mayagüez-San Germán-Cabo Rojo, PR"	TRUE	72023	"Cabo Rojo Municipio"	TRUE
+"1502"	41900	NA	364	"San Germán-Cabo Rojo, PR"	NA	"Mayagüez-San Germán-Cabo Rojo, PR"	TRUE	72079	"Lajas Municipio"	TRUE
+"1503"	41900	NA	364	"San Germán-Cabo Rojo, PR"	NA	"Mayagüez-San Germán-Cabo Rojo, PR"	TRUE	72121	"Sabana Grande Municipio"	TRUE
+"1504"	41900	NA	364	"San Germán-Cabo Rojo, PR"	NA	"Mayagüez-San Germán-Cabo Rojo, PR"	TRUE	72125	"San Germán Municipio"	TRUE
+"1505"	41940	NA	488	"San Jose-Sunnyvale-Santa Clara, CA"	NA	"San Jose-San Francisco-Oakland, CA"	TRUE	6069	"San Benito County"	FALSE
+"1506"	41940	NA	488	"San Jose-Sunnyvale-Santa Clara, CA"	NA	"San Jose-San Francisco-Oakland, CA"	TRUE	6085	"Santa Clara County"	TRUE
+"1507"	41980	NA	490	"San Juan-Caguas-Guaynabo, PR"	NA	"San Juan-Caguas-Fajardo, PR"	TRUE	72007	"Aguas Buenas Municipio"	TRUE
+"1508"	41980	NA	490	"San Juan-Caguas-Guaynabo, PR"	NA	"San Juan-Caguas-Fajardo, PR"	TRUE	72009	"Aibonito Municipio"	TRUE
+"1509"	41980	NA	490	"San Juan-Caguas-Guaynabo, PR"	NA	"San Juan-Caguas-Fajardo, PR"	TRUE	72013	"Arecibo Municipio"	FALSE
+"1510"	41980	NA	490	"San Juan-Caguas-Guaynabo, PR"	NA	"San Juan-Caguas-Fajardo, PR"	TRUE	72017	"Barceloneta Municipio"	FALSE
+"1511"	41980	NA	490	"San Juan-Caguas-Guaynabo, PR"	NA	"San Juan-Caguas-Fajardo, PR"	TRUE	72019	"Barranquitas Municipio"	TRUE
+"1512"	41980	NA	490	"San Juan-Caguas-Guaynabo, PR"	NA	"San Juan-Caguas-Fajardo, PR"	TRUE	72021	"Bayamón Municipio"	TRUE
+"1513"	41980	NA	490	"San Juan-Caguas-Guaynabo, PR"	NA	"San Juan-Caguas-Fajardo, PR"	TRUE	72025	"Caguas Municipio"	TRUE
+"1514"	41980	NA	490	"San Juan-Caguas-Guaynabo, PR"	NA	"San Juan-Caguas-Fajardo, PR"	TRUE	72027	"Camuy Municipio"	FALSE
+"1515"	41980	NA	490	"San Juan-Caguas-Guaynabo, PR"	NA	"San Juan-Caguas-Fajardo, PR"	TRUE	72029	"Canóvanas Municipio"	TRUE
+"1516"	41980	NA	490	"San Juan-Caguas-Guaynabo, PR"	NA	"San Juan-Caguas-Fajardo, PR"	TRUE	72031	"Carolina Municipio"	TRUE
+"1517"	41980	NA	490	"San Juan-Caguas-Guaynabo, PR"	NA	"San Juan-Caguas-Fajardo, PR"	TRUE	72033	"Cataño Municipio"	TRUE
+"1518"	41980	NA	490	"San Juan-Caguas-Guaynabo, PR"	NA	"San Juan-Caguas-Fajardo, PR"	TRUE	72035	"Cayey Municipio"	TRUE
+"1519"	41980	NA	490	"San Juan-Caguas-Guaynabo, PR"	NA	"San Juan-Caguas-Fajardo, PR"	TRUE	72039	"Ciales Municipio"	TRUE
+"1520"	41980	NA	490	"San Juan-Caguas-Guaynabo, PR"	NA	"San Juan-Caguas-Fajardo, PR"	TRUE	72041	"Cidra Municipio"	TRUE
+"1521"	41980	NA	490	"San Juan-Caguas-Guaynabo, PR"	NA	"San Juan-Caguas-Fajardo, PR"	TRUE	72045	"Comerío Municipio"	TRUE
+"1522"	41980	NA	490	"San Juan-Caguas-Guaynabo, PR"	NA	"San Juan-Caguas-Fajardo, PR"	TRUE	72047	"Corozal Municipio"	TRUE
+"1523"	41980	NA	490	"San Juan-Caguas-Guaynabo, PR"	NA	"San Juan-Caguas-Fajardo, PR"	TRUE	72051	"Dorado Municipio"	TRUE
+"1524"	41980	NA	490	"San Juan-Caguas-Guaynabo, PR"	NA	"San Juan-Caguas-Fajardo, PR"	TRUE	72054	"Florida Municipio"	FALSE
+"1525"	41980	NA	490	"San Juan-Caguas-Guaynabo, PR"	NA	"San Juan-Caguas-Fajardo, PR"	TRUE	72061	"Guaynabo Municipio"	TRUE
+"1526"	41980	NA	490	"San Juan-Caguas-Guaynabo, PR"	NA	"San Juan-Caguas-Fajardo, PR"	TRUE	72063	"Gurabo Municipio"	TRUE
+"1527"	41980	NA	490	"San Juan-Caguas-Guaynabo, PR"	NA	"San Juan-Caguas-Fajardo, PR"	TRUE	72065	"Hatillo Municipio"	FALSE
+"1528"	41980	NA	490	"San Juan-Caguas-Guaynabo, PR"	NA	"San Juan-Caguas-Fajardo, PR"	TRUE	72069	"Humacao Municipio"	TRUE
+"1529"	41980	NA	490	"San Juan-Caguas-Guaynabo, PR"	NA	"San Juan-Caguas-Fajardo, PR"	TRUE	72077	"Juncos Municipio"	TRUE
+"1530"	41980	NA	490	"San Juan-Caguas-Guaynabo, PR"	NA	"San Juan-Caguas-Fajardo, PR"	TRUE	72085	"Las Piedras Municipio"	TRUE
+"1531"	41980	NA	490	"San Juan-Caguas-Guaynabo, PR"	NA	"San Juan-Caguas-Fajardo, PR"	TRUE	72087	"Loíza Municipio"	TRUE
+"1532"	41980	NA	490	"San Juan-Caguas-Guaynabo, PR"	NA	"San Juan-Caguas-Fajardo, PR"	TRUE	72091	"Manatí Municipio"	TRUE
+"1533"	41980	NA	490	"San Juan-Caguas-Guaynabo, PR"	NA	"San Juan-Caguas-Fajardo, PR"	TRUE	72095	"Maunabo Municipio"	TRUE
+"1534"	41980	NA	490	"San Juan-Caguas-Guaynabo, PR"	NA	"San Juan-Caguas-Fajardo, PR"	TRUE	72101	"Morovis Municipio"	TRUE
+"1535"	41980	NA	490	"San Juan-Caguas-Guaynabo, PR"	NA	"San Juan-Caguas-Fajardo, PR"	TRUE	72103	"Naguabo Municipio"	TRUE
+"1536"	41980	NA	490	"San Juan-Caguas-Guaynabo, PR"	NA	"San Juan-Caguas-Fajardo, PR"	TRUE	72105	"Naranjito Municipio"	TRUE
+"1537"	41980	NA	490	"San Juan-Caguas-Guaynabo, PR"	NA	"San Juan-Caguas-Fajardo, PR"	TRUE	72107	"Orocovis Municipio"	TRUE
+"1538"	41980	NA	490	"San Juan-Caguas-Guaynabo, PR"	NA	"San Juan-Caguas-Fajardo, PR"	TRUE	72115	"Quebradillas Municipio"	FALSE
+"1539"	41980	NA	490	"San Juan-Caguas-Guaynabo, PR"	NA	"San Juan-Caguas-Fajardo, PR"	TRUE	72119	"Río Grande Municipio"	TRUE
+"1540"	41980	NA	490	"San Juan-Caguas-Guaynabo, PR"	NA	"San Juan-Caguas-Fajardo, PR"	TRUE	72127	"San Juan Municipio"	TRUE
+"1541"	41980	NA	490	"San Juan-Caguas-Guaynabo, PR"	NA	"San Juan-Caguas-Fajardo, PR"	TRUE	72129	"San Lorenzo Municipio"	TRUE
+"1542"	41980	NA	490	"San Juan-Caguas-Guaynabo, PR"	NA	"San Juan-Caguas-Fajardo, PR"	TRUE	72135	"Toa Alta Municipio"	TRUE
+"1543"	41980	NA	490	"San Juan-Caguas-Guaynabo, PR"	NA	"San Juan-Caguas-Fajardo, PR"	TRUE	72137	"Toa Baja Municipio"	TRUE
+"1544"	41980	NA	490	"San Juan-Caguas-Guaynabo, PR"	NA	"San Juan-Caguas-Fajardo, PR"	TRUE	72139	"Trujillo Alto Municipio"	TRUE
+"1545"	41980	NA	490	"San Juan-Caguas-Guaynabo, PR"	NA	"San Juan-Caguas-Fajardo, PR"	TRUE	72143	"Vega Alta Municipio"	TRUE
+"1546"	41980	NA	490	"San Juan-Caguas-Guaynabo, PR"	NA	"San Juan-Caguas-Fajardo, PR"	TRUE	72145	"Vega Baja Municipio"	TRUE
+"1547"	41980	NA	490	"San Juan-Caguas-Guaynabo, PR"	NA	"San Juan-Caguas-Fajardo, PR"	TRUE	72151	"Yabucoa Municipio"	TRUE
+"1548"	42020	NA	NA	"San Luis Obispo-Paso Robles, CA"	NA	NA	TRUE	6079	"San Luis Obispo County"	TRUE
+"1549"	42060	NA	NA	"Santa Barbara-Santa Maria-Goleta, CA"	NA	NA	TRUE	6083	"Santa Barbara County"	TRUE
+"1550"	42100	NA	488	"Santa Cruz-Watsonville, CA"	NA	"San Jose-San Francisco-Oakland, CA"	TRUE	6087	"Santa Cruz County"	TRUE
+"1551"	42140	NA	492	"Santa Fe, NM"	NA	"Santa Fe-Espanola, NM"	TRUE	35049	"Santa Fe County"	TRUE
+"1552"	42180	NA	434	"Santa Isabel, PR"	NA	"Ponce-Yauco-Coamo, PR"	FALSE	72133	"Santa Isabel Municipio"	TRUE
+"1553"	42220	NA	488	"Santa Rosa-Petaluma, CA"	NA	"San Jose-San Francisco-Oakland, CA"	TRUE	6097	"Sonoma County"	TRUE
+"1554"	42300	NA	NA	"Sault Ste. Marie, MI"	NA	NA	FALSE	26033	"Chippewa County"	TRUE
+"1555"	42340	NA	496	"Savannah, GA"	NA	"Savannah-Hinesville-Fort Stewart, GA"	TRUE	13029	"Bryan County"	FALSE
+"1556"	42340	NA	496	"Savannah, GA"	NA	"Savannah-Hinesville-Fort Stewart, GA"	TRUE	13051	"Chatham County"	TRUE
+"1557"	42340	NA	496	"Savannah, GA"	NA	"Savannah-Hinesville-Fort Stewart, GA"	TRUE	13103	"Effingham County"	FALSE
+"1558"	42380	NA	NA	"Sayre, PA"	NA	NA	FALSE	42015	"Bradford County"	TRUE
+"1559"	42420	NA	NA	"Scottsbluff, NE"	NA	NA	FALSE	31007	"Banner County"	FALSE
+"1560"	42420	NA	NA	"Scottsbluff, NE"	NA	NA	FALSE	31157	"Scotts Bluff County"	TRUE
+"1561"	42460	NA	NA	"Scottsboro, AL"	NA	NA	FALSE	1071	"Jackson County"	TRUE
+"1562"	42500	NA	350	"Scottsburg, IN"	NA	"Louisville/Jefferson County--Elizabethtown--Scottsburg, KY-IN"	FALSE	18143	"Scott County"	TRUE
+"1563"	42540	NA	NA	"Scranton--Wilkes-Barre, PA"	NA	NA	TRUE	42069	"Lackawanna County"	TRUE
+"1564"	42540	NA	NA	"Scranton--Wilkes-Barre, PA"	NA	NA	TRUE	42079	"Luzerne County"	TRUE
+"1565"	42540	NA	NA	"Scranton--Wilkes-Barre, PA"	NA	NA	TRUE	42131	"Wyoming County"	FALSE
+"1566"	42580	NA	NA	"Seaford, DE"	NA	NA	FALSE	10005	"Sussex County"	TRUE
+"1567"	42620	NA	340	"Searcy, AR"	NA	"Little Rock-North Little Rock-Pine Bluff, AR"	FALSE	5145	"White County"	TRUE
+"1568"	42660	42644	500	"Seattle-Tacoma-Bellevue, WA"	"Seattle-Bellevue-Everett, WA"	"Seattle-Tacoma-Olympia, WA"	TRUE	53033	"King County"	TRUE
+"1569"	42660	45104	500	"Seattle-Tacoma-Bellevue, WA"	"Tacoma, WA"	"Seattle-Tacoma-Olympia, WA"	TRUE	53053	"Pierce County"	TRUE
+"1570"	42660	42644	500	"Seattle-Tacoma-Bellevue, WA"	"Seattle-Bellevue-Everett, WA"	"Seattle-Tacoma-Olympia, WA"	TRUE	53061	"Snohomish County"	TRUE
+"1571"	42680	NA	442	"Sebastian-Vero Beach, FL"	NA	"Port St. Lucie-Sebastian-Vero Beach, FL"	TRUE	12061	"Indian River County"	TRUE
+"1572"	42700	NA	NA	"Sebring, FL"	NA	NA	FALSE	12055	"Highlands County"	TRUE
+"1573"	42740	NA	NA	"Sedalia, MO"	NA	NA	FALSE	29159	"Pettis County"	TRUE
+"1574"	42780	NA	526	"Selinsgrove, PA"	NA	"Sunbury-Lewisburg-Selinsgrove, PA"	FALSE	42109	"Snyder County"	TRUE
+"1575"	42820	NA	NA	"Selma, AL"	NA	NA	FALSE	1047	"Dallas County"	TRUE
+"1576"	42860	NA	273	"Seneca, SC"	NA	"Greenville-Spartanburg-Anderson, SC"	FALSE	45073	"Oconee County"	TRUE
+"1577"	42900	NA	464	"Seneca Falls, NY"	NA	"Rochester-Batavia-Seneca Falls, NY"	FALSE	36099	"Seneca County"	TRUE
+"1578"	42940	NA	314	"Sevierville, TN"	NA	"Knoxville-Sevierville-La Follette, TN"	FALSE	47155	"Sevier County"	TRUE
+"1579"	42980	NA	NA	"Seymour, IN"	NA	NA	FALSE	18071	"Jackson County"	TRUE
+"1580"	43060	NA	416	"Shawnee, OK"	NA	"Oklahoma City-Shawnee, OK"	FALSE	40125	"Pottawatomie County"	TRUE
+"1581"	43100	NA	NA	"Sheboygan, WI"	NA	NA	TRUE	55117	"Sheboygan County"	TRUE
+"1582"	43140	NA	172	"Shelby, NC"	NA	"Charlotte-Gastonia-Salisbury, NC-SC"	FALSE	37045	"Cleveland County"	TRUE
+"1583"	43180	NA	NA	"Shelbyville, TN"	NA	NA	FALSE	47003	"Bedford County"	TRUE
+"1584"	43220	NA	500	"Shelton, WA"	NA	"Seattle-Tacoma-Olympia, WA"	FALSE	53045	"Mason County"	TRUE
+"1585"	43260	NA	NA	"Sheridan, WY"	NA	NA	FALSE	56033	"Sheridan County"	TRUE
+"1586"	43300	NA	206	"Sherman-Denison, TX"	NA	"Dallas-Fort Worth, TX"	TRUE	48181	"Grayson County"	TRUE
+"1587"	43320	NA	NA	"Show Low, AZ"	NA	NA	FALSE	4017	"Navajo County"	TRUE
+"1588"	43340	NA	508	"Shreveport-Bossier City, LA"	NA	"Shreveport-Bossier City-Minden, LA"	TRUE	22015	"Bossier Parish"	TRUE
+"1589"	43340	NA	508	"Shreveport-Bossier City, LA"	NA	"Shreveport-Bossier City-Minden, LA"	TRUE	22017	"Caddo Parish"	TRUE
+"1590"	43340	NA	508	"Shreveport-Bossier City, LA"	NA	"Shreveport-Bossier City-Minden, LA"	TRUE	22031	"De Soto Parish"	FALSE
+"1591"	43380	NA	NA	"Sidney, OH"	NA	NA	FALSE	39149	"Shelby County"	TRUE
+"1592"	43420	NA	NA	"Sierra Vista-Douglas, AZ"	NA	NA	FALSE	4003	"Cochise County"	TRUE
+"1593"	43460	NA	164	"Sikeston, MO"	NA	"Cape Girardeau-Sikeston-Jackson, MO-IL"	FALSE	29201	"Scott County"	TRUE
+"1594"	43500	NA	NA	"Silver City, NM"	NA	NA	FALSE	35017	"Grant County"	TRUE
+"1595"	43540	NA	NA	"Silverthorne, CO"	NA	NA	FALSE	8117	"Summit County"	TRUE
+"1596"	43580	NA	512	"Sioux City, IA-NE-SD"	NA	"Sioux City-Vermillion, IA-NE-SD"	TRUE	19193	"Woodbury County"	TRUE
+"1597"	43580	NA	512	"Sioux City, IA-NE-SD"	NA	"Sioux City-Vermillion, IA-NE-SD"	TRUE	31043	"Dakota County"	TRUE
+"1598"	43580	NA	512	"Sioux City, IA-NE-SD"	NA	"Sioux City-Vermillion, IA-NE-SD"	TRUE	31051	"Dixon County"	FALSE
+"1599"	43580	NA	512	"Sioux City, IA-NE-SD"	NA	"Sioux City-Vermillion, IA-NE-SD"	TRUE	46127	"Union County"	FALSE
+"1600"	43620	NA	NA	"Sioux Falls, SD"	NA	NA	TRUE	46083	"Lincoln County"	TRUE
+"1601"	43620	NA	NA	"Sioux Falls, SD"	NA	NA	TRUE	46087	"McCook County"	FALSE
+"1602"	43620	NA	NA	"Sioux Falls, SD"	NA	NA	TRUE	46099	"Minnehaha County"	TRUE
+"1603"	43620	NA	NA	"Sioux Falls, SD"	NA	NA	TRUE	46125	"Turner County"	FALSE
+"1604"	43660	NA	NA	"Snyder, TX"	NA	NA	FALSE	48415	"Scurry County"	TRUE
+"1605"	43700	NA	NA	"Somerset, KY"	NA	NA	FALSE	21199	"Pulaski County"	TRUE
+"1606"	43740	NA	NA	"Somerset, PA"	NA	NA	FALSE	42111	"Somerset County"	TRUE
+"1607"	43780	NA	515	"South Bend-Mishawaka, IN-MI"	NA	"South Bend-Elkhart-Mishawaka, IN-MI"	TRUE	18141	"St. Joseph County"	TRUE
+"1608"	43780	NA	515	"South Bend-Mishawaka, IN-MI"	NA	"South Bend-Elkhart-Mishawaka, IN-MI"	TRUE	26027	"Cass County"	TRUE
+"1609"	43860	NA	NA	"Southern Pines-Pinehurst, NC"	NA	NA	FALSE	37125	"Moore County"	TRUE
+"1610"	43900	NA	273	"Spartanburg, SC"	NA	"Greenville-Spartanburg-Anderson, SC"	TRUE	45083	"Spartanburg County"	TRUE
+"1611"	43940	NA	NA	"Spearfish, SD"	NA	NA	FALSE	46081	"Lawrence County"	TRUE
+"1612"	43980	NA	NA	"Spencer, IA"	NA	NA	FALSE	19041	"Clay County"	TRUE
+"1613"	44020	NA	NA	"Spirit Lake, IA"	NA	NA	FALSE	19059	"Dickinson County"	TRUE
+"1614"	44060	NA	NA	"Spokane, WA"	NA	NA	TRUE	53063	"Spokane County"	TRUE
+"1615"	44100	NA	NA	"Springfield, IL"	NA	NA	TRUE	17129	"Menard County"	FALSE
+"1616"	44100	NA	NA	"Springfield, IL"	NA	NA	TRUE	17167	"Sangamon County"	TRUE
+"1617"	44140	NA	NA	"Springfield, MA"	NA	NA	TRUE	25011	"Franklin County"	FALSE
+"1618"	44140	NA	NA	"Springfield, MA"	NA	NA	TRUE	25013	"Hampden County"	TRUE
+"1619"	44140	NA	NA	"Springfield, MA"	NA	NA	TRUE	25015	"Hampshire County"	TRUE
+"1620"	44180	NA	NA	"Springfield, MO"	NA	NA	TRUE	29043	"Christian County"	TRUE
+"1621"	44180	NA	NA	"Springfield, MO"	NA	NA	TRUE	29059	"Dallas County"	FALSE
+"1622"	44180	NA	NA	"Springfield, MO"	NA	NA	TRUE	29077	"Greene County"	TRUE
+"1623"	44180	NA	NA	"Springfield, MO"	NA	NA	TRUE	29167	"Polk County"	FALSE
+"1624"	44180	NA	NA	"Springfield, MO"	NA	NA	TRUE	29225	"Webster County"	FALSE
+"1625"	44220	NA	212	"Springfield, OH"	NA	"Dayton-Springfield-Greenville, OH"	TRUE	39023	"Clark County"	TRUE
+"1626"	44260	NA	NA	"Starkville, MS"	NA	NA	FALSE	28105	"Oktibbeha County"	TRUE
+"1627"	44300	NA	NA	"State College, PA"	NA	NA	TRUE	42027	"Centre County"	TRUE
+"1628"	44340	NA	NA	"Statesboro, GA"	NA	NA	FALSE	13031	"Bulloch County"	TRUE
+"1629"	44380	NA	172	"Statesville-Mooresville, NC"	NA	"Charlotte-Gastonia-Salisbury, NC-SC"	FALSE	37097	"Iredell County"	TRUE
+"1630"	44420	NA	NA	"Staunton-Waynesboro, VA"	NA	NA	FALSE	51015	"Augusta County"	TRUE
+"1631"	44420	NA	NA	"Staunton-Waynesboro, VA"	NA	NA	FALSE	51790	"Staunton city"	TRUE
+"1632"	44420	NA	NA	"Staunton-Waynesboro, VA"	NA	NA	FALSE	51820	"Waynesboro city"	TRUE
+"1633"	44500	NA	NA	"Stephenville, TX"	NA	NA	FALSE	48143	"Erath County"	TRUE
+"1634"	44540	NA	NA	"Sterling, CO"	NA	NA	FALSE	8075	"Logan County"	TRUE
+"1635"	44580	NA	NA	"Sterling, IL"	NA	NA	FALSE	17195	"Whiteside County"	TRUE
+"1636"	44620	NA	NA	"Stevens Point, WI"	NA	NA	FALSE	55097	"Portage County"	TRUE
+"1637"	44660	NA	NA	"Stillwater, OK"	NA	NA	FALSE	40119	"Payne County"	TRUE
+"1638"	44700	NA	NA	"Stockton, CA"	NA	NA	TRUE	6077	"San Joaquin County"	TRUE
+"1639"	44740	NA	NA	"Storm Lake, IA"	NA	NA	FALSE	19021	"Buena Vista County"	TRUE
+"1640"	44780	NA	NA	"Sturgis, MI"	NA	NA	FALSE	26149	"St. Joseph County"	TRUE
+"1641"	44860	NA	NA	"Sulphur Springs, TX"	NA	NA	FALSE	48223	"Hopkins County"	TRUE
+"1642"	44900	NA	NA	"Summerville, GA"	NA	NA	FALSE	13055	"Chattooga County"	TRUE
+"1643"	44940	NA	NA	"Sumter, SC"	NA	NA	TRUE	45085	"Sumter County"	TRUE
+"1644"	44980	NA	526	"Sunbury, PA"	NA	"Sunbury-Lewisburg-Selinsgrove, PA"	FALSE	42097	"Northumberland County"	TRUE
+"1645"	45000	NA	NA	"Susanville, CA"	NA	NA	FALSE	6035	"Lassen County"	TRUE
+"1646"	45020	NA	NA	"Sweetwater, TX"	NA	NA	FALSE	48353	"Nolan County"	TRUE
+"1647"	45060	NA	532	"Syracuse, NY"	NA	"Syracuse-Auburn, NY"	TRUE	36053	"Madison County"	FALSE
+"1648"	45060	NA	532	"Syracuse, NY"	NA	"Syracuse-Auburn, NY"	TRUE	36067	"Onondaga County"	TRUE
+"1649"	45060	NA	532	"Syracuse, NY"	NA	"Syracuse-Auburn, NY"	TRUE	36075	"Oswego County"	FALSE
+"1650"	45140	NA	NA	"Tahlequah, OK"	NA	NA	FALSE	40021	"Cherokee County"	TRUE
+"1651"	45180	NA	NA	"Talladega-Sylacauga, AL"	NA	NA	FALSE	1121	"Talladega County"	TRUE
+"1652"	45220	NA	NA	"Tallahassee, FL"	NA	NA	TRUE	12039	"Gadsden County"	FALSE
+"1653"	45220	NA	NA	"Tallahassee, FL"	NA	NA	TRUE	12065	"Jefferson County"	FALSE
+"1654"	45220	NA	NA	"Tallahassee, FL"	NA	NA	TRUE	12073	"Leon County"	TRUE
+"1655"	45220	NA	NA	"Tallahassee, FL"	NA	NA	TRUE	12129	"Wakulla County"	FALSE
+"1656"	45260	NA	NA	"Tallulah, LA"	NA	NA	FALSE	22065	"Madison Parish"	TRUE
+"1657"	45300	NA	NA	"Tampa-St. Petersburg-Clearwater, FL"	NA	NA	TRUE	12053	"Hernando County"	FALSE
+"1658"	45300	NA	NA	"Tampa-St. Petersburg-Clearwater, FL"	NA	NA	TRUE	12057	"Hillsborough County"	TRUE
+"1659"	45300	NA	NA	"Tampa-St. Petersburg-Clearwater, FL"	NA	NA	TRUE	12101	"Pasco County"	TRUE
+"1660"	45300	NA	NA	"Tampa-St. Petersburg-Clearwater, FL"	NA	NA	TRUE	12103	"Pinellas County"	TRUE
+"1661"	45340	NA	NA	"Taos, NM"	NA	NA	FALSE	35055	"Taos County"	TRUE
+"1662"	45380	NA	NA	"Taylorville, IL"	NA	NA	FALSE	17021	"Christian County"	TRUE
+"1663"	45460	NA	NA	"Terre Haute, IN"	NA	NA	TRUE	18021	"Clay County"	FALSE
+"1664"	45460	NA	NA	"Terre Haute, IN"	NA	NA	TRUE	18153	"Sullivan County"	FALSE
+"1665"	45460	NA	NA	"Terre Haute, IN"	NA	NA	TRUE	18165	"Vermillion County"	FALSE
+"1666"	45460	NA	NA	"Terre Haute, IN"	NA	NA	TRUE	18167	"Vigo County"	TRUE
+"1667"	45500	NA	NA	"Texarkana, TX-Texarkana, AR"	NA	NA	TRUE	5091	"Miller County"	TRUE
+"1668"	45500	NA	NA	"Texarkana, TX-Texarkana, AR"	NA	NA	TRUE	48037	"Bowie County"	TRUE
+"1669"	45520	NA	NA	"The Dalles, OR"	NA	NA	FALSE	41065	"Wasco County"	TRUE
+"1670"	45540	NA	422	"The Villages, FL"	NA	"Orlando-Deltona-Daytona Beach, FL"	FALSE	12119	"Sumter County"	TRUE
+"1671"	45580	NA	122	"Thomaston, GA"	NA	"Atlanta-Sandy Springs-Gainesville, GA-AL"	FALSE	13293	"Upson County"	TRUE
+"1672"	45620	NA	NA	"Thomasville, GA"	NA	NA	FALSE	13275	"Thomas County"	TRUE
+"1673"	45640	NA	268	"Thomasville-Lexington, NC"	NA	"Greensboro--Winston-Salem--High Point, NC"	FALSE	37057	"Davidson County"	TRUE
+"1674"	45660	NA	248	"Tiffin, OH"	NA	"Findlay-Tiffin, OH"	FALSE	39147	"Seneca County"	TRUE
+"1675"	45700	NA	NA	"Tifton, GA"	NA	NA	FALSE	13277	"Tift County"	TRUE
+"1676"	45740	NA	NA	"Toccoa, GA"	NA	NA	FALSE	13257	"Stephens County"	TRUE
+"1677"	45780	NA	534	"Toledo, OH"	NA	"Toledo-Fremont, OH"	TRUE	39051	"Fulton County"	FALSE
+"1678"	45780	NA	534	"Toledo, OH"	NA	"Toledo-Fremont, OH"	TRUE	39095	"Lucas County"	TRUE
+"1679"	45780	NA	534	"Toledo, OH"	NA	"Toledo-Fremont, OH"	TRUE	39123	"Ottawa County"	FALSE
+"1680"	45780	NA	534	"Toledo, OH"	NA	"Toledo-Fremont, OH"	TRUE	39173	"Wood County"	TRUE
+"1681"	45820	NA	NA	"Topeka, KS"	NA	NA	TRUE	20085	"Jackson County"	FALSE
+"1682"	45820	NA	NA	"Topeka, KS"	NA	NA	TRUE	20087	"Jefferson County"	FALSE
+"1683"	45820	NA	NA	"Topeka, KS"	NA	NA	TRUE	20139	"Osage County"	FALSE
+"1684"	45820	NA	NA	"Topeka, KS"	NA	NA	TRUE	20177	"Shawnee County"	TRUE
+"1685"	45820	NA	NA	"Topeka, KS"	NA	NA	TRUE	20197	"Wabaunsee County"	FALSE
+"1686"	45860	NA	408	"Torrington, CT"	NA	"New York-Newark-Bridgeport, NY-NJ-CT-PA"	FALSE	9005	"Litchfield County"	TRUE
+"1687"	45900	NA	NA	"Traverse City, MI"	NA	NA	FALSE	26019	"Benzie County"	FALSE
+"1688"	45900	NA	NA	"Traverse City, MI"	NA	NA	FALSE	26055	"Grand Traverse County"	TRUE
+"1689"	45900	NA	NA	"Traverse City, MI"	NA	NA	FALSE	26079	"Kalkaska County"	FALSE
+"1690"	45900	NA	NA	"Traverse City, MI"	NA	NA	FALSE	26089	"Leelanau County"	FALSE
+"1691"	45940	NA	408	"Trenton-Ewing, NJ"	NA	"New York-Newark-Bridgeport, NY-NJ-CT-PA"	TRUE	34021	"Mercer County"	TRUE
+"1692"	45980	NA	NA	"Troy, AL"	NA	NA	FALSE	1109	"Pike County"	TRUE
+"1693"	46020	NA	472	"Truckee-Grass Valley, CA"	NA	"Sacramento--Arden-Arcade--Yuba City, CA-NV"	FALSE	6057	"Nevada County"	TRUE
+"1694"	46060	NA	NA	"Tucson, AZ"	NA	NA	TRUE	4019	"Pima County"	TRUE
+"1695"	46100	NA	NA	"Tullahoma, TN"	NA	NA	FALSE	47031	"Coffee County"	TRUE
+"1696"	46100	NA	NA	"Tullahoma, TN"	NA	NA	FALSE	47051	"Franklin County"	FALSE
+"1697"	46100	NA	NA	"Tullahoma, TN"	NA	NA	FALSE	47127	"Moore County"	FALSE
+"1698"	46140	NA	538	"Tulsa, OK"	NA	"Tulsa-Bartlesville, OK"	TRUE	40037	"Creek County"	TRUE
+"1699"	46140	NA	538	"Tulsa, OK"	NA	"Tulsa-Bartlesville, OK"	TRUE	40111	"Okmulgee County"	FALSE
+"1700"	46140	NA	538	"Tulsa, OK"	NA	"Tulsa-Bartlesville, OK"	TRUE	40113	"Osage County"	TRUE
+"1701"	46140	NA	538	"Tulsa, OK"	NA	"Tulsa-Bartlesville, OK"	TRUE	40117	"Pawnee County"	FALSE
+"1702"	46140	NA	538	"Tulsa, OK"	NA	"Tulsa-Bartlesville, OK"	TRUE	40131	"Rogers County"	FALSE
+"1703"	46140	NA	538	"Tulsa, OK"	NA	"Tulsa-Bartlesville, OK"	TRUE	40143	"Tulsa County"	TRUE
+"1704"	46140	NA	538	"Tulsa, OK"	NA	"Tulsa-Bartlesville, OK"	TRUE	40145	"Wagoner County"	TRUE
+"1705"	46180	NA	NA	"Tupelo, MS"	NA	NA	FALSE	28057	"Itawamba County"	FALSE
+"1706"	46180	NA	NA	"Tupelo, MS"	NA	NA	FALSE	28081	"Lee County"	TRUE
+"1707"	46180	NA	NA	"Tupelo, MS"	NA	NA	FALSE	28115	"Pontotoc County"	FALSE
+"1708"	46220	NA	NA	"Tuscaloosa, AL"	NA	NA	TRUE	1063	"Greene County"	FALSE
+"1709"	46220	NA	NA	"Tuscaloosa, AL"	NA	NA	TRUE	1065	"Hale County"	FALSE
+"1710"	46220	NA	NA	"Tuscaloosa, AL"	NA	NA	TRUE	1125	"Tuscaloosa County"	TRUE
+"1711"	46260	NA	194	"Tuskegee, AL"	NA	"Columbus-Auburn-Opelika, GA-AL"	FALSE	1087	"Macon County"	TRUE
+"1712"	46300	NA	NA	"Twin Falls, ID"	NA	NA	FALSE	16053	"Jerome County"	FALSE
+"1713"	46300	NA	NA	"Twin Falls, ID"	NA	NA	FALSE	16083	"Twin Falls County"	TRUE
+"1714"	46340	NA	540	"Tyler, TX"	NA	"Tyler-Jacksonville, TX"	TRUE	48423	"Smith County"	TRUE
+"1715"	46380	NA	NA	"Ukiah, CA"	NA	NA	FALSE	6045	"Mendocino County"	TRUE
+"1716"	46420	NA	273	"Union, SC"	NA	"Greenville-Spartanburg-Anderson, SC"	FALSE	45087	"Union County"	TRUE
+"1717"	46460	NA	542	"Union City, TN-KY"	NA	"Union City-Martin, TN-KY"	FALSE	21075	"Fulton County"	FALSE
+"1718"	46460	NA	542	"Union City, TN-KY"	NA	"Union City-Martin, TN-KY"	FALSE	47131	"Obion County"	TRUE
+"1719"	46500	NA	212	"Urbana, OH"	NA	"Dayton-Springfield-Greenville, OH"	FALSE	39021	"Champaign County"	TRUE
+"1720"	46540	NA	NA	"Utica-Rome, NY"	NA	NA	TRUE	36043	"Herkimer County"	FALSE
+"1721"	46540	NA	NA	"Utica-Rome, NY"	NA	NA	TRUE	36065	"Oneida County"	TRUE
+"1722"	46580	NA	490	"Utuado, PR"	NA	"San Juan-Caguas-Fajardo, PR"	FALSE	72141	"Utuado Municipio"	TRUE
+"1723"	46620	NA	NA	"Uvalde, TX"	NA	NA	FALSE	48463	"Uvalde County"	TRUE
+"1724"	46660	NA	NA	"Valdosta, GA"	NA	NA	TRUE	13027	"Brooks County"	FALSE
+"1725"	46660	NA	NA	"Valdosta, GA"	NA	NA	TRUE	13101	"Echols County"	FALSE
+"1726"	46660	NA	NA	"Valdosta, GA"	NA	NA	TRUE	13173	"Lanier County"	FALSE
+"1727"	46660	NA	NA	"Valdosta, GA"	NA	NA	TRUE	13185	"Lowndes County"	TRUE
+"1728"	46700	NA	488	"Vallejo-Fairfield, CA"	NA	"San Jose-San Francisco-Oakland, CA"	TRUE	6095	"Solano County"	TRUE
+"1729"	46740	NA	122	"Valley, AL"	NA	"Atlanta-Sandy Springs-Gainesville, GA-AL"	FALSE	1017	"Chambers County"	TRUE
+"1730"	46780	NA	338	"Van Wert, OH"	NA	"Lima-Van Wert-Wapakoneta, OH"	FALSE	39161	"Van Wert County"	TRUE
+"1731"	46820	NA	512	"Vermillion, SD"	NA	"Sioux City-Vermillion, IA-NE-SD"	FALSE	46027	"Clay County"	TRUE
+"1732"	46860	NA	NA	"Vernal, UT"	NA	NA	FALSE	49047	"Uintah County"	TRUE
+"1733"	46900	NA	NA	"Vernon, TX"	NA	NA	FALSE	48487	"Wilbarger County"	TRUE
+"1734"	46980	NA	NA	"Vicksburg, MS"	NA	NA	FALSE	28149	"Warren County"	TRUE
+"1735"	47020	NA	NA	"Victoria, TX"	NA	NA	TRUE	48057	"Calhoun County"	FALSE
+"1736"	47020	NA	NA	"Victoria, TX"	NA	NA	TRUE	48175	"Goliad County"	FALSE
+"1737"	47020	NA	NA	"Victoria, TX"	NA	NA	TRUE	48469	"Victoria County"	TRUE
+"1738"	47080	NA	NA	"Vidalia, GA"	NA	NA	FALSE	13209	"Montgomery County"	FALSE
+"1739"	47080	NA	NA	"Vidalia, GA"	NA	NA	FALSE	13279	"Toombs County"	TRUE
+"1740"	47180	NA	NA	"Vincennes, IN"	NA	NA	FALSE	18083	"Knox County"	TRUE
+"1741"	47220	NA	428	"Vineland-Millville-Bridgeton, NJ"	NA	"Philadelphia-Camden-Vineland, PA-NJ-DE-MD"	TRUE	34011	"Cumberland County"	TRUE
+"1742"	47260	NA	NA	"Virginia Beach-Norfolk-Newport News, VA-NC"	NA	NA	TRUE	37053	"Currituck County"	FALSE
+"1743"	47260	NA	NA	"Virginia Beach-Norfolk-Newport News, VA-NC"	NA	NA	TRUE	51073	"Gloucester County"	TRUE
+"1744"	47260	NA	NA	"Virginia Beach-Norfolk-Newport News, VA-NC"	NA	NA	TRUE	51093	"Isle of Wight County"	FALSE
+"1745"	47260	NA	NA	"Virginia Beach-Norfolk-Newport News, VA-NC"	NA	NA	TRUE	51095	"James City County"	TRUE
+"1746"	47260	NA	NA	"Virginia Beach-Norfolk-Newport News, VA-NC"	NA	NA	TRUE	51115	"Mathews County"	FALSE
+"1747"	47260	NA	NA	"Virginia Beach-Norfolk-Newport News, VA-NC"	NA	NA	TRUE	51181	"Surry County"	FALSE
+"1748"	47260	NA	NA	"Virginia Beach-Norfolk-Newport News, VA-NC"	NA	NA	TRUE	51199	"York County"	TRUE
+"1749"	47260	NA	NA	"Virginia Beach-Norfolk-Newport News, VA-NC"	NA	NA	TRUE	51550	"Chesapeake city"	TRUE
+"1750"	47260	NA	NA	"Virginia Beach-Norfolk-Newport News, VA-NC"	NA	NA	TRUE	51650	"Hampton city"	TRUE
+"1751"	47260	NA	NA	"Virginia Beach-Norfolk-Newport News, VA-NC"	NA	NA	TRUE	51700	"Newport News city"	TRUE
+"1752"	47260	NA	NA	"Virginia Beach-Norfolk-Newport News, VA-NC"	NA	NA	TRUE	51710	"Norfolk city"	TRUE
+"1753"	47260	NA	NA	"Virginia Beach-Norfolk-Newport News, VA-NC"	NA	NA	TRUE	51735	"Poquoson city"	TRUE
+"1754"	47260	NA	NA	"Virginia Beach-Norfolk-Newport News, VA-NC"	NA	NA	TRUE	51740	"Portsmouth city"	TRUE
+"1755"	47260	NA	NA	"Virginia Beach-Norfolk-Newport News, VA-NC"	NA	NA	TRUE	51800	"Suffolk city"	FALSE
+"1756"	47260	NA	NA	"Virginia Beach-Norfolk-Newport News, VA-NC"	NA	NA	TRUE	51810	"Virginia Beach city"	TRUE
+"1757"	47260	NA	NA	"Virginia Beach-Norfolk-Newport News, VA-NC"	NA	NA	TRUE	51830	"Williamsburg city"	TRUE
+"1758"	47300	NA	NA	"Visalia-Porterville, CA"	NA	NA	TRUE	6107	"Tulare County"	TRUE
+"1759"	47340	NA	NA	"Wabash, IN"	NA	NA	FALSE	18169	"Wabash County"	TRUE
+"1760"	47380	NA	NA	"Waco, TX"	NA	NA	TRUE	48309	"McLennan County"	TRUE
+"1761"	47420	NA	244	"Wahpeton, ND-MN"	NA	"Fargo-Wahpeton, ND-MN"	FALSE	27167	"Wilkin County"	FALSE
+"1762"	47420	NA	244	"Wahpeton, ND-MN"	NA	"Fargo-Wahpeton, ND-MN"	FALSE	38077	"Richland County"	TRUE
+"1763"	47460	NA	NA	"Walla Walla, WA"	NA	NA	FALSE	53071	"Walla Walla County"	TRUE
+"1764"	47500	NA	NA	"Walterboro, SC"	NA	NA	FALSE	45029	"Colleton County"	TRUE
+"1765"	47540	NA	338	"Wapakoneta, OH"	NA	"Lima-Van Wert-Wapakoneta, OH"	FALSE	39011	"Auglaize County"	TRUE
+"1766"	47580	NA	356	"Warner Robins, GA"	NA	"Macon-Warner Robins-Fort Valley, GA"	TRUE	13153	"Houston County"	TRUE
+"1767"	47620	NA	NA	"Warren, PA"	NA	NA	FALSE	42123	"Warren County"	TRUE
+"1768"	47660	NA	312	"Warrensburg, MO"	NA	"Kansas City-Overland Park-Kansas City, MO-KS"	FALSE	29101	"Johnson County"	TRUE
+"1769"	47700	NA	NA	"Warsaw, IN"	NA	NA	FALSE	18085	"Kosciusko County"	TRUE
+"1770"	47780	NA	NA	"Washington, IN"	NA	NA	FALSE	18027	"Daviess County"	TRUE
+"1771"	47820	NA	NA	"Washington, NC"	NA	NA	FALSE	37013	"Beaufort County"	TRUE
+"1772"	47900	47894	548	"Washington-Arlington-Alexandria, DC-VA-MD-WV"	"Washington-Arlington-Alexandria, DC-VA-MD-WV"	"Washington-Baltimore-Northern Virginia, DC-MD-VA-WV"	TRUE	11001	"District of Columbia"	TRUE
+"1773"	47900	47894	548	"Washington-Arlington-Alexandria, DC-VA-MD-WV"	"Washington-Arlington-Alexandria, DC-VA-MD-WV"	"Washington-Baltimore-Northern Virginia, DC-MD-VA-WV"	TRUE	24009	"Calvert County"	FALSE
+"1774"	47900	47894	548	"Washington-Arlington-Alexandria, DC-VA-MD-WV"	"Washington-Arlington-Alexandria, DC-VA-MD-WV"	"Washington-Baltimore-Northern Virginia, DC-MD-VA-WV"	TRUE	24017	"Charles County"	FALSE
+"1775"	47900	13644	548	"Washington-Arlington-Alexandria, DC-VA-MD-WV"	"Bethesda-Frederick-Rockville, MD"	"Washington-Baltimore-Northern Virginia, DC-MD-VA-WV"	TRUE	24021	"Frederick County"	FALSE
+"1776"	47900	13644	548	"Washington-Arlington-Alexandria, DC-VA-MD-WV"	"Bethesda-Frederick-Rockville, MD"	"Washington-Baltimore-Northern Virginia, DC-MD-VA-WV"	TRUE	24031	"Montgomery County"	TRUE
+"1777"	47900	47894	548	"Washington-Arlington-Alexandria, DC-VA-MD-WV"	"Washington-Arlington-Alexandria, DC-VA-MD-WV"	"Washington-Baltimore-Northern Virginia, DC-MD-VA-WV"	TRUE	24033	"Prince George's County"	TRUE
+"1778"	47900	47894	548	"Washington-Arlington-Alexandria, DC-VA-MD-WV"	"Washington-Arlington-Alexandria, DC-VA-MD-WV"	"Washington-Baltimore-Northern Virginia, DC-MD-VA-WV"	TRUE	51013	"Arlington County"	TRUE
+"1779"	47900	47894	548	"Washington-Arlington-Alexandria, DC-VA-MD-WV"	"Washington-Arlington-Alexandria, DC-VA-MD-WV"	"Washington-Baltimore-Northern Virginia, DC-MD-VA-WV"	TRUE	51043	"Clarke County"	FALSE
+"1780"	47900	47894	548	"Washington-Arlington-Alexandria, DC-VA-MD-WV"	"Washington-Arlington-Alexandria, DC-VA-MD-WV"	"Washington-Baltimore-Northern Virginia, DC-MD-VA-WV"	TRUE	51059	"Fairfax County"	TRUE
+"1781"	47900	47894	548	"Washington-Arlington-Alexandria, DC-VA-MD-WV"	"Washington-Arlington-Alexandria, DC-VA-MD-WV"	"Washington-Baltimore-Northern Virginia, DC-MD-VA-WV"	TRUE	51061	"Fauquier County"	FALSE
+"1782"	47900	47894	548	"Washington-Arlington-Alexandria, DC-VA-MD-WV"	"Washington-Arlington-Alexandria, DC-VA-MD-WV"	"Washington-Baltimore-Northern Virginia, DC-MD-VA-WV"	TRUE	51107	"Loudoun County"	TRUE
+"1783"	47900	47894	548	"Washington-Arlington-Alexandria, DC-VA-MD-WV"	"Washington-Arlington-Alexandria, DC-VA-MD-WV"	"Washington-Baltimore-Northern Virginia, DC-MD-VA-WV"	TRUE	51153	"Prince William County"	TRUE
+"1784"	47900	47894	548	"Washington-Arlington-Alexandria, DC-VA-MD-WV"	"Washington-Arlington-Alexandria, DC-VA-MD-WV"	"Washington-Baltimore-Northern Virginia, DC-MD-VA-WV"	TRUE	51177	"Spotsylvania County"	FALSE
+"1785"	47900	47894	548	"Washington-Arlington-Alexandria, DC-VA-MD-WV"	"Washington-Arlington-Alexandria, DC-VA-MD-WV"	"Washington-Baltimore-Northern Virginia, DC-MD-VA-WV"	TRUE	51179	"Stafford County"	TRUE
+"1786"	47900	47894	548	"Washington-Arlington-Alexandria, DC-VA-MD-WV"	"Washington-Arlington-Alexandria, DC-VA-MD-WV"	"Washington-Baltimore-Northern Virginia, DC-MD-VA-WV"	TRUE	51187	"Warren County"	FALSE
+"1787"	47900	47894	548	"Washington-Arlington-Alexandria, DC-VA-MD-WV"	"Washington-Arlington-Alexandria, DC-VA-MD-WV"	"Washington-Baltimore-Northern Virginia, DC-MD-VA-WV"	TRUE	51510	"Alexandria city"	TRUE
+"1788"	47900	47894	548	"Washington-Arlington-Alexandria, DC-VA-MD-WV"	"Washington-Arlington-Alexandria, DC-VA-MD-WV"	"Washington-Baltimore-Northern Virginia, DC-MD-VA-WV"	TRUE	51600	"Fairfax city"	TRUE
+"1789"	47900	47894	548	"Washington-Arlington-Alexandria, DC-VA-MD-WV"	"Washington-Arlington-Alexandria, DC-VA-MD-WV"	"Washington-Baltimore-Northern Virginia, DC-MD-VA-WV"	TRUE	51610	"Falls Church city"	TRUE
+"1790"	47900	47894	548	"Washington-Arlington-Alexandria, DC-VA-MD-WV"	"Washington-Arlington-Alexandria, DC-VA-MD-WV"	"Washington-Baltimore-Northern Virginia, DC-MD-VA-WV"	TRUE	51630	"Fredericksburg city"	FALSE
+"1791"	47900	47894	548	"Washington-Arlington-Alexandria, DC-VA-MD-WV"	"Washington-Arlington-Alexandria, DC-VA-MD-WV"	"Washington-Baltimore-Northern Virginia, DC-MD-VA-WV"	TRUE	51683	"Manassas city"	TRUE
+"1792"	47900	47894	548	"Washington-Arlington-Alexandria, DC-VA-MD-WV"	"Washington-Arlington-Alexandria, DC-VA-MD-WV"	"Washington-Baltimore-Northern Virginia, DC-MD-VA-WV"	TRUE	51685	"Manassas Park city"	TRUE
+"1793"	47900	47894	548	"Washington-Arlington-Alexandria, DC-VA-MD-WV"	"Washington-Arlington-Alexandria, DC-VA-MD-WV"	"Washington-Baltimore-Northern Virginia, DC-MD-VA-WV"	TRUE	54037	"Jefferson County"	FALSE
+"1794"	47920	NA	198	"Washington Court House, OH"	NA	"Columbus-Marion-Chillicothe, OH"	FALSE	39047	"Fayette County"	TRUE
+"1795"	47940	NA	NA	"Waterloo-Cedar Falls, IA"	NA	NA	TRUE	19013	"Black Hawk County"	TRUE
+"1796"	47940	NA	NA	"Waterloo-Cedar Falls, IA"	NA	NA	TRUE	19017	"Bremer County"	FALSE
+"1797"	47940	NA	NA	"Waterloo-Cedar Falls, IA"	NA	NA	TRUE	19075	"Grundy County"	FALSE
+"1798"	47980	NA	NA	"Watertown, SD"	NA	NA	FALSE	46029	"Codington County"	TRUE
+"1799"	47980	NA	NA	"Watertown, SD"	NA	NA	FALSE	46057	"Hamlin County"	FALSE
+"1800"	48020	NA	NA	"Watertown-Fort Atkinson, WI"	NA	NA	FALSE	55055	"Jefferson County"	TRUE
+"1801"	48060	NA	NA	"Watertown-Fort Drum, NY"	NA	NA	FALSE	36045	"Jefferson County"	TRUE
+"1802"	48100	NA	NA	"Wauchula, FL"	NA	NA	FALSE	12049	"Hardee County"	TRUE
+"1803"	48140	NA	554	"Wausau, WI"	NA	"Wausau-Merrill, WI"	TRUE	55073	"Marathon County"	TRUE
+"1804"	48180	NA	NA	"Waycross, GA"	NA	NA	FALSE	13229	"Pierce County"	FALSE
+"1805"	48180	NA	NA	"Waycross, GA"	NA	NA	FALSE	13299	"Ware County"	TRUE
+"1806"	48260	NA	NA	"Weirton-Steubenville, WV-OH"	NA	NA	TRUE	39081	"Jefferson County"	TRUE
+"1807"	48260	NA	NA	"Weirton-Steubenville, WV-OH"	NA	NA	TRUE	54009	"Brooke County"	TRUE
+"1808"	48260	NA	NA	"Weirton-Steubenville, WV-OH"	NA	NA	TRUE	54029	"Hancock County"	TRUE
+"1809"	48300	NA	NA	"Wenatchee-East Wenatchee, WA"	NA	NA	TRUE	53007	"Chelan County"	TRUE
+"1810"	48300	NA	NA	"Wenatchee-East Wenatchee, WA"	NA	NA	TRUE	53017	"Douglas County"	TRUE
+"1811"	48460	NA	NA	"West Plains, MO"	NA	NA	FALSE	29091	"Howell County"	TRUE
+"1812"	48500	NA	200	"West Point, MS"	NA	"Columbus-West Point, MS"	FALSE	28025	"Clay County"	TRUE
+"1813"	48540	NA	NA	"Wheeling, WV-OH"	NA	NA	TRUE	39013	"Belmont County"	TRUE
+"1814"	48540	NA	NA	"Wheeling, WV-OH"	NA	NA	TRUE	54051	"Marshall County"	TRUE
+"1815"	48540	NA	NA	"Wheeling, WV-OH"	NA	NA	TRUE	54069	"Ohio County"	TRUE
+"1816"	48580	NA	NA	"Whitewater, WI"	NA	NA	FALSE	55127	"Walworth County"	TRUE
+"1817"	48620	NA	556	"Wichita, KS"	NA	"Wichita-Winfield, KS"	TRUE	20015	"Butler County"	FALSE
+"1818"	48620	NA	556	"Wichita, KS"	NA	"Wichita-Winfield, KS"	TRUE	20079	"Harvey County"	FALSE
+"1819"	48620	NA	556	"Wichita, KS"	NA	"Wichita-Winfield, KS"	TRUE	20173	"Sedgwick County"	TRUE
+"1820"	48620	NA	556	"Wichita, KS"	NA	"Wichita-Winfield, KS"	TRUE	20191	"Sumner County"	FALSE
+"1821"	48660	NA	NA	"Wichita Falls, TX"	NA	NA	TRUE	48009	"Archer County"	FALSE
+"1822"	48660	NA	NA	"Wichita Falls, TX"	NA	NA	TRUE	48077	"Clay County"	FALSE
+"1823"	48660	NA	NA	"Wichita Falls, TX"	NA	NA	TRUE	48485	"Wichita County"	TRUE
+"1824"	48700	NA	558	"Williamsport, PA"	NA	"Williamsport-Lock Haven, PA"	TRUE	42081	"Lycoming County"	TRUE
+"1825"	48740	NA	278	"Willimantic, CT"	NA	"Hartford-West Hartford-Willimantic, CT"	FALSE	9015	"Windham County"	TRUE
+"1826"	48780	NA	NA	"Williston, ND"	NA	NA	FALSE	38105	"Williams County"	TRUE
+"1827"	48820	NA	NA	"Willmar, MN"	NA	NA	FALSE	27067	"Kandiyohi County"	TRUE
+"1828"	48900	NA	NA	"Wilmington, NC"	NA	NA	TRUE	37019	"Brunswick County"	TRUE
+"1829"	48900	NA	NA	"Wilmington, NC"	NA	NA	TRUE	37129	"New Hanover County"	TRUE
+"1830"	48900	NA	NA	"Wilmington, NC"	NA	NA	TRUE	37141	"Pender County"	FALSE
+"1831"	48940	NA	178	"Wilmington, OH"	NA	"Cincinnati-Middletown-Wilmington, OH-KY-IN"	FALSE	39027	"Clinton County"	TRUE
+"1832"	48980	NA	NA	"Wilson, NC"	NA	NA	FALSE	37195	"Wilson County"	TRUE
+"1833"	49020	NA	548	"Winchester, VA-WV"	NA	"Washington-Baltimore-Northern Virginia, DC-MD-VA-WV"	TRUE	51069	"Frederick County"	TRUE
+"1834"	49020	NA	548	"Winchester, VA-WV"	NA	"Washington-Baltimore-Northern Virginia, DC-MD-VA-WV"	TRUE	51840	"Winchester city"	TRUE
+"1835"	49020	NA	548	"Winchester, VA-WV"	NA	"Washington-Baltimore-Northern Virginia, DC-MD-VA-WV"	TRUE	54027	"Hampshire County"	FALSE
+"1836"	49060	NA	556	"Winfield, KS"	NA	"Wichita-Winfield, KS"	FALSE	20035	"Cowley County"	TRUE
+"1837"	49100	NA	NA	"Winona, MN"	NA	NA	FALSE	27169	"Winona County"	TRUE
+"1838"	49180	NA	268	"Winston-Salem, NC"	NA	"Greensboro--Winston-Salem--High Point, NC"	TRUE	37059	"Davie County"	FALSE
+"1839"	49180	NA	268	"Winston-Salem, NC"	NA	"Greensboro--Winston-Salem--High Point, NC"	TRUE	37067	"Forsyth County"	TRUE
+"1840"	49180	NA	268	"Winston-Salem, NC"	NA	"Greensboro--Winston-Salem--High Point, NC"	TRUE	37169	"Stokes County"	TRUE
+"1841"	49180	NA	268	"Winston-Salem, NC"	NA	"Greensboro--Winston-Salem--High Point, NC"	TRUE	37197	"Yadkin County"	FALSE
+"1842"	49260	NA	NA	"Woodward, OK"	NA	NA	FALSE	40153	"Woodward County"	TRUE
+"1843"	49300	NA	NA	"Wooster, OH"	NA	NA	FALSE	39169	"Wayne County"	TRUE
+"1844"	49340	NA	148	"Worcester, MA"	NA	"Boston-Worcester-Manchester, MA-RI-NH"	TRUE	25027	"Worcester County"	TRUE
+"1845"	49380	NA	NA	"Worthington, MN"	NA	NA	FALSE	27105	"Nobles County"	TRUE
+"1846"	49420	NA	NA	"Yakima, WA"	NA	NA	TRUE	53077	"Yakima County"	TRUE
+"1847"	49460	NA	NA	"Yankton, SD"	NA	NA	FALSE	46135	"Yankton County"	TRUE
+"1848"	49500	NA	434	"Yauco, PR"	NA	"Ponce-Yauco-Coamo, PR"	TRUE	72055	"Guánica Municipio"	TRUE
+"1849"	49500	NA	434	"Yauco, PR"	NA	"Ponce-Yauco-Coamo, PR"	TRUE	72059	"Guayanilla Municipio"	TRUE
+"1850"	49500	NA	434	"Yauco, PR"	NA	"Ponce-Yauco-Coamo, PR"	TRUE	72111	"Peñuelas Municipio"	TRUE
+"1851"	49500	NA	434	"Yauco, PR"	NA	"Ponce-Yauco-Coamo, PR"	TRUE	72153	"Yauco Municipio"	TRUE
+"1852"	49540	NA	298	"Yazoo City, MS"	NA	"Jackson-Yazoo City, MS"	FALSE	28163	"Yazoo County"	TRUE
+"1853"	49620	NA	564	"York-Hanover, PA"	NA	"York-Hanover-Gettysburg, PA"	TRUE	42133	"York County"	TRUE
+"1854"	49660	NA	566	"Youngstown-Warren-Boardman, OH-PA"	NA	"Youngstown-Warren-East Liverpool, OH-PA"	TRUE	39099	"Mahoning County"	TRUE
+"1855"	49660	NA	566	"Youngstown-Warren-Boardman, OH-PA"	NA	"Youngstown-Warren-East Liverpool, OH-PA"	TRUE	39155	"Trumbull County"	TRUE
+"1856"	49660	NA	566	"Youngstown-Warren-Boardman, OH-PA"	NA	"Youngstown-Warren-East Liverpool, OH-PA"	TRUE	42085	"Mercer County"	TRUE
+"1857"	49700	NA	472	"Yuba City, CA"	NA	"Sacramento--Arden-Arcade--Yuba City, CA-NV"	TRUE	6101	"Sutter County"	TRUE
+"1858"	49700	NA	472	"Yuba City, CA"	NA	"Sacramento--Arden-Arcade--Yuba City, CA-NV"	TRUE	6115	"Yuba County"	TRUE
+"1859"	49740	NA	NA	"Yuma, AZ"	NA	NA	TRUE	4027	"Yuma County"	TRUE
+"1860"	49780	NA	NA	"Zanesville, OH"	NA	NA	FALSE	39119	"Muskingum County"	TRUE
