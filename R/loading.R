@@ -40,7 +40,7 @@ assign_cbsa <- function(tract, county_fips, date = format(Sys.Date(), '%Y%m'),
 #' @param year 4-digit year
 #' @export
 load_mfi <- function(year) {
-  file_name <- sprintf('%s/data/txt_files/mfi_definitions_%d.txt',
+  file_name <- sprintf('%s/data/mfi_definitions_%d.txt',
                        path.package('cbsa'),
                        year)
   if (!file.exists(file_name))
@@ -57,7 +57,7 @@ load_mfi <- function(year) {
 #' @export
 load_cbsa <- function(date) {
   determine_file_date(date) %>%
-    sprintf('%s/data/txt_files/cbsa_definition_%d.rds', path.package('cbsa'), .) %>%
+    sprintf('%s/data/cbsa_definition_%d.rds', path.package('cbsa'), .) %>%
     read.table(sep = '\t')
 }
 
@@ -68,7 +68,7 @@ load_cbsa <- function(date) {
 #' @export
 load_necta <- function(date) {
   determine_file_date(date) %>%
-    sprintf('%s/data/txt_files/necta_definition_%d.rds', path.package('cbsa'), .) %>%
+    sprintf('%s/data/necta_definition_%d.rds', path.package('cbsa'), .) %>%
     read.table(sep = '\t')
 }
 
@@ -136,7 +136,7 @@ assign_lmi <- function(search_tract, year, return_label = TRUE) {
   }
 
   mfi_data <- file.path(path.package('cbsa'),
-                        'data/txt_files/tract_mfi_levels.txt') %>%
+                        'data/tract_mfi_levels.txt') %>%
     read.table(sep = '\t') %>%
     filter(file == use_file) %>%
     mutate(cbsa = assign_cbsa(tract = tract,

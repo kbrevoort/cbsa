@@ -12,7 +12,7 @@ import_ffiec <- function(year) {
   file_name <- sprintf('%s/data/original_data/msa%02dinc.xls',
                        path.package('cbsa'),
                        year %% 100)
-  out_file <- sprintf('%s/data/txt_files/mfi_definitions_%04d.txt',
+  out_file <- sprintf('%s/data/mfi_definitions_%04d.txt',
                       path.package('cbsa'),
                       as.integer(year))
 
@@ -69,7 +69,7 @@ import_omb <- function(in_file) {
   comment(out_data) <- extract_yyyymm(in_file)
 
   file.path(path.package('cbsa'),
-            sprintf('data/txt_files/%s_definition_%s.rds',
+            sprintf('data/%s_definition_%s.txt',
                     file_type,
                     comment(out_data))) %>%
     write.table(x = out_data, file = ., sep = '\t')
@@ -244,7 +244,7 @@ import_census <- function() {
     bind_rows() %>%
     mutate(tract = as.numeric(tract)) %>%
     write.table(file = file.path(path.package('cbsa'),
-                                 'data/txt_files/tract_mfi_levels.rds'),
+                                 'data/tract_mfi_levels.txt'),
                 sep = '\t')
 
   invisible(TRUE)
