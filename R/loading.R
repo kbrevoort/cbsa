@@ -141,7 +141,7 @@ assign_lmi <- function(search_tract, year, return_label = TRUE) {
     filter(file == use_file) %>%
     mutate(cbsa = assign_cbsa(tract = tract,
                               date = (year * 100) + 1,
-                              only_metro = TRUE,
+                              only_metro = FALSE,
                               assign_nonmetro = TRUE)) %>%
     mutate(cbsa = ifelse(is.na(cbsa), 99900 + floor(tract / 1e9), cbsa))
 
