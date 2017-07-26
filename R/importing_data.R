@@ -100,7 +100,7 @@ get_necta_specs <- function(date_stamp) {
                    'state_fips', 'county_fips', 'mcd')
   }
 
-  list(skip_rows, col_names)
+  list(skip_rows = skip_rows, col_names = col_names)
 }
 
 #' Process NECTA file
@@ -114,9 +114,10 @@ process_necta <- function(in_file) {
   my_date <- extract_yyyymm(in_file)
 
   specs <- get_necta_specs(my_date)
-  my_data <- in_file(skip = specs$skip_rows,
-                     col_names = specs$col_names,
-                     col_types = 'text') %>%
+  my_data <- readxl::read_xls(in_file,
+                              skip = specs$skip_rows,
+                              col_names = specs$col_names,
+                              col_types = 'text') %>%
     filter(!is.na(necta_name)) %>%
     convert2numeric() %>%
     mutate(is_metro = (necta_type == 'Metropolitan NECTA'),
@@ -149,7 +150,7 @@ get_cbsa_specs <- function(date_stamp) {
                    'cbsa_type', 'md_name', 'csa_name', 'component_name',
                    'state', 'state_fips', 'county_fips', 'central_fl')
   }
-  list(skip_rows, col_names)
+  list(skip_rows = skip_rows, col_names = col_names)
 }
 
 #' Process CBSA file
@@ -171,7 +172,7 @@ process_cbsa <- function(in_file) {
 
   # The central_fl variable is only available in later years
   if ('central_fl' %in% names(my_data)) {
-    my_data$is_central = (central_fl == 'Central')
+    my_data$is_central = (my_data$central_fl == 'Central')
   } else {
     my_data$is_central = as.logical(NA)
   }
@@ -180,7 +181,7 @@ process_cbsa <- function(in_file) {
   # state and county fips variables.
   if (!('fips' %in% names(my_data)))
     if (all(c('state_fips', 'county_fips') %in% names(my_data))) {
-      my_data$fips <- as.numeric(paste0(state_fips, county_fips))
+      my_data$fips <- as.numeric(paste0(my_data$state_fips, my_data$county_fips))
     } else {
       my_data$fips <- as.numeric(NA)
     }
@@ -225,7 +226,7 @@ import_census <- function() {
   if (!('tidycensus' %in% installed.packages()))
     stop('import_census function only works when tidycensus is installed.')
 
-  tidycensus::acs_data <- lapply(c(2010L, 2015L), download_acs) %>%
+  acs_data <- lapply(c(2010L, 2015L), download_acs) %>%
     bind_rows()
 
   dec_data <- lapply(state_fips(use_territories = FALSE),
@@ -251,7 +252,7 @@ import_census <- function() {
 
 download_acs <- function(endyear) {
   lapply(state_fips(use_territories = FALSE),
-         function(x) get_acs('tract', 'B19113_001E', endyear = endyear, state = x)) %>%
+         function(x) tidycensus::get_acs('tract', 'B19113_001E', endyear = endyear, state = x)) %>%
     bind_rows() %>%
     select(GEOID, estimate) %>%
     rename(tract = GEOID, tract_mfi = estimate) %>%

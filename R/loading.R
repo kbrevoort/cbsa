@@ -40,13 +40,13 @@ assign_cbsa <- function(tract, county_fips, date = format(Sys.Date(), '%Y%m'),
 #' @param year 4-digit year
 #' @export
 load_mfi <- function(year) {
-  file_name <- sprintf('%s/data/mfi_definitions_%d.rds',
+  file_name <- sprintf('%s/data/txt_files/mfi_definitions_%d.txt',
                        path.package('cbsa'),
                        year)
   if (!file.exists(file_name))
     stop(paste0('Median family income file not found for year ', year))
 
-  readRDS(file_name)
+  read.table(file = file_name, sep = '\t')
 }
 
 
@@ -57,8 +57,8 @@ load_mfi <- function(year) {
 #' @export
 load_cbsa <- function(date) {
   determine_file_date(date) %>%
-    sprintf('%s/data/cbsa_definition_%d.rds', path.package('cbsa'), .) %>%
-    readRDS()
+    sprintf('%s/data/txt_files/cbsa_definition_%d.rds', path.package('cbsa'), .) %>%
+    read.table(sep = '\t')
 }
 
 #' Load NECTA Data.frame
@@ -68,8 +68,8 @@ load_cbsa <- function(date) {
 #' @export
 load_necta <- function(date) {
   determine_file_date(date) %>%
-    sprintf('%s/data/necta_definition_%d.rds', path.package('cbsa'), .) %>%
-    readRDS()
+    sprintf('%s/data/txt_files/necta_definition_%d.rds', path.package('cbsa'), .) %>%
+    read.table(sep = '\t')
 }
 
 #' Determine File Date
@@ -136,8 +136,8 @@ assign_lmi <- function(search_tract, year, return_label = TRUE) {
   }
 
   mfi_data <- file.path(path.package('cbsa'),
-                        'data/tract_mfi_levels.rds') %>%
-    readRDS() %>%
+                        'data/txt_files/tract_mfi_levels.txt') %>%
+    read.table(sep = '\t') %>%
     filter(file == use_file) %>%
     mutate(cbsa = assign_cbsa(tract = tract,
                               date = (year * 100) + 1,
@@ -155,7 +155,7 @@ assign_lmi <- function(search_tract, year, return_label = TRUE) {
                               right = FALSE))
 
   final_data = left_join(data.frame(tract = search_tract), ffiec_data, by="tract")
-  
+
   if (return_label)
     return(final_data$income_level)
 
