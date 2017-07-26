@@ -57,7 +57,7 @@ load_mfi <- function(year) {
 #' @export
 load_cbsa <- function(date) {
   determine_file_date(date) %>%
-    sprintf('%s/data/cbsa_definition_%d.rds', path.package('cbsa'), .) %>%
+    sprintf('%s/data/cbsa_definition_%d.txt', path.package('cbsa'), .) %>%
     read.table(sep = '\t')
 }
 
@@ -68,7 +68,7 @@ load_cbsa <- function(date) {
 #' @export
 load_necta <- function(date) {
   determine_file_date(date) %>%
-    sprintf('%s/data/necta_definition_%d.rds', path.package('cbsa'), .) %>%
+    sprintf('%s/data/necta_definition_%d.txt', path.package('cbsa'), .) %>%
     read.table(sep = '\t')
 }
 
@@ -86,7 +86,7 @@ determine_file_date <- function(date) {
     date <- (date * 100) + 1
 
   date_list <- list.files(path = sprintf('%s/data', path.package('cbsa')),
-                          pattern = 'cbsa_[a-z0-9_]*.rds',
+                          pattern = 'cbsa_[a-z0-9_]*.txt',
                           full.names = TRUE) %>%
     extract_yyyymm() %>%
     as.numeric() %>%
