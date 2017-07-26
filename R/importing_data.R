@@ -12,7 +12,7 @@ import_ffiec <- function(year) {
   file_name <- sprintf('%s/data/original_data/msa%02dinc.xls',
                        path.package('cbsa'),
                        year %% 100)
-  out_file <- sprintf('%s/data/mfi_definitions_%04d.rds',
+  out_file <- sprintf('%s/data/txt_files/mfi_definitions_%04d.txt',
                       path.package('cbsa'),
                       as.integer(year))
 
@@ -34,7 +34,7 @@ import_ffiec <- function(year) {
 
   list(filter(all_out, cbsa < 99999), non_metro) %>%
     bind_rows() %>%
-    saveRDS(out_file)
+    write.table(file = out_file, sep = '\t')
 
   invisible(TRUE)
 }
@@ -69,10 +69,10 @@ import_omb <- function(in_file) {
   comment(out_data) <- extract_yyyymm(in_file)
 
   file.path(path.package('cbsa'),
-            sprintf('data/%s_definition_%s.rds',
+            sprintf('data/txt_files/%s_definition_%s.rds',
                     file_type,
                     comment(out_data))) %>%
-    saveRDS(out_data)
+    write.table(x = out_data, file = ., sep = '\t')
 
   invisible(TRUE)
 }
@@ -242,8 +242,9 @@ import_census <- function() {
   list(acs_data, dec_data) %>%
     bind_rows() %>%
     mutate(tract = as.numeric(tract)) %>%
-    saveRDS(file.path(path.package('cbsa'),
-                      'data/tract_mfi_levels.rds'))
+    write.table(file = file.path(path.package('cbsa'),
+                                 'data/txt_files/tract_mfi_levels.rds'),
+                sep = '\t')
 
   invisible(TRUE)
 }
