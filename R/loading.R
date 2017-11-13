@@ -41,7 +41,7 @@ assign_cbsa <- function(tract, county_fips, date = format(Sys.Date(), '%Y%m'),
 #' @export
 load_mfi <- function(year) {
   file_name <- sprintf('%s/data/mfi_definitions_%d.txt',
-                       path.package('cbsa'),
+                       find.package('cbsa'),
                        year)
   if (!file.exists(file_name))
     stop(paste0('Median family income file not found for year ', year))
@@ -57,7 +57,7 @@ load_mfi <- function(year) {
 #' @export
 load_cbsa <- function(date) {
   determine_file_date(date) %>%
-    sprintf('%s/data/cbsa_definition_%d.rds', path.package('cbsa'), .) %>%
+    sprintf('%s/data/cbsa_definition_%d.txt', find.package('cbsa'), .) %>%
     read.table(sep = '\t')
 }
 
@@ -68,7 +68,7 @@ load_cbsa <- function(date) {
 #' @export
 load_necta <- function(date) {
   determine_file_date(date) %>%
-    sprintf('%s/data/necta_definition_%d.rds', path.package('cbsa'), .) %>%
+    sprintf('%s/data/necta_definition_%d.txt', find.package('cbsa'), .) %>%
     read.table(sep = '\t')
 }
 
@@ -85,8 +85,8 @@ determine_file_date <- function(date) {
   if (date < 10000)
     date <- (date * 100) + 1
 
-  date_list <- list.files(path = sprintf('%s/data', path.package('cbsa')),
-                          pattern = 'cbsa_[a-z0-9_]*.rds',
+  date_list <- list.files(path = sprintf('%s/data', find.package('cbsa')),
+                          pattern = 'cbsa_[a-z0-9_]*.txt',
                           full.names = TRUE) %>%
     extract_yyyymm() %>%
     as.numeric() %>%
@@ -115,7 +115,8 @@ determine_file_date <- function(date) {
 #' to be returned or the relative income (default = TRUE)
 #' @return Either the relative income (if return_label == FALSE) or the income level
 #' @export
-assign_lmi <- function(search_tract, year, return_label = TRUE) {
+assign_lmi <- function(search_tract, year, return_label = TRUE,
+                       use_md = TRUE, only_metro = TRUE, assign_nonmetro = TRUE) {
   if (missing(search_tract))
     stop('Must supply tract to assign_lmi')
   if (missing(year))
@@ -135,14 +136,15 @@ assign_lmi <- function(search_tract, year, return_label = TRUE) {
     use_file <- 'acs_2015'
   }
 
-  mfi_data <- file.path(path.package('cbsa'),
+  mfi_data <- file.path(find.package('cbsa'),
                         'data/tract_mfi_levels.txt') %>%
     read.table(sep = '\t') %>%
     filter(file == use_file) %>%
     mutate(cbsa = assign_cbsa(tract = tract,
                               date = (year * 100) + 1,
-                              only_metro = FALSE,
-                              assign_nonmetro = TRUE)) %>%
+                              use_md = use_md,
+                              only_metro = only_metro,
+                              assign_nonmetro = assign_nonmetro)) %>%
     mutate(cbsa = ifelse(is.na(cbsa), 99900 + floor(tract / 1e9), cbsa))
 
   ffiec_data <- load_mfi(year) %>%
@@ -163,7 +165,7 @@ assign_lmi <- function(search_tract, year, return_label = TRUE) {
 }
 
 latest_year <- function() {
-  list.files(path = file.path(path.package('cbsa'),
+  list.files(path = file.path(find.package('cbsa'),
                               'data'),
              pattern = 'mfi_definitions') %>%
     gsub('.*_([0-9]{4}).*', '\\1', .) %>%

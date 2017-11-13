@@ -1,3 +1,3 @@
 .onLoad <- function(libname, pkgname) {
-  #print(path.package('cbsa'))
+  #print(find.package('cbsa'))
 }
