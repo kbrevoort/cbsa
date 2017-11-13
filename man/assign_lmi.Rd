@@ -4,7 +4,8 @@
 \alias{assign_lmi}
 \title{Assign Income Level}
 \usage{
-assign_lmi(search_tract, year, return_label = TRUE)
+assign_lmi(search_tract, year, return_label = TRUE, use_md = TRUE,
+  only_metro = TRUE, assign_nonmetro = TRUE)
 }
 \arguments{
 \item{search_tract}{Numeric vector of Census tract codes (11 digits)}
