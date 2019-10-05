@@ -198,3 +198,17 @@ load_distressed <- function(year) {
   read.table(file = file_name, sep = '\t')
 }
 
+#' Load Census Data
+#'
+#' Loads an existing Census data file created by import_census.  The file contains
+#' a data.frame with 3 columns:  tract, tract_mfi, and source file.
+#' @importFrom tibble as_tibble
+#' @export
+load_census <- function() {
+  file_name <- sprintf('%s/data/tract_mfi_levels.txt',
+                       path.package('cbsa'))
+
+  read.table(file = file_name, sep = '\t') %>%
+    tibble::as_tibble()
+}
+
