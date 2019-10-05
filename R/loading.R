@@ -57,7 +57,7 @@ load_mfi <- function(year) {
 #' @export
 load_cbsa <- function(date) {
   determine_file_date(date) %>%
-    sprintf('%s/data/cbsa_definition_%d.rds', path.package('cbsa'), .) %>%
+    sprintf('%s/data/cbsa_definition_%d.txt', path.package('cbsa'), .) %>%
     read.table(sep = '\t')
 }
 
@@ -86,7 +86,7 @@ determine_file_date <- function(date) {
     date <- (date * 100) + 1
 
   date_list <- list.files(path = sprintf('%s/data', path.package('cbsa')),
-                          pattern = 'cbsa_[a-z0-9_]*.rds',
+                          pattern = 'cbsa_[a-z0-9_]*.txt',
                           full.names = TRUE) %>%
     extract_yyyymm() %>%
     as.numeric() %>%
@@ -119,7 +119,7 @@ assign_lmi <- function(search_tract, year, return_label = TRUE) {
   if (missing(search_tract))
     stop('Must supply tract to assign_lmi')
   if (missing(year))
-    year <- latest_year()
+    year <- latest_year() %>% as.numeric()
 
   if (!is.numeric(search_tract) | !is.numeric(year))
     stop('Invalid type (non-numeric) supplied for search_tract or year in assign_lmi')
@@ -142,8 +142,8 @@ assign_lmi <- function(search_tract, year, return_label = TRUE) {
     mutate(cbsa = assign_cbsa(tract = tract,
                               date = (year * 100) + 1,
                               only_metro = FALSE,
-                              assign_nonmetro = TRUE)) %>%
-    mutate(cbsa = ifelse(is.na(cbsa), 99900 + floor(tract / 1e9), cbsa))
+                              assign_nonmetro = TRUE)) #%>%
+    #mutate(cbsa = ifelse(is.na(cbsa), 99900 + floor(tract / 1e9), cbsa))
 
   ffiec_data <- load_mfi(year) %>%
     select(cbsa, mfi) %>%
@@ -162,6 +162,13 @@ assign_lmi <- function(search_tract, year, return_label = TRUE) {
   final_data$relative_income
 }
 
+relinc2lmi <- function(x) {
+  cut(x / 100,
+      breaks = c(0, 0.5, 0.8, 1.2, Inf),
+      labels = c('Low', 'Moderate', 'Middle', 'Upper'),
+      right = FALSE)
+}
+
 latest_year <- function() {
   list.files(path = file.path(path.package('cbsa'),
                               'data'),
@@ -169,3 +176,25 @@ latest_year <- function() {
     gsub('.*_([0-9]{4}).*', '\\1', .) %>%
     max(na.rm = TRUE)
 }
+
+assign_mfi <- function(cbsa, year, use_hud = FALSE) {
+  mfi_data <- load_mfi(year) %>%
+    select(cbsa, mfi, mfi_hud)
+
+  ret_data <- left_join(data.frame(cbsa = cbsa),
+             mfi_data)
+
+  if (use_hud) {
+    return(ret_data$mfi_hud)
+  } else
+    return(ret_data$mfi)
+}
+
+load_distressed <- function(year) {
+  file_name <- sprintf('%s/data/distressed_definitions_%d.txt',
+                       path.package('cbsa'),
+                       as.integer(year))
+
+  read.table(file = file_name, sep = '\t')
+}
+
