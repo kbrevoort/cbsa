@@ -229,15 +229,15 @@ import_census <- function() {
   acs_data <- lapply(c(2010L, 2015L), download_acs) %>%
     bind_rows()
 
-  dec_data <- lapply(state_fips(use_territories = FALSE),
-                     tidycensus::get_decennial,
-                     geography = 'tract',
-                     year = 2000,
-                     sumfile = 'sf3',
-                     variables = 'P077001') %>%
-    bind_rows() %>%
+  dec_data <- purrr::map_df(state_fips(use_territories = FALSE),
+                            ~ tidycensus::get_decennial(geography = 'tract',
+                                                        variables = 'P077001',
+                                                        year = 2000L,
+                                                        sumfile = 'sf3',
+                                                        state = .x)) %>%
     select(GEOID, value) %>%
     rename(tract = GEOID, tract_mfi = value) %>%
+    arrange(tract) %>%
     mutate(file = 'dec_2000')
 
   list(acs_data, dec_data) %>%
@@ -252,10 +252,52 @@ import_census <- function() {
 
 download_acs <- function(endyear) {
   lapply(state_fips(use_territories = FALSE),
-         function(x) tidycensus::get_acs('tract', 'B19113_001E', endyear = endyear, state = x)) %>%
+         function(x) tidycensus::get_acs('tract', 'B19113_001E', year = endyear, state = x)) %>%
     bind_rows() %>%
     select(GEOID, estimate) %>%
     rename(tract = GEOID, tract_mfi = estimate) %>%
     mutate(file = sprintf('acs_%d', endyear))
 }
 
+#' @param year 4-digit year of file to be read in
+import_distressed <- function(year) {
+  if (is.character(year))
+    year <- as.numeric(year)
+
+  file_name <- sprintf('%s/data/original_data/%ddistressedorunderservedtracts.xls',
+                       path.package('cbsa'),
+                       as.integer(year))
+  out_file <- sprintf('%s/data/distressed_definitions_%d.txt',
+                      path.package('cbsa'),
+                      as.integer(year))
+
+  if (!file.exists(file_name))
+    stop(paste0('Could not find distressed definitions for year ', year))
+
+  all_out <- readxl::read_xls(file_name,
+                              skip = 2L,
+                              col_types = 'text') %>%
+    rename('state' = 'STATE CODE',
+           'county' = 'COUNTY CODE',
+           'code' = 'TRACT CODE',
+           'pop_loss' = 'POPULATION LOSS',
+           'remote_rural' = 'REMOTE RURAL',
+           'county_name' = 'COUNTY NAME',
+           'state_name' = 'STATE NAME') %>%
+    mutate(poverty = ifelse(!is.na(POVERTY) & POVERTY == 'X', TRUE, FALSE)) %>%
+    mutate(unemployment = ifelse(!is.na(UNEMPLOYMENT) & UNEMPLOYMENT == 'X', TRUE, FALSE)) %>%
+    mutate(pop_loss = ifelse(!is.na(pop_loss) & pop_loss == 'X', TRUE, FALSE)) %>%
+    mutate(remote_rural = ifelse(!is.na(remote_rural) & remote_rural == 'X', TRUE, FALSE)) %>%
+    mutate(code = round(as.numeric(code) * 100)) %>%
+    mutate(tract = sprintf('%02d%03d%06d',
+                           as.integer(state),
+                           as.integer(county),
+                           as.integer(code))) %>%
+    mutate(tract = as.numeric(tract)) %>%
+    select(tract, poverty, unemployment, pop_loss, remote_rural)
+
+  write.table(all_out,
+              file = out_file,
+              sep = '\t')
+  invisible(TRUE)
+}
