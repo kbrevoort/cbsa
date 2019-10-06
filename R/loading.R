@@ -6,32 +6,42 @@
 #' @param tract Census tract
 #' @param county 5-digit county FIPS code
 #' @param date Date of OMB defintition to use (default equals current definition)
+#' @param use_md Logical indicating if metropolitan division should be returned (default = TRUE)
 #' @param only_metro Match only Metropolitan Statistical Areas (default = FALSE)
+#' @param assign_nonmetro Logical indicating whether rural areas should be assigned to n
+#' a cbsa value of 999SS where SS is the state FIPS code of the area.
 #' @export
 assign_cbsa <- function(tract, county_fips, date = format(Sys.Date(), '%Y%m'),
                         use_md = TRUE, only_metro = TRUE, assign_nonmetro = FALSE) {
   if (missing(tract) & missing(county_fips))
     stop('Must supply either a tract or county to assign_cbsa')
 
-  # Convert the tract to the 5-digit FIPs
-  if (!missing(tract))
-    county_fips <- floor(tract / 1e6)
+  # If county FIPS is not present, derive from tract
+  if (missing(county_fips)) {
+    if (is.character(tract))
+      tract <- as.numeric(tract)
 
-  my_data <- load_cbsa(date)
+    county_fips <- floor(tract / 1e6)
+  }
+
+  cbsa_dt <- load_cbsa(date)
 
   if (only_metro)
-    my_data <- filter(my_data, is_metro)
+    cbsa_dt <- filter(cbsa_dt, is_metro)
 
-  my_data <- select(my_data, fips, cbsa, md, is_metro) %>%
+  cbsa_dt <- select(cbsa_dt, fips, cbsa, md, is_metro) %>%
     left_join(data.frame(fips = county_fips), ., by = 'fips')
 
   if (use_md)
-    my_data <- mutate(my_data, cbsa = ifelse(is.na(md), cbsa, md))
+    cbsa_dt <- mutate(cbsa_dt, cbsa = ifelse(is.na(md), cbsa, md))
 
   if (assign_nonmetro)
-    my_data <- mutate(my_data, cbsa = ifelse(is.na(cbsa), floor(fips / 1000) + 99900, cbsa))
+    cbsa_dt <- mutate(cbsa_dt,
+                      cbsa = ifelse(is.na(cbsa),
+                                    floor(fips / 1000) + 99900,
+                                    cbsa))
 
-  my_data[['cbsa']]
+  cbsa_dt$cbsa
 }
 
 #' Load Median Family Income File
