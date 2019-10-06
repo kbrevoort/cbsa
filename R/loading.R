@@ -187,17 +187,25 @@ latest_year <- function() {
     max(na.rm = TRUE)
 }
 
+#' Assign Median Family Income
+#'
+#' Assigns the appropriate median family income (based on census or HUD estimates).
+#' @param cbsa Vector of CBSAs
+#' @param year Calendar year of MFI data to use
+#' @param use_hud Logical indicating whether HUD estimates are to be used or
+#' Census values (default = FALSE)
+#' @export
 assign_mfi <- function(cbsa, year, use_hud = FALSE) {
-  mfi_data <- load_mfi(year) %>%
-    select(cbsa, mfi, mfi_hud)
+  if (missing(cbsa) | missing(year))
+    stop('Both CBSA and year must be supplied to assign_mfi.')
+  if (!is.numeric(cbsa) | !is.numeric(year))
+    stop('Both CBSA and year supplied to assign_mfi must be numeric.')
 
-  ret_data <- left_join(data.frame(cbsa = cbsa),
-             mfi_data)
-
-  if (use_hud) {
-    return(ret_data$mfi_hud)
-  } else
-    return(ret_data$mfi)
+  load_mfi(year) %>%
+    mutate(use_mfi = ifelse(use_hud == TRUE), mfi_hud, mfi) %>%
+    select(cbsa, use_mfi) %>%
+    right_join(data.frame(cbsa = cbsa)) %>%
+    pull(use_mfi)
 }
 
 load_distressed <- function(year) {
