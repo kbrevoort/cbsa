@@ -24,6 +24,7 @@ assign_cbsa <- function(tract, county_fips, date = format(Sys.Date(), '%Y%m'),
     county_fips <- floor(tract / 1e6)
   }
 
+  # The date variable is processed within the load_cbsa function
   cbsa_dt <- load_cbsa(date)
 
   if (only_metro)
@@ -108,7 +109,7 @@ determine_file_date <- function(date) {
   if (date > max(date_list)) {
     ret_val <- max(date_list)
   } else {
-    ret_val <- date_list[date_list >= date][1]
+    ret_val <- max(date_list[date_list <= date])
   }
 
   ret_val
@@ -123,9 +124,11 @@ determine_file_date <- function(date) {
 #' @param year A numeric year (YYYY)
 #' @param return_label A logical indicating if the income level categorization is
 #' to be returned or the relative income (default = TRUE)
+#' @param assign_nonmetro Should LMI or relative incomes be assigned for non-metropolitan
+#' areas (default = TRUE)
 #' @return Either the relative income (if return_label == FALSE) or the income level
 #' @export
-assign_lmi <- function(search_tract, year, return_label = TRUE) {
+assign_lmi <- function(search_tract, year, return_label = TRUE, assign_nonmetro = TRUE) {
   if (missing(search_tract))
     stop('Must supply tract to assign_lmi')
   if (missing(year))
@@ -145,16 +148,19 @@ assign_lmi <- function(search_tract, year, return_label = TRUE) {
     use_file <- 'acs_2015'
   }
 
+  # Assemble data.frame with all tracts, trace mfi's, and cbsa codes.
+  # Tracts outside of metro areas are assigned CBSA = 999SS, where SS is state FIPS
   mfi_data <- file.path(path.package('cbsa'),
                         'data/tract_mfi_levels.txt') %>%
     read.table(sep = '\t') %>%
     filter(file == use_file) %>%
     mutate(cbsa = assign_cbsa(tract = tract,
                               date = (year * 100) + 1,
-                              only_metro = FALSE,
-                              assign_nonmetro = TRUE)) #%>%
-    #mutate(cbsa = ifelse(is.na(cbsa), 99900 + floor(tract / 1e9), cbsa))
+                              only_metro = TRUE,  # Don't match micropolitan areas
+                              assign_nonmetro = TRUE))
 
+  # This assembles a list of all tracts, their CBSA, their relative income,
+  # and income level
   ffiec_data <- load_mfi(year) %>%
     select(cbsa, mfi) %>%
     left_join(mfi_data, ., by = 'cbsa') %>%
@@ -172,6 +178,11 @@ assign_lmi <- function(search_tract, year, return_label = TRUE) {
   final_data$relative_income
 }
 
+#' Convert Relative Income to Income Category
+#'
+#' Converts a relative income into a category that indicates if it is considered
+#' low, moderate, middle, or upper income.
+#' @param x A numericn relative incomne
 relinc2lmi <- function(x) {
   cut(x / 100,
       breaks = c(0, 0.5, 0.8, 1.2, Inf),
