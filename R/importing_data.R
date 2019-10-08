@@ -230,11 +230,11 @@ import_census <- function() {
     bind_rows()
 
   dec_data <- purrr::map_df(state_fips(use_territories = FALSE),
-                            ~ tidycensus::get_decennial(geography = 'tract',
-                                                        variables = 'P077001',
-                                                        year = 2000L,
-                                                        sumfile = 'sf3',
-                                                        state = .x)) %>%
+                            ~ suppressMessages(tidycensus::get_decennial(geography = 'tract',
+                                                                         variables = 'P077001',
+                                                                         year = 2000L,
+                                                                         sumfile = 'sf3',
+                                                                         state = .x))) %>%
     select(GEOID, value) %>%
     rename(tract = GEOID, tract_mfi = value) %>%
     arrange(tract) %>%
