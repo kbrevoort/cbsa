@@ -10,6 +10,8 @@
 #' @param only_metro Match only Metropolitan Statistical Areas (default = FALSE)
 #' @param assign_nonmetro Logical indicating whether rural areas should be assigned to n
 #' a cbsa value of 999SS where SS is the state FIPS code of the area.
+#' @return Vector of cbsa values.
+#' @importFrom lubridate is.Date
 #' @export
 assign_cbsa <- function(tract, county_fips, date = format(Sys.Date(), '%Y%m'),
                         use_md = TRUE, only_metro = TRUE, assign_nonmetro = FALSE) {
@@ -23,6 +25,9 @@ assign_cbsa <- function(tract, county_fips, date = format(Sys.Date(), '%Y%m'),
 
     county_fips <- floor(tract / 1e6)
   }
+
+  if (lubridate::is.Date(date))
+    date <- format(date, '%Y%m')
 
   # The date variable is processed within the load_cbsa function
   cbsa_dt <- load_cbsa(date)
@@ -52,7 +57,7 @@ assign_cbsa <- function(tract, county_fips, date = format(Sys.Date(), '%Y%m'),
 #' @export
 load_mfi <- function(year) {
   file_name <- sprintf('%s/data/mfi_definitions_%d.txt',
-                       path.package('cbsa'),
+                       find.package('cbsa'),
                        year)
   if (!file.exists(file_name))
     stop(paste0('Median family income file not found for year ', year))
@@ -68,7 +73,7 @@ load_mfi <- function(year) {
 #' @export
 load_cbsa <- function(date) {
   determine_file_date(date) %>%
-    sprintf('%s/data/cbsa_definition_%d.txt', path.package('cbsa'), .) %>%
+    sprintf('%s/data/cbsa_definition_%d.txt', find.package('cbsa'), .) %>%
     read.table(sep = '\t')
 }
 
@@ -79,7 +84,7 @@ load_cbsa <- function(date) {
 #' @export
 load_necta <- function(date) {
   determine_file_date(date) %>%
-    sprintf('%s/data/necta_definition_%d.rds', path.package('cbsa'), .) %>%
+    sprintf('%s/data/necta_definition_%d.rds', find.package('cbsa'), .) %>%
     read.table(sep = '\t')
 }
 
@@ -96,7 +101,7 @@ determine_file_date <- function(date) {
   if (date < 10000)
     date <- (date * 100) + 1
 
-  date_list <- list.files(path = sprintf('%s/data', path.package('cbsa')),
+  date_list <- list.files(path = sprintf('%s/data', find.package('cbsa')),
                           pattern = 'cbsa_[a-z0-9_]*.txt',
                           full.names = TRUE) %>%
     extract_yyyymm() %>%
@@ -150,7 +155,7 @@ assign_lmi <- function(search_tract, year, return_label = TRUE, assign_nonmetro 
 
   # Assemble data.frame with all tracts, trace mfi's, and cbsa codes.
   # Tracts outside of metro areas are assigned CBSA = 999SS, where SS is state FIPS
-  mfi_data <- file.path(path.package('cbsa'),
+  mfi_data <- file.path(find.package('cbsa'),
                         'data/tract_mfi_levels.txt') %>%
     read.table(sep = '\t') %>%
     filter(file == use_file) %>%
@@ -191,7 +196,7 @@ relinc2lmi <- function(x) {
 }
 
 latest_year <- function() {
-  list.files(path = file.path(path.package('cbsa'),
+  list.files(path = file.path(find.package('cbsa'),
                               'data'),
              pattern = 'mfi_definitions') %>%
     gsub('.*_([0-9]{4}).*', '\\1', .) %>%
@@ -213,15 +218,15 @@ assign_mfi <- function(cbsa, year, use_hud = FALSE) {
     stop('Both CBSA and year supplied to assign_mfi must be numeric.')
 
   load_mfi(year) %>%
-    mutate(use_mfi = ifelse(use_hud == TRUE), mfi_hud, mfi) %>%
+    mutate(use_mfi = if (use_hud) mfi_hud else mfi) %>%
     select(cbsa, use_mfi) %>%
-    right_join(data.frame(cbsa = cbsa)) %>%
+    right_join(data.frame(cbsa = cbsa), by = 'cbsa') %>%
     pull(use_mfi)
 }
 
 load_distressed <- function(year) {
   file_name <- sprintf('%s/data/distressed_definitions_%d.txt',
-                       path.package('cbsa'),
+                       find.package('cbsa'),
                        as.integer(year))
 
   read.table(file = file_name, sep = '\t')
@@ -235,7 +240,7 @@ load_distressed <- function(year) {
 #' @export
 load_census <- function() {
   file_name <- sprintf('%s/data/tract_mfi_levels.txt',
-                       path.package('cbsa'))
+                       find.package('cbsa'))
 
   read.table(file = file_name, sep = '\t') %>%
     tibble::as_tibble()
