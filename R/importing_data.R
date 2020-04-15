@@ -10,10 +10,10 @@ import_ffiec <- function(year) {
     year <- as.numeric(year)
 
   file_name <- sprintf('%s/data/original_data/msa%02dinc.xls',
-                       path.package('cbsa'),
+                       find.package('cbsa'),
                        year %% 100)
   out_file <- sprintf('%s/data/mfi_definitions_%04d.txt',
-                      path.package('cbsa'),
+                      find.package('cbsa'),
                       as.integer(year))
 
   if (!file.exists(file_name))
@@ -68,7 +68,7 @@ import_omb <- function(in_file) {
   }
   comment(out_data) <- extract_yyyymm(in_file)
 
-  file.path(path.package('cbsa'),
+  file.path(find.package('cbsa'),
             sprintf('data/%s_definition_%s.txt',
                     file_type,
                     comment(out_data))) %>%
@@ -243,7 +243,7 @@ import_census <- function() {
   list(acs_data, dec_data) %>%
     bind_rows() %>%
     mutate(tract = as.numeric(tract)) %>%
-    write.table(file = file.path(path.package('cbsa'),
+    write.table(file = file.path(find.package('cbsa'),
                                  'data/tract_mfi_levels.txt'),
                 sep = '\t')
 
@@ -265,10 +265,10 @@ import_distressed <- function(year) {
     year <- as.numeric(year)
 
   file_name <- sprintf('%s/data/original_data/%ddistressedorunderservedtracts.xls',
-                       path.package('cbsa'),
+                       find.package('cbsa'),
                        as.integer(year))
   out_file <- sprintf('%s/data/distressed_definitions_%d.txt',
-                      path.package('cbsa'),
+                      find.package('cbsa'),
                       as.integer(year))
 
   if (!file.exists(file_name))
