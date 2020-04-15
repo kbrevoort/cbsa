@@ -1,0 +1,21 @@
+---
+title: "Updating Input Data"
+author: "Ken Brevoort"
+date: "April 14, 2020"
+output: html_vignette
+vignette: >
+  %\VignetteIndexEntry{Updating Input Data}
+  %\VignetteEngine{knitr::rmarkdown}
+  \usepackage[utf8]{inputenc}
+---
+
+# Median Family Income Files (`mfi_definition_YYYY.txt`)
+
+Each year, new files are placed by the FFIEC on this web page:
+
+https://www.ffiec.gov/Medianincome.htm
+
+Download the Excel version of the file and place it in `data/original_data`. Then call function `import_ffiec` with the year of the data to be input as an argument.  This will create the necessary file in the `data` subdirectory.
+
+
+
