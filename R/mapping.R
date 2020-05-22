@@ -62,53 +62,15 @@ source_tiger_shapefile <- function(geography, year, resolution = '20m') {
   select(ret_shp, GEOID, NAME)
 }
 
-# adjust_alaska <- function(shapes, geo, year, resolution) {
-#   this_shp <- shapes[get_state_ind(shapes, 'alaska', geo), ]
-#   out_shp <- maptools::elide(this_shp,
-#                              rotate = -35L,
-#                              center = c(-4360619, 1466123))
-#
-#   if (geo != 'state') {
-#     temp <- readRDS(sprintf('data/tiger/cb_%i_us_state_%s.rds',
-#                     year, resolution))
-#     temp <- maptools::elide(temp[get_state_ind(temp, 'alaska', 'state'), ],
-#                             rotate = -35L,
-#                             center = c(-4360619, 1466123))
-#     out_shp@bbox <- temp@bbox
-#   }
-#
-#   out_shp <- maptools::elide(out_shp,
-#                              scale = max(apply(sp::bbox(out_shp), 1, diff)) / 2L)
-#   out_shp <- maptools::elide(out_shp, shift = c(-2400000, -2500000))
-#
-#   sp::proj4string(out_shp) <- sp::proj4string(this_shp)
-#
-#   out_shp
-# }
-#
-# adjust_hawaii <- function(shapes, geo, year, resolution) {
-#   this_shp <- shapes[get_state_ind(shapes, 'hawaii', geo), ]
-#   out_shp <- maptools::elide(this_shp,
-#                              rotate = -35L,
-#                              center = c(-5761986, -2361733))
-#
-#   if (geo != 'state') {
-#     temp <- readRDS(sprintf('data/tiger/cb_%i_us_state_%s.rds',
-#                             year, resolution))
-#     temp <- maptools::elide(temp[get_state_ind(temp, 'hawaii', 'state'), ],
-#                             rotate = -35L,
-#                             center = c(-5761986, -2361733))
-#     out_shp@bbox <- temp@bbox
-#   }
-#
-#   out_shp <- maptools::elide(out_shp, scale = max(apply(sp::bbox(out_shp), 1, diff)) / 0.8) %>%
-#     maptools::elide(shift = c(-0800000, -2363000))
-#
-#   sp::proj4string(out_shp) <- sp::proj4string(this_shp)
-#
-#   out_shp
-# }
-
+#' Adjust States
+#'
+#' Extracts the polygons in the supplied shape file that correspond to the state
+#' specified, and adjusts them to appear to the lower-left of the continental U.S.
+#' @param shapes A `SpatialPolygonsDataFrame`
+#' @param state Character scalar equal to either 'alaska' or 'hawaii'
+#' @param geo Character vector giving the geography of the shapefile (e.g., 'state',
+#' 'cbsa')
+#' @param resolution Character scalar given the resolution of the shape file
 adjust_states <- function(shapes, state, geo, year, resolution) {
 
   if (state == 'alaska') {
