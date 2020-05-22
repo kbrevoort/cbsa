@@ -17,5 +17,23 @@ https://www.ffiec.gov/Medianincome.htm
 
 Download the Excel version of the file and place it in `data/original_data`. Then call function `import_ffiec` with the year of the data to be input as an argument.  This will create the necessary file in the `data` subdirectory.
 
+# Distressed and Underserved Area Definitions (`distressed_definitions_YYYY.txt`)
+
+Each year, new files are placed by the FFIEC on this web page:
+
+https://www.ffiec.gov/cra/distressed.htm
+
+Download the Excel version of th efile and place it in 
+`data/original_data`. Then call function `import_distressed` with the year of the data to be input as an argument. This will create the necessary file in the `data` subdirectory.
+
+# CBSA Definition Files (`cbsa_definitions_YYYYMM.xls`)
+
+At irregular intervals, the OMB places new definitions of Core Based Statistical Areas on the following page:
+
+https://www.census.gov/geographies/reference-files/time-series/demo/metro-micro/delineation-files.html
+
+Download the Excel versions (under "Core based statistical areas (CBSAs), metropolitan divisions, and combined statistical areas (CSAs)") and rename them using the naming convention, `cbsa_definitions_YYYYMM.xls` and place it in `data/original_data`. Then call function `import_omb('data/original_data/cbsa_definitions_YYYYMM.xls')`.
+
+
 
 
