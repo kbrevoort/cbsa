@@ -12,7 +12,13 @@ Suggests:
     tidycensus,
     rmarkdown,
     knitr,
-    readxl
+    purrr,
+    RCurl,
+    readxl,
+    rgdal,
+    sp,
+    stringr,
+    tibble
 Imports:
     magrittr,
     dplyr
@@ -20,4 +26,4 @@ License: CC0
 VignetteBuilder: knitr
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 6.0.1
+RoxygenNote: 7.1.0
