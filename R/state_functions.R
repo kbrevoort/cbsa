@@ -4,7 +4,7 @@
 #' the District of Columbia and the U.S. territories.
 #' @param use_territories Should US territories be included with state names (default = TRUE)
 #' @export
-state_names <- function(use_territories = TRUE) {
+list_state_names <- function(use_territories = TRUE) {
   ret_val <- c(state.name, 'District of Columbia')
 
   if (use_territories)
@@ -31,7 +31,7 @@ state_names <- function(use_territories = TRUE) {
 #'
 #' Supplements the options in state.abb to include DC and the U.S. Territories.
 #' @export
-state_abbs <- function(use_territories = TRUE) {
+list_state_abbs <- function(use_territories = TRUE) {
   ret_val <- c(state.abb, 'DC')
 
   if (use_territories)
@@ -45,7 +45,7 @@ state_abbs <- function(use_territories = TRUE) {
 #' This function returns a list of available state FIPs codes in the same order
 #' as the state abbreviations and names.
 #' @export
-state_fips <- function(use_territories = TRUE) {
+list_state_fips <- function(use_territories = TRUE) {
   ret_val <- c(setdiff(c(1:56), c(11, 3, 7, 14, 43, 52)), 11)
 
   if (use_territories)
@@ -62,9 +62,9 @@ state_fips <- function(use_territories = TRUE) {
 #' @param use_name Input variable is the name of the staes (default = FALSE)
 #' @export
 state2fips <- function(s, use_name = FALSE) {
-  abb_list <- state_abbs()
-  name_list <- state_names()
-  fips_list <- state_fips()
+  abb_list <- list_state_abbs()
+  name_list <- list_state_names()
+  fips_list <- list_state_fips()
 
   if (use_name) {
     ret_val <- fips_list[match(toupper(s), toupper(name_list))]
