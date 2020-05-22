@@ -5,3 +5,7 @@
 cbsa.Rproj
 *.rds
 *.xls
+*.txt
+*.zip
+*.uf3
+*.uf1
