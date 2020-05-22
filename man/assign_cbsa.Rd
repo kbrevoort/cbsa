@@ -4,17 +4,31 @@
 \alias{assign_cbsa}
 \title{Assign CBSA}
 \usage{
-assign_cbsa(tract, county_fips, date = format(Sys.Date(), "\%Y\%m"),
-  use_md = TRUE, only_metro = TRUE, assign_nonmetro = FALSE)
+assign_cbsa(
+  tract,
+  county_fips,
+  date = format(Sys.Date(), "\%Y\%m"),
+  use_md = TRUE,
+  only_metro = TRUE,
+  assign_nonmetro = FALSE
+)
 }
 \arguments{
 \item{tract}{Census tract}
 
 \item{date}{Date of OMB defintition to use (default equals current definition)}
 
+\item{use_md}{Logical indicating if metropolitan division should be returned (default = TRUE)}
+
 \item{only_metro}{Match only Metropolitan Statistical Areas (default = FALSE)}
 
+\item{assign_nonmetro}{Logical indicating whether rural areas should be assigned to n
+a cbsa value of 999SS where SS is the state FIPS code of the area.}
+
 \item{county}{5-digit county FIPS code}
+}
+\value{
+Vector of cbsa values.
 }
 \description{
 This function assigns the CBSA for a supplied county or Census tract. The

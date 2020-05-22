@@ -259,7 +259,12 @@ download_acs <- function(endyear) {
     mutate(file = sprintf('acs_%d', endyear))
 }
 
-#' @param year 4-digit year of file to be read in
+#' Import Distressed Areas
+#'
+#' Reads in information on distressed or underserved tracts.
+#' @param year 4-digit year of file to be read
+#' @importFrom readxl read_xls
+#' @importFrom dplyr rename mutate select
 import_distressed <- function(year) {
   if (is.character(year))
     year <- as.numeric(year)

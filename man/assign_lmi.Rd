@@ -4,15 +4,18 @@
 \alias{assign_lmi}
 \title{Assign Income Level}
 \usage{
-assign_lmi(tract, year, return_label = TRUE)
+assign_lmi(search_tract, year, return_label = TRUE, assign_nonmetro = TRUE)
 }
 \arguments{
-\item{tract}{Numeric vector of Census tract codes (11 digits)}
+\item{search_tract}{Numeric vector of Census tract codes (11 digits)}
 
 \item{year}{A numeric year (YYYY)}
 
 \item{return_label}{A logical indicating if the income level categorization is
 to be returned or the relative income (default = TRUE)}
+
+\item{assign_nonmetro}{Should LMI or relative incomes be assigned for non-metropolitan
+areas (default = TRUE)}
 }
 \value{
 Either the relative income (if return_label == FALSE) or the income level
