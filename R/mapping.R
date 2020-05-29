@@ -23,8 +23,8 @@ source_tiger_shapefile <- function(geography, year, resolution = '20m') {
   if (!is.character(geography) |
       !geography %in% c('state', 'county', 'cbsa', 'metro', 'micro', 'csa'))
     stop('Invalid geo value supplied to source_tiger_shapefiles')
-  if (!is.numeric(year) | !year %in% source_tiger_map_years())
-    stop('Invalid year supplied to source_tiger_shapefiles.')
+  #if (!is.numeric(year) | !year %in% source_tiger_map_years())
+  #  stop('Invalid year supplied to source_tiger_shapefiles.')
   if (!resolution %in% c('500k', '5m', '20m'))
     stop('Invalid resolution supplied to source_tiger_shapefiles.')
 
