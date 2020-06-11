@@ -8,20 +8,17 @@ Description: This package helps users assign either counties or Census tracts to
     Statistical Areas, and New England County and Town Areas (NECTAs). These assignments are
     made according to the definitions of these areas published by the U.S. Office of 
     Management and Budget (OMB).
-Suggests:
-    tidycensus,
-    rmarkdown,
+Imports:
+    dplyr,
     knitr,
+    magrittr,
     purrr,
     RCurl,
     readxl,
-    rgdal,
-    sp,
+    rmarkdown,
     stringr,
-    tibble
-Imports:
-    magrittr,
-    dplyr
+    tibble,
+    tidycensus
 License: CC0
 VignetteBuilder: knitr
 Encoding: UTF-8

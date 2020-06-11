@@ -20,6 +20,9 @@ source_tiger_map_years <- function() {
 }
 
 source_tiger_shapefile <- function(geography, year, resolution = '20m') {
+  if (!'sp' %in% installed.packages())
+    stop('The sp package is required to call soure_tiger_shapefile. Please install this package first.')
+
   if (!is.character(geography) |
       !geography %in% c('state', 'county', 'cbsa', 'metro', 'micro', 'csa'))
     stop('Invalid geo value supplied to source_tiger_shapefiles')
@@ -72,6 +75,8 @@ source_tiger_shapefile <- function(geography, year, resolution = '20m') {
 #' 'cbsa')
 #' @param resolution Character scalar given the resolution of the shape file
 adjust_states <- function(shapes, state, geo, year, resolution) {
+  if (!'sp' %in% installed.packages())
+    stop('The sp package is required to run the adjust_states function. Please install this package first.')
 
   if (state == 'alaska') {
     scale <- 2L
@@ -159,6 +164,9 @@ get_state_ind <- function(shapes, state, geo) {
 #'
 #' If the RDS file is not found for the required geography, this function downloads
 #' the required file from the Census website and creates the necessary file.
+#'
+#' This function requires `{rgdal}` which does not work on some of the machines
+#' I use. If the package is not found, the function will return an error.
 #' @param basename Character scalar giving the base name of the geographic file
 #' to read.
 #' @return A `SpatialPolygonsDataFrame` (from the `sp` package) that includes the
@@ -166,6 +174,11 @@ get_state_ind <- function(shapes, state, geo) {
 #' @importFrom rgdal readOGR
 #' @importFrom sp spTransform CRS
 download_and_save_shapefile <- function(basename) {
+
+  if (!'rgdal' %in% installed.packages())
+    stop('The function download_and_save_shapefile requires the rgdal package.  To run this function, first install that package.')
+  if (!'sp' %in% installed.packages())
+    stop('The function download_and_save_shapefile requires the sp package. To run this function, first install the sp package.')
 
   year <- substr(basename, 4, 7)
   url <- sprintf('http://www2.census.gov/geo/tiger/GENZ%s/shp/%s.zip',
